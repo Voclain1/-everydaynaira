@@ -10,7 +10,7 @@ description: "Scammers in Nigeria are getting smarter. Here are the most common 
 tagline: "Learn the most common scams in Nigeria in 2026, how they work, and the warning signs to watch for. Protect yourself with simple, practical tips to avoid fraud online and offline."
 focusKeyword: "online scams"
 keyTakeaways: ["Scammers in Nigeria are using everyday tools like WhatsApp, bank alerts, social media, and fake websites to steal money and personal information.", "The most common scams in 2026 involve fake bank messages, impersonation, fake online stores, investment fraud, job scams, OTP theft, and POS-related fraud.", "You can protect yourself by slowing down, verifying before you act, and never sharing OTPs, PINs, or personal details over a message or call.", "If you have already been scammed, contact your bank immediately, report to the EFCC, and alert your network."]
-sources: ["Economic and Financial Crimes Commission (EFCC) — consumer fraud advisories and reporting channels", "Central Bank of Nigeria (CBN) — consumer protection guidance and fraud awareness notices", "Nigerian Communications Commission (NCC) — telecom-related fraud and SIM swap advisories", "Securities and Exchange Commission Nigeria (SEC Nigeria) — investor protection resources and registered operators list", "Nigeria Deposit Insurance Corporation (NDIC) — depositor protection guidance"]
+sources: ["efcc","cbn-consumer-protection-regs","ncc-fraud","sec-registered-operators","ndic","cbn-how-to-complain","fccpc"]
 reviewed: "2026-11-01"
 wpId: 423
 ---
@@ -272,7 +272,7 @@ Being scammed is not a sign of weakness or stupidity. These schemes are designed
 
 Keep a record of every report you make, including dates and reference numbers.
 
-[*Also read **What to do after an unauthorized debit***](/what-to-do-after-an-unauthorized-debit-in-nigeria/)
+[*Also read **How to spot a dangerous loan offer***](/signs-of-dangerous-loan-offers-every-nigerian-should-know/)
 
 ## Frequently Asked Questions
 

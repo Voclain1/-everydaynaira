@@ -10,7 +10,7 @@ description: "Saving on a Nigerian salary is hard but possible. This practical g
 tagline: "Learn how to save money consistently on a salary in Nigeria, with realistic budgeting methods, real examples, and tips that work even when income feels tight."
 focusKeyword: "save money"
 keyTakeaways: ["Saving on a salary in Nigeria is not about finding extra money. It is about protecting a portion of the money you already have before the month can spend it for you.", "Start with a number you can commit to without straining. Move it to a separate place on the day your salary arrives. Keep it there. Build the habit before you build the balance.", "That is the foundation. Everything else, including bigger savings, specific goals, and longer-term financial stability, can be built on top of it once the habit is real."]
-sources: ["National Bureau of Statistics Nigeria — Consumer Price Index and inflation reports", "Central Bank of Nigeria — Financial inclusion and consumer education resources", "EFInA (Enhancing Financial Innovation and Access) — Access to Financial Services in Nigeria Survey", "Nigeria Tax Act 2025 — personal income tax changes effective 1 January 2026"]
+sources: ["nbs-cpi-sep-2026","cbn-finlit","efina-a2f-2023","nigeria-tax-act-2025","africacheck-tax-factsheet"]
 calculator: "savings-goal-calculator"
 reviewed: "2026-11-01"
 wpId: 77

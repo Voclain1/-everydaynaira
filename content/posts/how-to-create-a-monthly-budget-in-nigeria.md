@@ -10,7 +10,7 @@ description: "Learn how to create a monthly budget in Nigeria with simple steps,
 tagline: "A simple, practical guide to building a monthly budget in Nigeria that reflects your real income, real expenses, and real life."
 focusKeyword: "How to Create a Monthly Budget"
 keyTakeaways: ["A monthly budget does not need to be a complex document. It needs to be honest.", "Write down your real income. List your actual expenses. Compare the two and make deliberate choices about where the money goes. Build in savings from the start, not from what is left over. Add a small buffer for surprises. And check in on it once a week.", "That is it. No special app required. No perfect spreadsheet needed.", "The best budget is one that reflects your real life and that you actually use."]
-sources: ["Central Bank of Nigeria — Consumer financial education resources", "EFInA (Enhancing Financial Innovation and Access) — Access to Financial Services in Nigeria Survey", "National Bureau of Statistics — Consumer Price Index and cost of living reports"]
+sources: ["cbn-finlit","efina-a2f-2023","nbs-cpi-sep-2026"]
 calculator: "budget-calculator"
 reviewed: "2026-11-01"
 wpId: 21

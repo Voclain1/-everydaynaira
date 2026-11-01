@@ -10,7 +10,7 @@ description: "Your bank balance keeps shrinking and you are not sure why. This g
 tagline: "Understand the common bank charges on your account in Nigeria, what they mean, and why banks deduct them. Learn which fees are normal, which ones deserve attention, and how to reduce unnecessary charges."
 focusKeyword: "bank charges in Nigeria"
 keyTakeaways: ["Most bank charges in Nigeria are legitimate, but often poorly explained.", "The CBN revised its Guide to Charges in 2026: small transfers up to ₦5,000 are free, naira card maintenance fees are gone, and current account maintenance fees end in 2027.", "VAT (7.5%) and stamp duty (₦50 on transfers of ₦10,000 or more, paid by the sender since January 2026) are government charges, not bank profit.", "Your own bank's ATM is free; other banks' ATMs cost ₦100 per ₦20,000 withdrawn, plus up to ₦500 at off-site machines.", "Unclear, repeated, or unusually high deductions should be checked, and you can escalate unresolved complaints to the CBN at cpd@cbn.gov.ng."]
-sources: ["Central Bank of Nigeria — Guide to Charges by Banks and Other Financial Institutions (revised 2026)", "Central Bank of Nigeria — FAQs on revised ATM transaction fees (effective 1 March 2025)", "Nigerian Communications Commission — USSD tariff directive (June 2025)", "Nigeria Tax Act 2025 — VAT and stamp duty on electronic transfers", "Central Bank of Nigeria — How to lodge a complaint"]
+sources: ["cbn-guide-charges-2026","dailytrust-cbn-charges-2026","cbn-atm-faq-2025","ncc-ussd-2025","nigeria-tax-act-2025","cbn-how-to-complain","kuda-stamp-duty"]
 reviewed: "2026-11-01"
 wpId: 402
 ---

@@ -10,7 +10,7 @@ description: "Many borrowers are surprised by how much they actually repay. This
 tagline: "A loan may look affordable at first, but interest can change the real cost quickly. This guide explains how loan interest works in Nigeria and what to check before you borrow."
 focusKeyword: "loan interest"
 keyTakeaways: ["Loan interest is the extra money you pay a lender for using their money. It is usually charged as a percentage of the amount you borrow.", "How much you end up paying depends on the interest rate, how long the loan runs, and the calculation method the lender uses.", "In almost every case, the total amount you repay is higher — sometimes significantly higher — than the amount you originally borrowed."]
-sources: ["Central Bank of Nigeria — consumer protection, lending regulation and guidance", "NIBSS — payment and financial services infrastructure context", "EFInA — access to finance in Nigeria research (financial inclusion data and borrowing patterns)", "General financial literacy references on loan interest calculation methods", "Federal Competition and Consumer Protection Commission (FCCPC) — Digital, Electronic, Online or Non-Traditional Consumer Lending Regulations 2025"]
+sources: ["cbn-consumer-protection-regs","nibss","efina-a2f-2023","cfpb-apr","fccpc-deon-2025","fccpc","cbn-licensed-institutions"]
 calculator: "loan-calculator"
 reviewed: "2026-11-01"
 wpId: 439

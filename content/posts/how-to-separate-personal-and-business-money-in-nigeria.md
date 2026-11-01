@@ -10,7 +10,7 @@ description: "Mixing personal and business money in Nigeria? Here's a simple, pr
 tagline: "When personal and business money stay in the same place, it becomes hard to know what the business is truly earning or spending. This guide shows small business owners in Nigeria how to separate both clearly and manage money with less confusion."
 focusKeyword: "how to separate personal and business money"
 keyTakeaways: ["Open a dedicated bank account for business income only, collect all customer payments into that account", "Decide on a fixed or flexible amount to pay yourself, and keep a simple record of every business expense.", "You do not need to be registered or incorporated to start doing this today."]
-sources: ["Nigeria Tax Act 2025 — personal income tax exemption (₦800,000 a year), small company definition and exemptions (effective 1 January 2026)", "Nigeria Revenue Service (NRS, formerly FIRS) — tax identification and filing guidance", "Africa Check — Factsheet: how Nigeria's new tax rules affect you"]
+sources: ["nigeria-tax-act-2025","pwc-tax-reform","thecable-small-company","nrs","africacheck-tax-factsheet"]
 reviewed: "2026-11-01"
 wpId: 499
 ---
@@ -37,7 +37,7 @@ Here is what clean separation gives you:
 
 **You spend more intentionally.** When everything is in one pot, it is easy to dip in for "small things" that quietly drain the business. A clear business account makes you think twice before touching it for personal needs.
 
-**Tax and compliance become manageable.** If you ever need to [file tax returns as a small business owner](/how-to-track-small-business-expenses-in-nigeria/), respond to queries from the Nigeria Revenue Service (NRS, formerly FIRS), or get a loan, clean records are what makes it possible. No one wants to sit down and try to reconstruct six months of business transactions from a personal account statement mixed with suya purchases and airtime recharges.
+**Tax and compliance become manageable.** If you ever need to file tax returns (and [keep the expense records that support them](/how-to-track-small-business-expenses-in-nigeria/)), respond to queries from the Nigeria Revenue Service (NRS, formerly FIRS), or get a loan, clean records are what makes it possible. No one wants to sit down and try to reconstruct six months of business transactions from a personal account statement mixed with suya purchases and airtime recharges.
 
 **You make better business decisions.** Should you restock? Can you afford to hire help? Should you take that order? These questions all need numbers. Separated money gives you those numbers.
 
@@ -128,7 +128,7 @@ That said, a proper business account has real advantages once you are ready:
 - Some banks and fintechs offer business accounts with better features — payment links, POS terminals, invoicing tools
 - It makes your finances defensible if the NRS ever asks questions
 
-[Moniepoint](https://moniepoint.com), [Kuda Business](https://kuda.com), [Carbon for Business](https://carbon.ng), and most traditional banks offer business accounts. Requirements vary but often include CAC registration, a means of ID, and BVN. If you want to compare your options properly, we have a full breakdown of the [best business bank accounts in Nigeria](/how-to-separate-personal-and-business-money-in-nigeria/) to help you decide.
+[Moniepoint](https://moniepoint.com), [Kuda Business](https://kuda.com), and most traditional banks offer business accounts. Requirements vary but usually include CAC registration, a means of ID, your BVN and, since 2026, a Tax ID. Compare monthly fees, transfer charges and how quickly you can get support before you choose.
 
 If you are not registered yet, a dedicated personal account is your bridge. Use it seriously.
 
@@ -176,7 +176,7 @@ You do not need QuickBooks or complex accounting software to manage small busine
 
 **Your bank's transaction history.** Most Nigerian banking apps let you download statements. Do this monthly. It is your backup record even if you forget to log something manually.
 
-**Bookkeeping apps built for small businesses.** Tools like [Kippa](https://kippa.africa), [Bumpa](https://getbumpa.com), and [Accounteer](https://accounteer.com) are designed for Nigerian small business owners. They let you record sales, track expenses, and generate basic reports without needing an accountant. Many have free tiers. See our full comparison of the [best bookkeeping apps for Nigerian small businesses](/how-to-track-small-business-expenses-in-nigeria/) if you want help choosing one.
+**Bookkeeping apps built for small businesses.** Tools like [Bumpa](https://getbumpa.com) are designed for Nigerian small business owners: they let you record sales, track expenses, and see basic reports without needing an accountant. Before you commit to any app, check that it is still actively updated and that you can export your records, because several Nigerian bookkeeping apps have shut down in recent years. A simple spreadsheet works too — our guide on [how to track small business expenses](/how-to-track-small-business-expenses-in-nigeria/) shows how.
 
 **WhatsApp or Notes for on-the-go entries.** If you are out and something happens — a cash sale, an expense — send yourself a WhatsApp message or drop a note in your phone. Batch-enter them into your proper record when you get home. Perfect is the enemy of done.
 

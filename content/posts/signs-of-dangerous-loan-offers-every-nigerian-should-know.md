@@ -10,7 +10,7 @@ description: "Urgent need for money? Learn the dangerous loan offer signs Nigeri
 tagline: "Some loan offers look helpful at first, but the real risk is often hidden in the fine print, vague terms, or repayment pressure. This guide shows the warning signs of a risky loan offer in Nigeria before you accept it."
 focusKeyword: "Loan"
 keyTakeaways: ["A loan offer becomes risky when it hides important information, rushes you into a decision, is unclear about what repayment will actually cost, or comes from a lender with no verifiable identity.", "Warning signs include vague interest rates, hidden charges, pressure to borrow immediately, abusive collection threats, and requests for access that seem excessive.", "A clean loan offer gives you enough information to decide calmly. A risky one tries to prevent that."]
-sources: ["Federal Competition and Consumer Protection Commission (FCCPC) — Digital, Electronic, Online or Non-Traditional Consumer Lending Regulations 2025 (in force since 21 July 2025)", "FCCPC — register of approved digital lenders and enforcement updates (January 2026)", "Central Bank of Nigeria — licensed financial institutions", "Nigeria Data Protection Commission — data protection rights", "Nairametrics (January 2026) — 521 digital lenders under FCCPC oversight"]
+sources: ["fccpc-deon-2025","fccpc","cbn-licensed-institutions","ndpc","nairametrics-fccpc-2026","cbn-how-to-complain"]
 calculator: "loan-calculator"
 reviewed: "2026-11-01"
 wpId: 447

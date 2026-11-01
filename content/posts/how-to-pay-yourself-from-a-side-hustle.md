@@ -10,7 +10,7 @@ description: "Most side hustle money disappears before month-end. Here is a simp
 tagline: "Learn a simple way to separate side hustle money, protect your business, and pay yourself properly without spending everything that comes in."
 focusKeyword: "how to pay yourself"
 keyTakeaways: ["Treating side hustle money as \"free money\" is the most common reason the hustle stalls or disappears quietly. Structure changes that.", "Separating business money from personal money — even mentally, and ideally physically — makes it possible to actually know whether the hustle is working.", "Pay yourself from profit, not from sales. Deduct business costs first.", "Use percentages rather than fixed amounts, especially if income is irregular. It keeps the system honest.", "A small reserve fund protects the business during slow months and removes the pressure of needing every good month to be perfect.", "Paying yourself is not optional. It is part of making the side hustle sustainable. But it must be planned, not impulsive."]
-sources: ["Central Bank of Nigeria — guidelines on personal and business account use", "EFInA — Access to Financial Services in Nigeria survey (informal sector income patterns)", "Nigeria Tax Act 2025 — personal income tax exemption (₦800,000 a year), small company definition and exemptions (effective 1 January 2026)", "Nigeria Revenue Service (NRS, formerly FIRS) — tax identification and filing guidance", "Africa Check — Factsheet: how Nigeria's new tax rules affect you"]
+sources: ["efina-a2f-2023","nigeria-tax-act-2025","pwc-tax-reform","thecable-small-company","nrs","africacheck-tax-factsheet"]
 calculator: "budget-calculator"
 reviewed: "2026-11-01"
 wpId: 490

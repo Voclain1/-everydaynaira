@@ -10,7 +10,7 @@ description: "Trying to decide between a salary advance and a personal loan in N
 tagline: "A salary advance can fix a short cash gap, while a personal loan may give you more time and flexibility to repay. This guide helps you compare both options in Nigeria and choose the one that puts less pressure on your finances."
 focusKeyword: "Salary advance vs personal loan"
 keyTakeaways: ["A salary advance gives you early access to part of your own income. It is fast but reduces your next paycheck.", "A personal loan is a separate credit product with its own repayment timeline. It usually allows you to borrow more and repay over a longer period, but it comes with interest and fees that add to the total cost.", "Which one makes sense depends on how much you need, how quickly you can pay it back, and what the actual cost of each option is."]
-sources: ["Central Bank of Nigeria — consumer protection and licensed institution guidance", "Federal Competition and Consumer Protection Commission (FCCPC) — consumer rights in financial and digital lending transactions", "EFInA — Enhancing Financial Innovation & Access — research on financial access and borrowing behaviour in Nigeria", "NIBSS — Nigeria Inter-Bank Settlement System — payment system infrastructure and data"]
+sources: ["cbn-consumer-protection-regs","fccpc-deon-2025","efina-a2f-2023","nibss","fccpc","cbn-licensed-institutions","nairametrics-fccpc-2026"]
 calculator: "loan-calculator"
 reviewed: "2026-11-01"
 wpId: 456
@@ -136,7 +136,7 @@ Ask yourself these five questions before borrowing:
 **2. What is the total repayment amount?** Not the monthly payment — the full amount you will pay back. Ask directly. A ₦100,000 loan repaid at ₦18,000 per month for seven months costs ₦126,000 in total. Know that number before you sign. Our [loan calculator](/tools/#loan-calculator) can work this out quickly for any scenario.
 **3. What does repayment do to my next month or months?** Map it out. If you take the advance and next salary is ₦20,000 lighter, walk through your actual expenses. Does the math still work? Same for a personal loan instalment — does that monthly deduction leave you with enough to live on?
 **4. Is this a real emergency or a want?** This is not about judgment. It is about whether borrowing at cost is genuinely worth it for this particular need.
-**5. Who am I borrowing from?** Use reputable, licensed providers. Banks and microfinance banks appear on the CBN's list of [licensed financial institutions](https://www.cbn.gov.ng/supervision/Otherfi.asp). Loan apps and other digital lenders must appear on the FCCPC's register of approved digital lenders. Check before you share any personal or financial information.
+**5. Who am I borrowing from?** Use reputable, licensed providers. Banks and microfinance banks appear on the CBN's list of [licensed financial institutions](https://cbn.gov.ng/Supervision/AllFinInstitutions.asp). Loan apps and other digital lenders must appear on the FCCPC's register of approved digital lenders. Check before you share any personal or financial information.
 
 ## FAQ
 

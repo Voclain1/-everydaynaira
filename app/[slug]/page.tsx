@@ -169,13 +169,27 @@ function PostView({ post }: { post: Post }) {
           {post.sources.length > 0 && (
             <section aria-labelledby="sources" className="mt-16 max-w-[68ch] border-t-2 border-ink pt-6">
               <h2 id="sources" className="text-lg font-bold tracking-[-0.02em]">Sources</h2>
-              <ol className="mt-4 list-decimal space-y-2 pl-5 text-[0.95rem] leading-relaxed text-ink-2 marker:text-ink-3">
+              <ol className="mt-5 space-y-4">
                 {post.sources.map((s, i) => (
-                  <li key={i}>{s}</li>
+                  <li key={i} className="grid grid-cols-[2rem_1fr] text-[0.95rem] leading-relaxed">
+                    <span className="font-mono text-sm leading-relaxed text-ink-3">{String(i + 1).padStart(2, "0")}</span>
+                    <span>
+                      {s.publisher && <span className="block text-sm text-ink-3">{s.publisher}{s.date ? `, ${s.date}` : ""}</span>}
+                      {s.url ? (
+                        <a href={s.url} target="_blank" rel="noopener noreferrer" className="font-medium text-ink underline decoration-lime-deep decoration-2 underline-offset-[3px] hover:bg-lime-wash">
+                          {s.title}
+                          <span className="sr-only"> (opens in a new tab)</span>
+                        </a>
+                      ) : (
+                        <span className="font-medium">{s.title}</span>
+                      )}
+                      {s.url && <span className="block truncate text-xs text-ink-3">{new URL(s.url).hostname.replace(/^www\./, "")}</span>}
+                    </span>
+                  </li>
                 ))}
               </ol>
-              <p className="mt-5 text-sm text-ink-3">
-                Found something out of date? <Link href="/contact/" className="link">Tell us</Link> and we will check it against the source. Read our <Link href="/fact-checking-policy/" className="link">fact-checking policy</Link>.
+              <p className="mt-6 text-sm text-ink-3">
+                Links checked {formatDate(post.reviewed ?? post.updated)}. Found something out of date? <Link href="/contact/" className="link">Tell us</Link> and we will check it against the source. Read our <Link href="/fact-checking-policy/" className="link">fact-checking policy</Link>.
               </p>
             </section>
           )}
@@ -236,6 +250,7 @@ function PostView({ post }: { post: Post }) {
               articleSection: topic.name,
               keywords: post.focusKeyword || undefined,
               wordCount: post.plain.split(" ").length,
+              citation: post.sources.filter((src) => src.url).map((src) => ({ "@type": "CreativeWork", name: src.title, url: src.url, publisher: src.publisher || undefined })),
               inLanguage: "en-NG",
               author: { "@type": "Person", name: author.name, url: absUrl(author.url), jobTitle: author.role },
               publisher: { "@id": absUrl("/#organization") },

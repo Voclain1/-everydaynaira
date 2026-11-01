@@ -10,7 +10,7 @@ description: "Money left your account without your permission? Here is exactly w
 tagline: "Money left your account without your approval? Here’s how to respond fast, report it properly, and reduce further risk."
 focusKeyword: "Unauthorized Debit"
 keyTakeaways: ["Screenshot the alert and check the full transaction details in your banking app", "Think through whether it could be a subscription, failed transaction, or known bank charge", "If you genuinely did not authorize it, block your card immediately through your app", "Change your internet banking password and transaction PIN if you suspect fraud", "Call your bank's fraud or customer care line right away", "Write down the date, amount, narration, and transaction reference before you do anything else", "When you reach the bank, ask for a complaint reference number and write it down"]
-sources: ["Central Bank of Nigeria (CBN) — Consumer Protection Department guidance and complaint channels", "Nigeria Deposit Insurance Corporation (NDIC) — depositor protection information", "Economic and Financial Crimes Commission (EFCC) — fraud reporting and consumer advisory", "Nigeria Inter-Bank Settlement System (NIBSS) — electronic transaction processing and settlement context", "Central Bank of Nigeria — How to lodge a complaint (cpd@cbn.gov.ng; escalate if no tracking number within 3 days)", "Central Bank of Nigeria — exposure draft guidelines on authorised push payment fraud (November 2025)", "Central Bank of Nigeria — Guide to Charges (revised 2026)"]
+sources: ["cbn-consumer-protection-regs","ndic","efcc","nibss","cbn-how-to-complain","cbn-app-fraud-draft","cbn-guide-charges-2026","dailytrust-cbn-charges-2026"]
 reviewed: "2026-11-01"
 wpId: 425
 ---

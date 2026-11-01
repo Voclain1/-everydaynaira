@@ -10,7 +10,7 @@ description: "Seen \"APR\" on a loan app or bank offer and not sure what it mean
 tagline: "APR can make a loan look clearer or more confusing, depending on how it is presented. This guide breaks down what APR means in Nigeria loans and how to use it before you borrow."
 focusKeyword: "What APR means"
 keyTakeaways: ["APR stands for Annual Percentage Rate. It is the cost of borrowing expressed as a yearly percentage.", "It is designed to include more than just the basic interest rate — the idea is to give you one number that reflects a fuller picture of what a loan costs, making it easier to compare different offers."]
-sources: ["Central Bank of Nigeria — consumer protection and lending transparency framework", "Federal Competition and Consumer Protection Commission (FCCPC) — digital lending guidelines and consumer rights", "Standard financial literacy resources on Annual Percentage Rate as a lending disclosure tool"]
+sources: ["cbn-consumer-protection-regs","fccpc-deon-2025","cfpb-apr","fccpc"]
 calculator: "loan-calculator"
 reviewed: "2026-11-01"
 wpId: 438

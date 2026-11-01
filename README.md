@@ -58,9 +58,17 @@ description: "Meta description, 140–160 characters."
 tagline: "The one-paragraph summary shown under the title."
 focusKeyword: "…"
 keyTakeaways: ["…", "…"]
-sources: ["Central Bank of Nigeria (CBN) — …"]
+sources: ["cbn-guide-charges-2026", "nigeria-tax-act-2025"]   # keys from content/sources.json
 calculator: "emergency-fund-calculator"   # optional: budget-, emergency-fund-, savings-goal-, loan-calculator
 ---
+
+Sources are keys from `content/sources.json`, so every source is written once with its publisher, title and link, and shows as a numbered, linked list under the article. To cite something new, add an entry there first:
+
+```json
+"new-source-key": { "publisher": "Central Bank of Nigeria", "title": "Exact document title", "url": "https://…", "date": "2026" }
+```
+
+The build warns about any key it cannot find.
 
 Body in Markdown. Use `##` for sections (they build the table of contents) and a
 `## FAQ` section with `### Question?` headings to get FAQ rich results.

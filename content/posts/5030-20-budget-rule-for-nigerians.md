@@ -10,7 +10,7 @@ description: "Does the 50/30/20 budget rule in Nigeria really work? See how the 
 tagline: "A practical guide to the 50/30/20 budget rule in Nigeria, and how salary earners can adapt it to real living costs."
 focusKeyword: "50/30/20 rule"
 keyTakeaways: []
-sources: ["Consumer Financial Protection Bureau educational guides on the 50/30/20 budgeting rule and budgeting basics. ( Consumer Financial Protection Bureau )", "All Your Worth: The Ultimate Lifetime Money Plan by Elizabeth Warren and Amelia Warren Tyagi, via Google Books. ( Google Books )", "National Bureau of Statistics, Consumption Expenditure Pattern in Nigeria 2019 . ( National Bureau of Statistics )", "National Bureau of Statistics, Consumer Price Index – June 2025 . ( microdata.nigerianstat.gov.ng )", "National Bureau of Statistics, Transport Fare Watch – April 2025 . ( microdata.nigerianstat.gov.ng )", "National Bureau of Statistics, Premium Motor Spirit (Petrol) Price Watch – June 2025 . ( microdata.nigerianstat.gov.ng )", "EFInA, Beyond Access: Why Financial Health Must Be Nigeria’s Next Inclusion Goal (drawing on A2F 2023 findings). ( EFInA )", "National Bureau of Statistics — Consumer Price Index, September 2026 (headline inflation 14.63%)"]
+sources: ["cfpb-budgets","all-your-worth","nbs-consumption-2019","nbs-cpi-jun-2025","nbs-transport-fare","nbs-pms-jun-2025","efina-beyond-access","nbs-cpi-sep-2026"]
 calculator: "budget-calculator"
 reviewed: "2026-11-01"
 wpId: 312

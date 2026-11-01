@@ -10,7 +10,7 @@ description: "Learn how to track your small business expenses in Nigeria without
 tagline: "Small expenses can quietly drain business money when nothing is being tracked properly. This guide explains how small business owners in Nigeria can record expenses clearly, spot waste faster, and understand where their money is really going."
 focusKeyword: "track small business expenses"
 keyTakeaways: ["Tracking expenses means recording every cost your business pays — stock, transport, delivery, airtime, rent, packaging, fuel, and everything else", "Write down each expense as it happens, before memory fades", "Group similar costs into categories so patterns become visible", "Review your records at least once a week", "You do not need accounting software to start — a notebook or basic spreadsheet is enough"]
-sources: ["SCORE Foundation — Expense tracking and small business record keeping fundamentals", "World Bank — Financial management practices for micro and small businesses in emerging markets", "Google Workspace — Google Sheets product documentation", "Nigeria Tax Act 2025 — personal income tax exemption (₦800,000 a year), small company definition and exemptions (effective 1 January 2026)", "Nigeria Revenue Service (NRS, formerly FIRS) — tax identification and filing guidance", "Africa Check — Factsheet: how Nigeria's new tax rules affect you"]
+sources: ["score-bookkeeping","google-sheets-help","nigeria-tax-act-2025","pwc-tax-reform","thecable-small-company","nrs","africacheck-tax-factsheet"]
 reviewed: "2026-11-01"
 wpId: 504
 ---

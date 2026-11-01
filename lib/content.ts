@@ -17,6 +17,7 @@ const POSTS_DIR = path.join(ROOT, "content/posts");
 const PAGES_DIR = path.join(ROOT, "content/pages");
 
 export type TocItem = { id: string; text: string };
+export type Source = { publisher: string; title: string; url?: string; date?: string };
 export type Faq = { q: string; a: string };
 
 export type Post = {
@@ -33,7 +34,7 @@ export type Post = {
   author: AuthorKey;
   focusKeyword: string;
   keyTakeaways: string[];
-  sources: string[];
+  sources: Source[];
   calculator?: string;
   /** Optional photo override: path under /public, e.g. /images/posts/slug.webp */
   image?: string;
@@ -137,6 +138,24 @@ function extractFaqs(md: string): Faq[] {
   return faqs;
 }
 
+const SOURCES: Record<string, Source> = JSON.parse(fs.readFileSync(path.join(ROOT, "content/sources.json"), "utf8"));
+
+/**
+ * Sources in front matter are keys into content/sources.json, so each source is written once
+ * and linked the same way everywhere. A post can also give an inline { publisher, title, url }.
+ */
+function resolveSources(list: unknown[], slug: string): Source[] {
+  return list.map((item) => {
+    if (typeof item === "string") {
+      const hit = SOURCES[item];
+      if (hit) return hit;
+      console.warn(`[sources] "${slug}": unknown source key "${item}" (add it to content/sources.json)`);
+      return { publisher: "", title: item };
+    }
+    return item as Source;
+  });
+}
+
 let postCache: Post[] | null = null;
 
 export function getAllPosts(): Post[] {
@@ -161,7 +180,7 @@ export function getAllPosts(): Post[] {
       author: (data.author ?? "benedict") as AuthorKey,
       focusKeyword: data.focusKeyword ?? "",
       keyTakeaways: data.keyTakeaways ?? [],
-      sources: data.sources ?? [],
+      sources: resolveSources(data.sources ?? [], data.slug ?? file),
       calculator: data.calculator,
       image: data.image,
       imageAlt: data.imageAlt,
