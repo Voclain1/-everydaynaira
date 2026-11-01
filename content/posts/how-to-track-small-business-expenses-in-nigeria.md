@@ -2,7 +2,7 @@
 title: "How to Track Small Business Expenses in Nigeria"
 slug: "how-to-track-small-business-expenses-in-nigeria"
 date: "2026-05-28T16:23:16+01:00"
-updated: "2026-05-28T16:23:39+01:00"
+updated: "2026-11-01T12:00:00+01:00"
 category: "income"
 tags: ["How-To Guide"]
 author: "benedict"
@@ -10,7 +10,8 @@ description: "Learn how to track your small business expenses in Nigeria without
 tagline: "Small expenses can quietly drain business money when nothing is being tracked properly. This guide explains how small business owners in Nigeria can record expenses clearly, spot waste faster, and understand where their money is really going."
 focusKeyword: "track small business expenses"
 keyTakeaways: ["Tracking expenses means recording every cost your business pays — stock, transport, delivery, airtime, rent, packaging, fuel, and everything else", "Write down each expense as it happens, before memory fades", "Group similar costs into categories so patterns become visible", "Review your records at least once a week", "You do not need accounting software to start — a notebook or basic spreadsheet is enough"]
-sources: ["SCORE Foundation — Expense tracking and small business record keeping fundamentals", "World Bank — Financial management practices for micro and small businesses in emerging markets", "FIRS (Federal Inland Revenue Service) — Small business record-keeping obligations in Nigeria", "Google Workspace — Google Sheets product documentation"]
+sources: ["SCORE Foundation — Expense tracking and small business record keeping fundamentals", "World Bank — Financial management practices for micro and small businesses in emerging markets", "Google Workspace — Google Sheets product documentation", "Nigeria Tax Act 2025 — personal income tax exemption (₦800,000 a year), small company definition and exemptions (effective 1 January 2026)", "Nigeria Revenue Service (NRS, formerly FIRS) — tax identification and filing guidance", "Africa Check — Factsheet: how Nigeria's new tax rules affect you"]
+reviewed: "2026-11-01"
 wpId: 504
 ---
 
@@ -69,7 +70,7 @@ If you know which expenses come up every week, every month, or at irregular inte
 
 **Tax and record-keeping readiness.**
 
-If your business ever needs to show financial records — to a bank, a potential partner, or for tax purposes — you will need some form of expense history. Businesses registered with the CAC or operating at a certain scale may eventually have formal reporting requirements. Tracking expenses now builds that foundation without pressure.
+If your business ever needs to show financial records — to a bank, a potential partner, or for tax purposes — you will need some form of expense history. Under the Nigeria Tax Act 2025, in force since January 2026, a small company (annual turnover of ₦50 million or less and fixed assets of ₦250 million or less) pays 0% company income tax — but it still has to file returns to prove it qualifies, and business expenses reduce taxable profit for everyone else. Tracking expenses now builds that foundation without pressure.
 
 ## Common business expenses to track in Nigeria
 

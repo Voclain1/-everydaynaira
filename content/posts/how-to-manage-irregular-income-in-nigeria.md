@@ -12,6 +12,7 @@ focusKeyword: "irregular income"
 keyTakeaways: ["Irregular income is not the same as low income. The challenge is building a system that works whether the month is strong or quiet.", "Know your baseline before anything else — the minimum your life needs to function each month.", "Budget based on your realistic low, not your best month. Good months create reserves, not lifestyle upgrades.", "Use a holding account to create a deliberate pause between receiving money and spending it.", "A slow-month fund is different from an emergency fund. Build both, but understand what each is for.", "Separate business income from personal income. Sales are not profit until costs are covered.", "Track weekly. With irregular income, monthly reviews can come too late to be useful."]
 sources: ["Central Bank of Nigeria — financial inclusion and account usage guidelines", "EFInA — Access to Financial Services in Nigeria (informal and self-employed income data)", "National Bureau of Statistics — Nigeria Labour Force Survey (self-employment and informal sector figures)"]
 calculator: "emergency-fund-calculator"
+reviewed: "2026-11-01"
 wpId: 494
 ---
 

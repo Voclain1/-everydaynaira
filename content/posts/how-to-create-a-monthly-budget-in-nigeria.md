@@ -12,6 +12,7 @@ focusKeyword: "How to Create a Monthly Budget"
 keyTakeaways: ["A monthly budget does not need to be a complex document. It needs to be honest.", "Write down your real income. List your actual expenses. Compare the two and make deliberate choices about where the money goes. Build in savings from the start, not from what is left over. Add a small buffer for surprises. And check in on it once a week.", "That is it. No special app required. No perfect spreadsheet needed.", "The best budget is one that reflects your real life and that you actually use."]
 sources: ["Central Bank of Nigeria — Consumer financial education resources", "EFInA (Enhancing Financial Innovation and Access) — Access to Financial Services in Nigeria Survey", "National Bureau of Statistics — Consumer Price Index and cost of living reports"]
 calculator: "budget-calculator"
+reviewed: "2026-11-01"
 wpId: 21
 ---
 

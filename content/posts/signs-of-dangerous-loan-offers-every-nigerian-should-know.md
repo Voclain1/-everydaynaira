@@ -2,7 +2,7 @@
 title: "Signs of Dangerous Loan Offers Every Nigerian Should Know"
 slug: "signs-of-dangerous-loan-offers-every-nigerian-should-know"
 date: "2026-04-24T21:08:23+01:00"
-updated: "2026-04-24T21:16:24+01:00"
+updated: "2026-11-01T12:00:00+01:00"
 category: "debt"
 tags: ["Explainer"]
 author: "benedict"
@@ -10,8 +10,9 @@ description: "Urgent need for money? Learn the dangerous loan offer signs Nigeri
 tagline: "Some loan offers look helpful at first, but the real risk is often hidden in the fine print, vague terms, or repayment pressure. This guide shows the warning signs of a risky loan offer in Nigeria before you accept it."
 focusKeyword: "Loan"
 keyTakeaways: ["A loan offer becomes risky when it hides important information, rushes you into a decision, is unclear about what repayment will actually cost, or comes from a lender with no verifiable identity.", "Warning signs include vague interest rates, hidden charges, pressure to borrow immediately, abusive collection threats, and requests for access that seem excessive.", "A clean loan offer gives you enough information to decide calmly. A risky one tries to prevent that."]
-sources: ["Central Bank of Nigeria — Consumer Protection Framework and financial services licensing", "Corporate Affairs Commission Nigeria (CAC) — Business registration verification", "Federal Competition and Consumer Protection Commission (FCCPC) — Consumer rights and complaint procedures; digital lending guidelines", "Consumer Protection Council Nigeria (CPC) — Consumer complaint and redress information", "Nigeria Deposit Insurance Corporation (NDIC) — Depositor and borrower protection guidance"]
+sources: ["Federal Competition and Consumer Protection Commission (FCCPC) — Digital, Electronic, Online or Non-Traditional Consumer Lending Regulations 2025 (in force since 21 July 2025)", "FCCPC — register of approved digital lenders and enforcement updates (January 2026)", "Central Bank of Nigeria — licensed financial institutions", "Nigeria Data Protection Commission — data protection rights", "Nairametrics (January 2026) — 521 digital lenders under FCCPC oversight"]
 calculator: "loan-calculator"
+reviewed: "2026-11-01"
 wpId: 447
 ---
 
@@ -125,7 +126,9 @@ The concern is not just privacy. It is also what happens with that access if rep
 
 **Why it is risky:** Giving excessive access without understanding the purpose means you are handing over more than just repayment. You may be giving a lender a tool to pressure you in ways you did not agree to.
 
-**What to do instead:** Read app permission requests before granting them. If a loan app's access requests seem disproportionate to the loan size, or the app does not explain clearly why it needs that access, treat that as a warning. Legitimate lenders do not need access to everything on your phone to lend you a responsible amount.
+**What the rules now say:** Since July 2025, the FCCPC's Digital, Electronic, Online or Non-Traditional Consumer Lending Regulations 2025 bar digital lenders from accessing borrowers' contact lists and photos, and require ethical debt recovery. An app that still demands your contacts or gallery is breaking the rules.
+
+**What to do instead:** Read app permission requests before granting them. If a loan app asks for your contacts, photos, or other access that has nothing to do with the loan, do not proceed. Legitimate lenders do not need access to everything on your phone to lend you a responsible amount.
 
 ### 8. Threats, shame, or abusive collection behaviour
 
@@ -207,7 +210,7 @@ If you borrowed and are now finding the terms more difficult than expected, a fe
 
 **Document everything.** Screenshots of the original offer, payment confirmations, messages from the lender, and any communication about your account. These records matter if a dispute escalates.
 
-**Know that abusive collection tactics are not acceptable.** If a lender threatens you, contacts your relatives without your permission, or sends messages designed to shame you publicly, this falls outside what reasonable debt recovery looks like. The Consumer Protection Council exists in Nigeria to handle complaints of this nature. The Central Bank of Nigeria also has consumer protection provisions that are relevant to licensed financial institutions.
+**Know that abusive collection tactics are not acceptable.** If a lender threatens you, contacts your relatives without your permission, or sends messages designed to shame you publicly, this falls outside what reasonable debt recovery looks like. Report it to the Federal Competition and Consumer Protection Commission (FCCPC), which regulates digital lenders under rules in force since 2025 and can fine or delist lenders that abuse borrowers. If the lender is a bank or microfinance bank, you can also complain to the CBN.
 
 **Avoid borrowing again to pay off the first loan.** This cycle is one of the most common ways a manageable debt becomes an unmanageable one.
 
@@ -233,7 +236,7 @@ A salary advance from your employer is generally different from a commercial loa
 
 **What should I do if a lender contacts my family or colleagues about my loan?**
 
-Document it — screenshot or record what was sent and when. This kind of collection practice is widely considered unethical and, depending on the method used, may violate data protection and consumer protection standards. You can escalate this to the Consumer Protection Council (CPC) in Nigeria or, if the lender is a regulated financial institution, to the CBN's consumer protection department. Keep your records organised before escalating.
+Document it — screenshot or record what was sent and when. This kind of collection practice is widely considered unethical and, depending on the method used, may violate data protection and consumer protection standards. You can report it to the FCCPC, which now regulates digital lenders and treats debt shaming and misuse of borrowers' data as violations. If the lender is a bank or microfinance bank, you can also escalate to the CBN at cpd@cbn.gov.ng. Keep your records organised before escalating.
 
 **If a loan app has a lot of downloads, does that mean it is safe?**
 
@@ -245,7 +248,7 @@ This depends entirely on the lender's terms and varies considerably. Some lender
 
 **How do I know if a lender is operating legally in Nigeria?**
 
-For lending institutions operating as banks or regulated financial services companies, the Central Bank of Nigeria publishes lists of licensed entities. For other lending businesses — including some fintech and credit companies — checking for a registered business name with the Corporate Affairs Commission (CAC) is a reasonable starting point. Not all lenders are required to have a CBN licence, but all should be identifiable as a registered business.
+Since 2025, every digital or app-based lender must be registered with the Federal Competition and Consumer Protection Commission (FCCPC). The FCCPC publishes a list of approved and conditionally approved lenders on its website, and by January 2026 it had placed over 100 apps from unregistered companies on an enforcement watchlist. Banks and microfinance banks are licensed by the CBN instead. If a loan app is on neither list, do not borrow from it.
 
 ## Conclusion
 

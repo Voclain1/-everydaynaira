@@ -11,7 +11,7 @@ The everydaynaira.com site, rebuilt from WordPress as a static-first Next.js app
 - **Better SEO.** BlogPosting, FAQPage, BreadcrumbList, HowTo, CollectionPage, Person, and
   Organization schema; generated social images; sitemap; RSS; canonical URLs.
 - **Features.** Four naira calculators, instant search (press `/`), newsletter sign-up,
-  contact form, and a generated image system (see `docs/IMAGE-WORKFLOW.md`).
+  contact form, and an image workflow: generated covers by default, natural editorial photos for posts you choose (see `docs/IMAGE-WORKFLOW.md`).
 
 ## Run it locally
 

@@ -2,7 +2,7 @@
 title: "How to Save Money in Nigeria as a Salary Earner (Practical Guide)"
 slug: "how-to-save-money-in-nigeria-as-a-salary-earner-practical-guide"
 date: "2026-04-11T23:50:04+01:00"
-updated: "2026-04-12T09:47:40+01:00"
+updated: "2026-11-01T12:00:00+01:00"
 category: "savings"
 tags: ["How-To Guide"]
 author: "benedict"
@@ -10,8 +10,9 @@ description: "Saving on a Nigerian salary is hard but possible. This practical g
 tagline: "Learn how to save money consistently on a salary in Nigeria, with realistic budgeting methods, real examples, and tips that work even when income feels tight."
 focusKeyword: "save money"
 keyTakeaways: ["Saving on a salary in Nigeria is not about finding extra money. It is about protecting a portion of the money you already have before the month can spend it for you.", "Start with a number you can commit to without straining. Move it to a separate place on the day your salary arrives. Keep it there. Build the habit before you build the balance.", "That is the foundation. Everything else, including bigger savings, specific goals, and longer-term financial stability, can be built on top of it once the habit is real."]
-sources: ["National Bureau of Statistics Nigeria — Consumer Price Index and inflation reports", "Central Bank of Nigeria — Financial inclusion and consumer education resources", "EFInA (Enhancing Financial Innovation and Access) — Access to Financial Services in Nigeria Survey"]
+sources: ["National Bureau of Statistics Nigeria — Consumer Price Index and inflation reports", "Central Bank of Nigeria — Financial inclusion and consumer education resources", "EFInA (Enhancing Financial Innovation and Access) — Access to Financial Services in Nigeria Survey", "Nigeria Tax Act 2025 — personal income tax changes effective 1 January 2026"]
 calculator: "savings-goal-calculator"
+reviewed: "2026-11-01"
 wpId: 77
 ---
 
@@ -92,6 +93,9 @@ Big savings rarely come from one dramatic cut. They come from reducing the consi
 Data subscriptions you barely use. Eating out during lunch every workday when a packed meal would cost a fraction of the price. Buying airtime in small, frequent amounts rather than in bulk, which often works out more expensive over time. Impulse purchases that feel minor individually but accumulate into something significant.
 
 None of these require severe sacrifice. They require awareness and a few deliberate adjustments.
+### Save any increase in take-home pay before you get used to it
+
+Nigeria's new tax law took effect on 1 January 2026. Anyone earning ₦800,000 a year or less now pays no personal income tax, and many lower and middle earners saw their PAYE deduction fall. If your payslip shows a smaller tax deduction than last year, the difference is the easiest money you will ever save: move it to savings the day salary lands, before your spending adjusts to it. The same rule works for any pay rise.
 
 ### Protect your savings from social pressure
 

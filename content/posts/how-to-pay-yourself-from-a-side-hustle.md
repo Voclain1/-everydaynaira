@@ -2,7 +2,7 @@
 title: "How to Pay Yourself From a Side Hustle (Without Killing the Business)"
 slug: "how-to-pay-yourself-from-a-side-hustle"
 date: "2026-05-16T12:05:45+01:00"
-updated: "2026-05-16T12:07:03+01:00"
+updated: "2026-11-01T12:00:00+01:00"
 category: "income"
 tags: ["How-To Guide"]
 author: "benedict"
@@ -10,8 +10,9 @@ description: "Most side hustle money disappears before month-end. Here is a simp
 tagline: "Learn a simple way to separate side hustle money, protect your business, and pay yourself properly without spending everything that comes in."
 focusKeyword: "how to pay yourself"
 keyTakeaways: ["Treating side hustle money as \"free money\" is the most common reason the hustle stalls or disappears quietly. Structure changes that.", "Separating business money from personal money — even mentally, and ideally physically — makes it possible to actually know whether the hustle is working.", "Pay yourself from profit, not from sales. Deduct business costs first.", "Use percentages rather than fixed amounts, especially if income is irregular. It keeps the system honest.", "A small reserve fund protects the business during slow months and removes the pressure of needing every good month to be perfect.", "Paying yourself is not optional. It is part of making the side hustle sustainable. But it must be planned, not impulsive."]
-sources: ["Central Bank of Nigeria — guidelines on personal and business account use", "Federal Inland Revenue Service (FIRS) — self-employment and small business income obligations", "EFInA — Access to Financial Services in Nigeria survey (informal sector income patterns)"]
+sources: ["Central Bank of Nigeria — guidelines on personal and business account use", "EFInA — Access to Financial Services in Nigeria survey (informal sector income patterns)", "Nigeria Tax Act 2025 — personal income tax exemption (₦800,000 a year), small company definition and exemptions (effective 1 January 2026)", "Nigeria Revenue Service (NRS, formerly FIRS) — tax identification and filing guidance", "Africa Check — Factsheet: how Nigeria's new tax rules affect you"]
 calculator: "budget-calculator"
+reviewed: "2026-11-01"
 wpId: 490
 ---
 
@@ -64,7 +65,9 @@ You do not need a complex accounting system. What you need is a mental and physi
 
 **Your pay** is the actual amount you take home for personal use. This is the part you plan and protect, rather than whatever happens to be left.
 
-**Tax and record-keeping** is worth noting, especially if the hustle grows. Nigeria has tax obligations for self-employed income. This article is not the place to go into detail, but it is worth being aware of and tracking income records from the beginning.
+**Tax and record-keeping** is worth noting, especially if the hustle grows. Nigeria has tax obligations for self-employed income, and keeping income records from the beginning makes them easy to meet.
+
+**What changed in 2026:** under the Nigeria Tax Act 2025, which took effect on 1 January 2026, individuals earning ₦800,000 a year or less pay no personal income tax, and higher earners pay graduated rates of up to 25%. Side-hustle profit counts as income alongside your salary. Banks are also required to ask for a tax identification number (Tax ID) to open or operate accounts, so get yours from the Nigeria Revenue Service (NRS, formerly FIRS) if you do not have one. This is a summary, not tax advice — if your hustle makes steady profit, confirm your position with the NRS or a tax professional.
 
 You do not need five separate accounts to do this, though a dedicated business account helps enormously. At minimum, keep a record that shows these categories — even if the money itself sits in one place.
 

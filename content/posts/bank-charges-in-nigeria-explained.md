@@ -2,15 +2,16 @@
 title: "Understanding All the Bank Charges on Your Bank Account in Nigeria"
 slug: "bank-charges-in-nigeria-explained"
 date: "2026-04-18T23:17:59+01:00"
-updated: "2026-04-18T23:43:08+01:00"
+updated: "2026-11-01T12:00:00+01:00"
 category: "banking"
 tags: ["Explainer"]
 author: "benedict"
 description: "Your bank balance keeps shrinking and you are not sure why. This guide explains every common bank charge in Nigeria, which ones are normal, which deserve a closer look, and how to reduce what you pay."
 tagline: "Understand the common bank charges on your account in Nigeria, what they mean, and why banks deduct them. Learn which fees are normal, which ones deserve attention, and how to reduce unnecessary charges."
 focusKeyword: "bank charges in Nigeria"
-keyTakeaways: ["Most bank charges in Nigeria are legitimate, but often poorly explained.", "Common charges include transfer fees, VAT, SMS alerts, ATM fees, and card maintenance.", "VAT and stamp duty are government-related charges, not direct bank profit.", "Unclear, repeated, or unusually high deductions should be checked.", "You can reduce charges by using cheaper banking options and reviewing your account setup.", "Always monitor your account and question any charge you do not understand."]
-sources: ["Central Bank of Nigeria — Consumer Protection Framework and Electronic Banking Guidelines", "Central Bank of Nigeria — Guide to Bank Charges in Nigeria", "NIBSS — Electronic Fund Transfer information", "Federal Inland Revenue Service (FIRS) — VAT guidance", "Individual Nigerian bank fee schedules (verify directly with your bank for current rates)"]
+keyTakeaways: ["Most bank charges in Nigeria are legitimate, but often poorly explained.", "The CBN revised its Guide to Charges in 2026: small transfers up to ₦5,000 are free, naira card maintenance fees are gone, and current account maintenance fees end in 2027.", "VAT (7.5%) and stamp duty (₦50 on transfers of ₦10,000 or more, paid by the sender since January 2026) are government charges, not bank profit.", "Your own bank's ATM is free; other banks' ATMs cost ₦100 per ₦20,000 withdrawn, plus up to ₦500 at off-site machines.", "Unclear, repeated, or unusually high deductions should be checked, and you can escalate unresolved complaints to the CBN at cpd@cbn.gov.ng."]
+sources: ["Central Bank of Nigeria — Guide to Charges by Banks and Other Financial Institutions (revised 2026)", "Central Bank of Nigeria — FAQs on revised ATM transaction fees (effective 1 March 2025)", "Nigerian Communications Commission — USSD tariff directive (June 2025)", "Nigeria Tax Act 2025 — VAT and stamp duty on electronic transfers", "Central Bank of Nigeria — How to lodge a complaint"]
+reviewed: "2026-11-01"
 wpId: 402
 ---
 
@@ -22,25 +23,29 @@ But the good news is that most of these charges have clear explanations. Some ar
 
 This guide breaks down the common charges that reduce your bank balance in Nigeria, explains why they exist, and tells you what you can realistically do about them.
 
-Nigerian banks are permitted to charge you for several services — including transfers, ATM withdrawals, card maintenance, SMS alerts, and account maintenance. These charges are partly regulated by the Central Bank of Nigeria (CBN) and partly determined by individual bank policies. VAT is added on top of most service charges. Some deductions are normal. Others need a closer look. You have the right to ask questions and dispute unexplained charges.
+Nigerian banks are permitted to charge you for several services — including transfers, ATM withdrawals at other banks, card issuance, SMS alerts, and current account maintenance. These charges are partly regulated by the Central Bank of Nigeria (CBN) and partly determined by individual bank policies. VAT is added on top of most service charges. Some deductions are normal. Others need a closer look. You have the right to ask questions and dispute unexplained charges.
 
 ## Common bank charges in Nigeria and what they mean
 
 ### Transfer charges
 
-Every time you send money from your bank account to another person — whether through your banking app, internet banking, or a bank branch — you may be charged a transfer fee.
+When you send money to another bank, a transfer fee applies. The CBN caps these fees in its Guide to Charges. Under the version revised in 2026:
 
-The CBN has set limits on what banks can charge for electronic fund transfers. For lower amounts, the fee is small. For higher amounts, it goes up slightly, but there is a cap. The exact figures can vary and may be updated, so it is worth checking your bank's official fee schedule or the CBN website for the current approved rates.
+- **Up to ₦5,000:** free
+- **₦5,000 to ₦50,000:** ₦10
+- **Above ₦50,000:** ₦50
 
-What matters to know is this: transfer fees are regulated. Banks cannot simply charge whatever they want. If you notice a transfer fee that seems unusually high, it is worth comparing it against the CBN's published guidelines.
+Transfers within the same bank are usually free.
 
-One thing many people miss: your bank may also charge VAT on top of the transfer fee. So the ₦25 or ₦50 transfer fee you expected may look slightly higher by the time VAT is added. This is not an error — it is how banking service charges work in Nigeria.
+What matters to know is this: transfer fees are regulated. Banks cannot simply charge whatever they want. If a fee looks higher than these caps, compare it with your bank's published tariff and ask.
+
+Two things are often added on top: VAT on the bank's fee, and ₦50 stamp duty if you send ₦10,000 or more. So a ₦20,000 interbank transfer typically shows a ₦10 fee plus a ₦50 stamp duty line. This is not an error — it is how transfer costs work in Nigeria now.
 
 ### VAT on banking services
 
-VAT — Value Added Tax — is a government tax that applies to many services in Nigeria, including banking services. As of 2020, the VAT rate in Nigeria is 7.5 percent.
+VAT — Value Added Tax — is a government tax that applies to many services in Nigeria, including banking services. The rate is 7.5 percent, and the 2026 tax reform laws kept it there.
 
-This means that when your bank charges you for a transfer, ATM withdrawal, card maintenance, or other services, it adds 7.5 percent of that charge as VAT and remits it to the Federal Inland Revenue Service (FIRS).
+This means that when your bank charges you for a transfer, ATM withdrawal, card issuance, or other services, it adds 7.5 percent of that charge as VAT and remits it to the Nigeria Revenue Service (NRS), which replaced the Federal Inland Revenue Service (FIRS) in 2026.
 
 The VAT is not a bank invention. The bank is simply collecting it on behalf of the government.
 
@@ -48,67 +53,56 @@ So if you see "VAT" on your statement next to a banking fee, it is a legitimate 
 
 ### ATM withdrawal charges
 
-Using an ATM is not always free in Nigeria.
-
-The rules differ depending on which ATM you use:
+Using an ATM is not always free in Nigeria. The rules changed on 1 March 2025:
 
 **Your own bank's ATM**
-The CBN has directed that banks should offer some free ATM withdrawals at their own machines per month. After a certain number of free transactions, your bank may charge a fee per withdrawal. The exact number of free transactions and the charge that applies afterward varies — check your bank's fee schedule for the current policy.
+Free, whether the machine is at a branch or off-site.
 
 **Another bank's ATM (interbank withdrawals)**
-When you withdraw cash from an ATM that belongs to a different bank, you will usually pay an interbank ATM surcharge. This charge is higher than what you pay at your own bank's machine.
+₦100 for every ₦20,000 you withdraw. If the machine is away from a bank branch (off-site, such as in a mall or filling station), the owner can add a surcharge of up to ₦500 per withdrawal, which must be shown on screen before you confirm.
 
-If you regularly withdraw cash from ATMs, using your own bank's machines — especially within your free transaction limit — is the straightforward way to reduce these costs.
+The old allowance of three free withdrawals a month at other banks' ATMs has ended. If you regularly withdraw cash, using your own bank's machines is the simplest way to avoid these costs.
 
 ### Card maintenance fees
 
-If you have a debit card linked to your account, your bank may charge you a card maintenance fee. This is sometimes charged annually, sometimes quarterly, depending on the bank and the type of card.
+Under the CBN's revised 2026 Guide to Charges, banks can no longer charge maintenance fees on **naira debit and credit cards**. If you still see a card maintenance deduction on a naira card after May 2026, query it.
 
-The fee helps cover the cost of keeping your card active and the systems connected to it — though in practice, it is simply part of how banks recover operational costs.
+You can still be charged for:
 
-Some card types attract higher maintenance fees than others. Premium or internationally enabled cards may cost more to maintain than basic domestic ones.
-
-If you have a card you no longer use, it is worth asking whether you can deactivate it to avoid ongoing fees.
+- **Issuing or replacing a card:** up to ₦1,500 for a standard naira card. Virtual cards are free.
+- **Foreign currency cards:** an annual maintenance fee can still apply.
 
 ### SMS alert charges
 
-Your bank sends you a text message every time money comes into or goes out of your account. These messages are your transaction alerts, and they are an important security tool — they help you notice unauthorized transactions early.
+SMS alerts tell you every time money moves in or out of your account. They are one of the most important tools you have for catching fraud quickly.
 
-Banks charge a fee per SMS alert sent. The charge per message is small, but it adds up across multiple transactions in a month.
+Banks can still charge for SMS alerts on transactions you make, but only on a cost-recovery basis — roughly what the bank pays the network to send the message. The charge per message is small, but it adds up across many transactions.
 
-Some banks bundle SMS fees into a monthly charge. Others deduct per message. Either way, your account statement will show this as an alert charge or SMS fee.
-
-Turning off SMS alerts entirely is not advisable — you lose important visibility into your account activity. But some banks offer the option to switch to email or in-app alerts at a lower cost. If this option is available to you and you are comfortable monitoring your account through your banking app, it can reduce what you pay.
+Email alerts are free under the 2026 guide, and most banks send free in-app notifications. Turning off alerts entirely is not advisable. But if you are comfortable monitoring your account through email or your banking app, switching can reduce what you pay.
 
 ### Account maintenance fees
 
-Certain account types in Nigeria attract a monthly maintenance fee. This is more common with current accounts than savings accounts, though policies differ by bank.
+Current accounts in Nigeria can attract a current account maintenance fee (CAMF), charged on customer-initiated debits. Under the 2026 guide, it is capped at ₦0.50 per ₦1,000 of debits in 2026 and is scheduled to be abolished in 2027.
 
-The fee is charged simply for holding and operating the account. Not all savings accounts attract this charge — many standard savings accounts are exempt — but if you have a current account or a premium account, check your fee schedule.
-
-If you notice a monthly maintenance deduction and you did not expect it, check with your bank whether your account type carries this fee and what the current amount is.
+Savings accounts do not attract this charge. If you notice a monthly maintenance deduction on a savings account, ask your bank to explain it.
 
 ### USSD transaction charges
 
-USSD banking — the shortcode service you use by dialling \*737#, \*901#, or similar codes on your phone — became popular in Nigeria because it does not require internet access. It works on any phone.
+USSD banking — the shortcode service you use by dialling \*737#, \*901#, or similar codes — became popular in Nigeria because it does not require internet access. It works on any phone.
 
-Banks and telecoms companies have debated who should charge for USSD banking, and the CBN has been involved in regulating this area. The result has been a range of charging models.
+After years of disputes between banks and telecom companies, the rules are now settled: each USSD session costs ₦6.98 for up to 120 seconds, and since 3 June 2025 it is deducted from your **airtime**, not your bank account. Your phone will ask you to accept the charge before the session starts.
 
-Some banks absorb the cost of USSD transactions for customers. Others pass it on, either as a small per-session fee or through a bundled charge. The situation has shifted more than once, so it is worth checking your bank's current USSD policy.
-
-If you use USSD banking regularly and want to reduce costs, using your bank's app over a data connection may be a better option — provided you have reliable data access.
+If you use USSD banking regularly and want to reduce costs, using your bank's app over a data connection may be cheaper — provided you have reliable data access.
 
 ### Stamp duty
 
-Stamp duty is a government-mandated charge applied to certain electronic receipts and transactions. It is not a bank fee — it is a levy collected by the bank on behalf of the government and remitted to the relevant authority.
+Stamp duty is a government charge, not a bank fee. Since 1 January 2026, under the Nigeria Tax Act 2025, a flat ₦50 is charged on electronic transfers of ₦10,000 or more, and **the sender pays it**. Before 2026, the receiver paid it.
 
-The application of stamp duty in Nigeria has changed several times, and the current rules around which transactions attract it and at what threshold can shift with government policy. If you see a small deduction described as "stamp duty" on your statement, it is a government charge, not a bank invention.
-
-For the most current information on what attracts stamp duty, the FIRS website or your bank's help center is the right place to check.
+Transfers below ₦10,000, salary payments, and transfers between your own accounts at the same bank are generally exempt. Our guide to [stamp duty on bank transfers](/stamp-duty-on-bank-transfer-in-nigeria-explained/) explains the details.
 
 ### Charges from using a POS terminal or making card payments
 
-When you pay with your debit card at a store or online, fees can apply. In some cases, merchants pass on a small card processing fee to you — though this practice is not always visible or clearly disclosed.
+When you pay with your debit card at a store, the CBN's 2026 guide says the cardholder should not be charged: the merchant pays a service charge of 0.5% of the transaction, capped at ₦10,000. If a shop insists on adding a "POS charge" to a card payment, that cost is meant to be the merchant's, not yours. (Cash withdrawals from POS agents are different — agents set their own fees.)
 
 Your bank may also apply a small charge for some card transactions, particularly for international payments or transactions in foreign currencies.
 
@@ -130,12 +124,12 @@ The frustration most people feel is not really about whether the charges are leg
 
 These charges are common, regulated or disclosed, and apply across most banks:
 
-- Transfer fees within the CBN-approved range
+- Transfer fees within the CBN caps (free up to ₦5,000, ₦10, or ₦50)
 - VAT on service charges
-- ATM charges at interbank machines
-- Card maintenance fees for active cards
-- SMS alert fees
-- Government-mandated stamp duty (where applicable)
+- ATM charges at other banks' machines
+- SMS alert fees on a cost-recovery basis
+- Current account maintenance fees (until 2027)
+- ₦50 stamp duty when you send ₦10,000 or more
 
 These do not mean you have to accept them without question, but they are standard parts of banking in Nigeria.
 
@@ -154,14 +148,17 @@ Transfer fees, for instance, have regulated caps. If what you are being charged 
 These could be subscription charges from third-party services you signed up for at some point, or they could be unauthorized. Check your transaction history for the originating service name. If you cannot identify it, contact your bank.
 
 **Charges on a dormant or lightly used account**
-Some banks charge maintenance fees even on low-activity accounts. If you have an account you rarely use, check whether it is accumulating charges.
+If an account you rarely use is losing money every month, ask why. Under the 2026 guide, reactivating a dormant account is free, and naira card maintenance fees should no longer apply.
+
+**A card maintenance fee on a naira card**
+These were scrapped in the 2026 guide. If one still appears after May 2026, ask your bank to reverse it.
 
 ## How to reduce unnecessary bank charges
 
 You probably cannot eliminate all bank charges — some are unavoidable parts of banking. But there are practical steps that can reduce what you pay.
 
 **Use your own bank's ATM for cash withdrawals**
-Interbank ATM fees are higher than using your own bank's machine. If you regularly withdraw cash, sticking to your bank's ATMs — especially within any free transaction limit — costs less.
+Your own bank's ATMs are free. Every withdrawal at another bank's ATM costs ₦100 per ₦20,000, and off-site machines can add up to ₦500 more.
 
 **Use transfer apps or your banking app instead of branch transfers**
 In many cases, digital transfers cost less than branch-initiated transfers. Make sure you understand what your bank charges for each channel.
@@ -169,11 +166,11 @@ In many cases, digital transfers cost less than branch-initiated transfers. Make
 **Switch to email or in-app alerts if your bank offers this option**
 If SMS alerts are costing you money and you are comfortable checking your banking app for notifications, ask your bank whether a lower-cost alert option is available.
 
-**Review your card setup**
-If you have multiple bank cards and only actively use one, check whether the inactive ones are still attracting maintenance fees. Deactivating unused cards may reduce your charges.
+**Send fewer, larger transfers**
+Every transfer of ₦10,000 or more attracts ₦50 stamp duty plus the bank's fee. Paying someone ₦30,000 once costs about ₦60; paying ₦10,000 three times costs about ₦180.
 
 **Use accounts that match your actual needs**
-Some account types carry monthly maintenance fees. If you have a current account but your needs are simpler, ask whether a savings account or a basic account would serve you better with lower charges.
+Current accounts carry a maintenance fee until 2027; savings accounts do not. If you have a current account but your needs are simpler, ask whether a savings account would serve you better.
 
 **Check your bank's current fee schedule**
 Most Nigerian banks publish their fee schedules on their website or in their help centers. Reading this once is worth it — it shows you exactly what you should expect to see on your statement.
@@ -198,11 +195,11 @@ Call your bank's customer service line, use the in-app chat, or visit a branch. 
 If your bank cannot explain the deduction or confirms that it was applied in error, ask them to raise a dispute or reversal. Most Nigerian banks have a formal dispute process. Get a reference number for your complaint.
 
 **Step 5: Escalate to the CBN if your bank does not resolve it**
-The Central Bank of Nigeria has a Consumer Protection Department that handles unresolved banking complaints. You can submit a complaint through the CBN's official website or their dedicated consumer protection contact channels. This is your right as a bank customer.
+The Central Bank of Nigeria has a Consumer Protection Department that handles unresolved banking complaints. Email [cpd@cbn.gov.ng](mailto:cpd@cbn.gov.ng) or write to any CBN branch, attaching your bank's complaint reference number. The CBN expects you to give your bank about two weeks first. This is your right as a bank customer.
 
 ## Conclusion
 
-The charges on your bank account are real, but they are not mysterious once you understand what each one is for. Transfer fees, VAT, SMS alerts, ATM charges, card maintenance — each has an explanation, and most are either regulated or disclosed somewhere in your bank's fee schedule.
+The charges on your bank account are real, but they are not mysterious once you understand what each one is for. Transfer fees, VAT, stamp duty, SMS alerts, ATM charges, account maintenance — each has an explanation, and most are either regulated or disclosed somewhere in your bank's fee schedule.
 
 The problem is that banks rarely explain them clearly in the moment. That is why your statement feels confusing.
 
@@ -211,22 +208,22 @@ Now that you know what to look for, you can do three things: track your account 
 ## Frequently asked questions
 
 **Why does my bank deduct money even when I do not make any transactions?**
-Some account types attract monthly maintenance fees even when you are not actively using the account. Card maintenance fees can also apply quarterly or annually. Check with your bank whether your account type carries these charges.
+SMS alert fees and current account maintenance fees can appear without you making a transfer. Naira card maintenance fees were scrapped in 2026, so if you still see one, ask your bank to explain or reverse it.
 
 **Is VAT on bank charges legal?**
-Yes. VAT is a government tax at a rate of 7.5 percent and applies to banking services in Nigeria. It is collected by the bank on behalf of the Federal Inland Revenue Service (FIRS).
+Yes. VAT is a government tax at a rate of 7.5 percent and applies to banking services in Nigeria. It is collected by the bank on behalf of the Nigeria Revenue Service (NRS), formerly FIRS.
 
 **Can I get a refund if my bank charges me wrongly?**
 Yes. If your bank confirms that a charge was applied in error, you can request a reversal. Raise a complaint with your bank's customer service and ask for a reference number. If the bank does not resolve it, you can escalate to the CBN Consumer Protection Department.
 
 **What is the difference between a transfer fee and stamp duty?**
-A transfer fee is what your bank charges for processing a payment. Stamp duty is a separate government-mandated levy on certain electronic transactions. They are both deductions, but they go to different places.
+A transfer fee is what your bank charges for processing a payment. Stamp duty is a separate ₦50 government charge on transfers of ₦10,000 or more, paid by the sender since January 2026. They are both deductions, but they go to different places.
 
 **How can I find out exactly what my bank charges?**
 Visit your bank's official website and look for their fee schedule, tariff guide, or pricing page. Most Nigerian banks publish this. Your bank's help center or customer service team can also provide the current list of charges that apply to your account type.
 
 **Why is my ATM charge different when I use another bank's machine?**
-Withdrawing from a different bank's ATM triggers an interbank surcharge, which is higher than using your own bank's machine. The bank that owns the ATM recovers a portion of this fee for providing the service.
+Your own bank's ATM is free. A different bank's ATM charges ₦100 per ₦20,000 withdrawn, and off-site machines can add up to ₦500, which must be shown on screen before you confirm.
 
 **What should I do if I keep getting debits I cannot identify?**
 Check your transaction history for the source description. If you still cannot identify it, contact your bank immediately. Unrecognized recurring debits may indicate an unauthorized subscription or, in more serious cases, fraud. Act quickly — disputes are easier to resolve when they are raised promptly

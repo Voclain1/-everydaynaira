@@ -12,6 +12,7 @@ focusKeyword: "sinking funds"
 keyTakeaways: ["Sinking funds are not a complicated finance strategy. They are a planning habit. The idea is simply that you name an upcoming expense, estimate its cost, and save toward it a little every month rather than facing it all at once.", "Most financial stress around big expenses comes not from the cost itself but from the timing. When the money has already been set aside, the expense loses most of its power to disrupt you.", "Start with one fund. Name it clearly. Contribute to it every month. Watch how different it feels when the bill arrives and the money is already waiting."]
 sources: ["Central Bank of Nigeria — Consumer financial literacy and inclusion resources", "EFInA (Enhancing Financial Innovation and Access) — Access to Financial Services in Nigeria Survey", "National Bureau of Statistics — Consumer expenditure patterns and household cost data"]
 calculator: "savings-goal-calculator"
+reviewed: "2026-11-01"
 wpId: 63
 ---
 

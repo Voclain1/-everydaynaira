@@ -2,7 +2,7 @@
 title: "What to Do After an Unauthorized Debit in Nigeria"
 slug: "what-to-do-after-an-unauthorized-debit-in-nigeria"
 date: "2026-04-21T18:14:18+01:00"
-updated: "2026-04-21T20:45:38+01:00"
+updated: "2026-11-01T12:00:00+01:00"
 category: "money-safety"
 tags: ["Explainer"]
 author: "benedict"
@@ -10,7 +10,8 @@ description: "Money left your account without your permission? Here is exactly w
 tagline: "Money left your account without your approval? Here’s how to respond fast, report it properly, and reduce further risk."
 focusKeyword: "Unauthorized Debit"
 keyTakeaways: ["Screenshot the alert and check the full transaction details in your banking app", "Think through whether it could be a subscription, failed transaction, or known bank charge", "If you genuinely did not authorize it, block your card immediately through your app", "Change your internet banking password and transaction PIN if you suspect fraud", "Call your bank's fraud or customer care line right away", "Write down the date, amount, narration, and transaction reference before you do anything else", "When you reach the bank, ask for a complaint reference number and write it down"]
-sources: ["Central Bank of Nigeria (CBN) — Consumer Protection Department guidance and complaint channels", "Nigeria Deposit Insurance Corporation (NDIC) — depositor protection information", "Economic and Financial Crimes Commission (EFCC) — fraud reporting and consumer advisory", "Nigeria Inter-Bank Settlement System (NIBSS) — electronic transaction processing and settlement context"]
+sources: ["Central Bank of Nigeria (CBN) — Consumer Protection Department guidance and complaint channels", "Nigeria Deposit Insurance Corporation (NDIC) — depositor protection information", "Economic and Financial Crimes Commission (EFCC) — fraud reporting and consumer advisory", "Nigeria Inter-Bank Settlement System (NIBSS) — electronic transaction processing and settlement context", "Central Bank of Nigeria — How to lodge a complaint (cpd@cbn.gov.ng; escalate if no tracking number within 3 days)", "Central Bank of Nigeria — exposure draft guidelines on authorised push payment fraud (November 2025)", "Central Bank of Nigeria — Guide to Charges (revised 2026)"]
+reviewed: "2026-11-01"
 wpId: 425
 ---
 
@@ -127,8 +128,10 @@ You can contact the service directly to cancel if you no longer want it, or ask 
 
 ### It may be a legitimate bank charge if:
 
-- the amount is small and matches known bank fee patterns (for example, quarterly card maintenance, SMS alert fees, or account statement fees)
-- the narration includes language like "card maintenance," "VAT," or "account fee"
+- the amount is small and matches known bank fee patterns (for example, SMS alert fees, a transfer fee, or ₦50 stamp duty after you sent ₦10,000 or more)
+- the narration includes language like "SMS charge," "VAT," "stamp duty," or "account maintenance"
+
+Note that naira card maintenance fees were scrapped under the CBN's revised 2026 Guide to Charges. If you see one after May 2026, treat it as a charge to query.
 
 If you are unsure what a particular bank charge is for, ask your bank to explain it in writing.
 
@@ -169,7 +172,7 @@ The more specific you can be, the better. Vague reports take longer to investiga
 
 ## What to Do If Your Bank Does Not Resolve It
 
-Banks are required to treat consumer complaints seriously and to respond within a defined period, though timelines vary by bank and transaction type. If your bank acknowledges your complaint but resolution is taking too long, or if they close your case without fixing the problem, you have escalation options.
+CBN guidance says your bank should acknowledge your complaint and give you a tracking number within three days, and resolve most complaints within about two weeks. If it does not, you can escalate to the CBN. If your bank acknowledges your complaint but resolution is taking too long, or if they close your case without fixing the problem, you have escalation options.
 
 **Follow up with the bank in writing.** Send an email referencing your original complaint number and asking for a status update. A written trail is useful if you later need to escalate externally.
 
@@ -185,7 +188,7 @@ If none of this works, escalate externally.
 
 The CBN is the primary regulator for banks and other financial institutions in Nigeria. If your bank has not resolved your complaint satisfactorily, you can escalate to the CBN.
 
-You can submit a complaint through the CBN Consumer Complaints Management System at **cbn.gov.ng**, or email the Consumer Protection Department at **[consumerprotection@cbn.gov.ng](mailto:consumerprotection@cbn.gov.ng)**.
+Email your complaint to **[cpd@cbn.gov.ng](mailto:cpd@cbn.gov.ng)**, or address a letter to the Director, Consumer Protection Department, and submit it at the CBN head office in Abuja or any CBN branch. You must have complained to your bank first.
 
 When submitting, include your complaint reference number from the bank, a summary of what happened, what the bank's response was, and why you believe it was unsatisfactory. The CBN can direct the bank to respond and take corrective action where appropriate.
 
@@ -219,11 +222,11 @@ Dealing with an unauthorized debit once is stressful enough. These habits reduce
 
 ## Frequently Asked Questions
 
-**How long does it take a Nigerian bank to reverse an unauthorized debit?** This depends on the bank and the type of transaction. Failed transaction reversals often happen automatically within a few working days. Fraud disputes typically take longer because the bank needs to investigate. Resolution timelines vary — ask your bank specifically when you log your complaint, and ask for it in writing if possible. The CBN requires banks to acknowledge complaints and work toward resolution, but exact timelines are set at the bank level.
+**How long does it take a Nigerian bank to reverse an unauthorized debit?** This depends on the bank and the type of transaction. Failed transaction reversals often happen automatically within a few working days. Fraud disputes typically take longer because the bank needs to investigate. CBN guidance expects banks to acknowledge a complaint with a tracking number within three days and resolve most within about two weeks. For transfer fraud specifically, the CBN published draft rules in November 2025 that would require you to report within 72 hours, banks to investigate within 14 working days, and refunds to be paid within 48 hours of the investigation concluding. Those rules were still in draft at the time of our last check, so report as fast as you can either way.
 
 **Can I get my money back after an unauthorized debit in Nigeria?** In many cases, yes — especially for failed transactions, duplicate charges, or fraud that is reported quickly. The faster you report, the better your chances. For fraud involving card compromise or OTP theft, outcomes can vary depending on the bank's findings and the specific circumstances. There is no universal guarantee, but reporting immediately and following up persistently gives you the best possible position.
 
-**What is the CBN consumer protection email for bank complaints?** You can reach the CBN Consumer Protection Department at [consumerprotection@cbn.gov.ng](mailto:consumerprotection@cbn.gov.ng). Always include your bank's complaint reference number and a clear summary of your unresolved issue.
+**What is the CBN consumer protection email for bank complaints?** You can reach the CBN Consumer Protection Department at [cpd@cbn.gov.ng](mailto:cpd@cbn.gov.ng). Always include your bank's complaint reference number and a clear summary of your unresolved issue.
 
 **I shared my OTP with someone who said they were from my bank. What should I do?** Call your bank's fraud line immediately. Ask them to freeze your account and card while they investigate. Change your internet banking password and transaction PIN right away. OTP sharing is one of the most common ways accounts are compromised, but reporting it quickly gives the bank a chance to intervene before more damage occurs.
 

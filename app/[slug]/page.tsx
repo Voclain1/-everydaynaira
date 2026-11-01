@@ -105,6 +105,12 @@ function PostView({ post }: { post: Post }) {
                   <time dateTime={updated ? post.updated : post.date}>{formatDate(updated ? post.updated : post.date)}</time>
                 </span>
                 <span>{post.readingMinutes} min read</span>
+                {post.reviewed && (
+                  <Link href="/fact-checking-policy/" className="flex items-center gap-2 text-ink hover:underline underline-offset-4">
+                    <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 8.5l3 3 7-7" /></svg>
+                    Fact-checked <time dateTime={post.reviewed}>{formatDate(post.reviewed)}</time>
+                  </Link>
+                )}
               </div>
             </div>
             <PostCover post={post} priority aspect={4 / 3} className="aspect-[4/3] border border-ink bg-paper" />

@@ -2,7 +2,7 @@
 title: "How to Separate Personal and Business Money in Nigeria"
 slug: "how-to-separate-personal-and-business-money-in-nigeria"
 date: "2026-05-28T15:41:53+01:00"
-updated: "2026-05-28T15:44:38+01:00"
+updated: "2026-11-01T12:00:00+01:00"
 category: "income"
 tags: ["How-To Guide"]
 author: "benedict"
@@ -10,7 +10,8 @@ description: "Mixing personal and business money in Nigeria? Here's a simple, pr
 tagline: "When personal and business money stay in the same place, it becomes hard to know what the business is truly earning or spending. This guide shows small business owners in Nigeria how to separate both clearly and manage money with less confusion."
 focusKeyword: "how to separate personal and business money"
 keyTakeaways: ["Open a dedicated bank account for business income only, collect all customer payments into that account", "Decide on a fixed or flexible amount to pay yourself, and keep a simple record of every business expense.", "You do not need to be registered or incorporated to start doing this today."]
-sources: []
+sources: ["Nigeria Tax Act 2025 — personal income tax exemption (₦800,000 a year), small company definition and exemptions (effective 1 January 2026)", "Nigeria Revenue Service (NRS, formerly FIRS) — tax identification and filing guidance", "Africa Check — Factsheet: how Nigeria's new tax rules affect you"]
+reviewed: "2026-11-01"
 wpId: 499
 ---
 
@@ -36,7 +37,7 @@ Here is what clean separation gives you:
 
 **You spend more intentionally.** When everything is in one pot, it is easy to dip in for "small things" that quietly drain the business. A clear business account makes you think twice before touching it for personal needs.
 
-**Tax and compliance become manageable.** If you ever need to [file tax returns as a small business owner](/how-to-track-small-business-expenses-in-nigeria/), respond to FIRS queries, or get a loan, clean records are what makes it possible. No one wants to sit down and try to reconstruct six months of business transactions from a personal account statement mixed with suya purchases and airtime recharges.
+**Tax and compliance become manageable.** If you ever need to [file tax returns as a small business owner](/how-to-track-small-business-expenses-in-nigeria/), respond to queries from the Nigeria Revenue Service (NRS, formerly FIRS), or get a loan, clean records are what makes it possible. No one wants to sit down and try to reconstruct six months of business transactions from a personal account statement mixed with suya purchases and airtime recharges.
 
 **You make better business decisions.** Should you restock? Can you afford to hire help? Should you take that order? These questions all need numbers. Separated money gives you those numbers.
 
@@ -54,7 +55,7 @@ Let us be direct about the specific problems, because they are worse than most p
 
 **You cannot get credit easily.** If you ever want a business loan from a microfinance bank, a fintech like Carbon or FairMoney, or even a formal bank, they will ask for your business financial records. A personal account with mixed transactions is nearly impossible to use as evidence of business performance.
 
-**You give FIRS nothing to work with — in the wrong direction.** If your business is ever reviewed for tax purposes, a clean record protects you. A chaotic mix of transactions becomes a liability.
+**You give the tax authority nothing to work with — in the wrong direction.** If your business is ever reviewed for tax purposes, a clean record protects you. A chaotic mix of transactions becomes a liability.
 
 ## How to Separate Personal and Business Money in Nigeria
 
@@ -67,6 +68,8 @@ This is the single most important step. It does not have to be a "business accou
 Most Nigerian banks allow you to open a second savings account. Kuda, Opay, Moniepoint, and PalmPay let you open accounts quickly with a phone number and BVN. Pick one and make it your designated business account.
 
 **The rule is simple:** all customer payments go in, all business expenses go out. Nothing personal touches it.
+
+Since 2026, banks must ask for a tax identification number (Tax ID) to open or operate an account. Registered companies use their CAC RC number as their Tax ID; individuals and business names can get one from the Nigeria Revenue Service.
 
 If you already have a business name registered with the CAC, you can open a proper business account. But do not wait for registration to start the habit. A dedicated second account today is infinitely better than a perfect account you never open.
 
@@ -123,7 +126,7 @@ That said, a proper business account has real advantages once you are ready:
 - It carries your business name, which builds credibility with clients
 - It simplifies things if you ever apply for business loans
 - Some banks and fintechs offer business accounts with better features — payment links, POS terminals, invoicing tools
-- It makes your finances defensible if FIRS ever asks questions
+- It makes your finances defensible if the NRS ever asks questions
 
 [Moniepoint](https://moniepoint.com), [Kuda Business](https://kuda.com), [Carbon for Business](https://carbon.ng), and most traditional banks offer business accounts. Requirements vary but often include CAC registration, a means of ID, and BVN. If you want to compare your options properly, we have a full breakdown of the [best business bank accounts in Nigeria](/how-to-separate-personal-and-business-money-in-nigeria/) to help you decide.
 
@@ -207,7 +210,7 @@ You do not need QuickBooks or complex accounting software to manage small busine
 
 **How much should I pay myself from my business?** There is no universal answer. It depends on your revenue, your operating costs, your stage of growth, and your personal needs. As a rule of thumb, many small business advisors suggest keeping your personal draw to between 30–50% of net profit, not gross revenue — and only after setting aside money for operating costs, stock, and a business reserve. Adjust this based on your actual situation.
 
-**Is there a tax implication to separating business money?** Separation itself has no tax consequence. But it makes tax compliance much easier if you ever need to report income or respond to FIRS. If you run a registered business, speak with a tax consultant about your obligations. If you are informal, separation still helps you understand your actual earnings.
+**Is there a tax implication to separating business money?** Separation itself has no tax consequence. But it makes tax compliance much easier if you ever need to report income or respond to the Nigeria Revenue Service. Under the Nigeria Tax Act 2025, a registered small company — annual turnover of ₦50 million or less, fixed assets of ₦250 million or less, and not a professional services firm — pays 0% company income tax, but it still has to file returns, and clean records are how you prove you qualify. If you run a registered business, speak with a tax consultant about your obligations. If you are informal, separation still helps you understand your actual earnings.
 
 **What should I do if I have already mixed money for months or years?** Start fresh from today. Do not try to untangle the past — it is usually more stressful than useful. Open the dedicated business account now, put the new rules in place, and let the past be the past. If you need historical records for a specific purpose (loan application, tax filing), speak with an accountant who can help reconstruct what is needed.
 

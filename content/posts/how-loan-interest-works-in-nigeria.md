@@ -2,7 +2,7 @@
 title: "How Loan Interest Works in Nigeria — Simple Guide for Nigerians"
 slug: "how-loan-interest-works-in-nigeria"
 date: "2026-04-24T17:41:16+01:00"
-updated: "2026-04-24T21:16:45+01:00"
+updated: "2026-11-01T12:00:00+01:00"
 category: "debt"
 tags: ["Explainer"]
 author: "benedict"
@@ -10,8 +10,9 @@ description: "Many borrowers are surprised by how much they actually repay. This
 tagline: "A loan may look affordable at first, but interest can change the real cost quickly. This guide explains how loan interest works in Nigeria and what to check before you borrow."
 focusKeyword: "loan interest"
 keyTakeaways: ["Loan interest is the extra money you pay a lender for using their money. It is usually charged as a percentage of the amount you borrow.", "How much you end up paying depends on the interest rate, how long the loan runs, and the calculation method the lender uses.", "In almost every case, the total amount you repay is higher — sometimes significantly higher — than the amount you originally borrowed."]
-sources: ["Central Bank of Nigeria — consumer protection, lending regulation and guidance", "NIBSS — payment and financial services infrastructure context", "EFInA — access to finance in Nigeria research (financial inclusion data and borrowing patterns)", "General financial literacy references on loan interest calculation methods"]
+sources: ["Central Bank of Nigeria — consumer protection, lending regulation and guidance", "NIBSS — payment and financial services infrastructure context", "EFInA — access to finance in Nigeria research (financial inclusion data and borrowing patterns)", "General financial literacy references on loan interest calculation methods", "Federal Competition and Consumer Protection Commission (FCCPC) — Digital, Electronic, Online or Non-Traditional Consumer Lending Regulations 2025"]
 calculator: "loan-calculator"
+reviewed: "2026-11-01"
 wpId: 439
 ---
 
@@ -174,6 +175,7 @@ When you see a loan offer, do not stop at the interest rate or the monthly repay
 **Read the repayment schedule.** When does repayment start? How are funds collected — direct debit, salary deduction, manual transfer? Understanding the schedule helps you plan properly.
 
 **Check early repayment terms.** If you want to clear the loan ahead of schedule, can you? Is there a fee? For reducing balance loans especially, early repayment can save you real money — but some lenders charge for it.
+**Confirm the lender is registered.** Banks and microfinance banks are licensed by the CBN. Since July 2025, loan apps and other digital lenders must also be registered with the Federal Competition and Consumer Protection Commission (FCCPC), which publishes a list of approved lenders. Do not borrow from an app that appears on neither list.
 
 ## Common Mistakes Borrowers Make
 

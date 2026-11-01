@@ -2,7 +2,7 @@
 title: "What Is an Emergency Fund — and How to Build One in Nigeria"
 slug: "emergency-fund-nigeria"
 date: "2026-04-27T11:58:41+01:00"
-updated: "2026-04-27T12:00:02+01:00"
+updated: "2026-11-01T12:00:00+01:00"
 category: "savings"
 tags: ["How-To Guide"]
 author: "benedict"
@@ -12,6 +12,7 @@ focusKeyword: "emergency fund, emergency fund calculator"
 keyTakeaways: ["An emergency fund is not only for people who already have plenty of money. It is a practical safety cushion that helps when life becomes expensive without warning.", "You do not need a huge amount to begin. What matters most is starting with something small and giving it a clear purpose.", "A separate savings account and a consistent transfer plan can make it easier to build your emergency fund without mixing it with everyday spending.", "If money is already tight, building an emergency fund may feel slow, but even a small buffer can give you better options when an unexpected expense comes up.", "The goal is not to fix your finances overnight. The goal is to reduce pressure the next time something goes wrong.", "Use our emergency fund calculator to estimate how much you may need based on your real monthly expenses."]
 sources: ["EFInA — Access to Financial Services in Nigeria survey reports", "Nigeria Deposit Insurance Corporation (NDIC) — deposit guarantee information", "Central Bank of Nigeria (CBN) — financial consumer protection and savings guidance"]
 calculator: "emergency-fund-calculator"
+reviewed: "2026-11-01"
 wpId: 465
 ---
 
@@ -82,9 +83,9 @@ Your emergency fund needs to meet two conditions: it must be safe, and it must b
 
 **Where to keep it:**
 
-A savings account at a licensed Nigerian bank is the most straightforward option. The money earns a small amount of interest, it is protected by the NDIC deposit guarantee scheme up to the applicable limit, and you can access it quickly when something goes wrong.
+A savings account at a licensed Nigerian bank is the most straightforward option. The money earns a small amount of interest, it is insured by the NDIC up to ₦5 million per depositor at a commercial bank (₦2 million at a microfinance bank), and you can access it quickly when something goes wrong.
 
-Some people use savings features on fintech platforms — Kuda's savings pockets, Piggyvest's SafeLock or regular savings, or similar tools — for their emergency fund. These can work if the money is accessible when genuinely needed, but be careful with any feature that locks funds for a fixed period. An emergency fund locked for 90 days is not useful in a real emergency.
+Some people use savings features on fintech platforms — flexible savings in your bank app, PiggyVest's flexible savings, or similar tools — for their emergency fund. These can work if the money is accessible when genuinely needed, but be careful with any feature that locks funds for a fixed period. An emergency fund locked for 90 days is not useful in a real emergency.
 
 **Where not to keep it:**
 

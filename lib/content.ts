@@ -26,6 +26,8 @@ export type Post = {
   tagline: string;
   date: string;
   updated: string;
+  /** Date the facts in this post were last checked against sources */
+  reviewed?: string;
   category: Motif;
   tags: string[];
   author: AuthorKey;
@@ -153,6 +155,7 @@ export function getAllPosts(): Post[] {
       tagline: data.tagline || "",
       date: data.date,
       updated: data.updated || data.date,
+      reviewed: data.reviewed,
       category: data.category,
       tags: data.tags ?? [],
       author: (data.author ?? "benedict") as AuthorKey,

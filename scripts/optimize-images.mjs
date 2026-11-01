@@ -6,8 +6,9 @@
  *   npm run images:optimize
  *
  * For each image this script:
- *  1. crops to 16:10, resizes to 1600px wide, and saves a WebP to public/images/posts/<slug>.webp
- *  2. sets `image` and `imageAlt` in the post's front matter, so the photo replaces the
+ *  1. checks it is at least 1400px wide, crops to 16:10 at 1920×1200, and saves a WebP to
+ *     public/images/posts/<slug>.webp
+ *  2. sets `image` and `imageAlt` (from content/image-briefs.json) in the post's front matter, so the photo replaces the
  *     generated cover on cards and the article page
  *  3. moves the original into image-inbox/done/
  *
@@ -19,6 +20,8 @@ import sharp from "sharp";
 import matter from "gray-matter";
 
 const ROOT = process.cwd();
+const briefs = JSON.parse(fs.readFileSync(path.join(ROOT, "content/image-briefs.json"), "utf8"));
+const MIN_WIDTH = 1400;
 const INBOX = path.join(ROOT, "image-inbox");
 const OUT = path.join(ROOT, "public/images/posts");
 const POSTS = path.join(ROOT, "content/posts");
@@ -40,13 +43,23 @@ for (const file of files) {
     console.warn(`skip  ${file}: no post with slug "${slug}"`);
     continue;
   }
+  const src = path.join(INBOX, file);
+  const meta = await sharp(src).metadata();
+  if ((meta.width ?? 0) < MIN_WIDTH) {
+    console.warn(`skip  ${file}: only ${meta.width}px wide. Export or upscale to at least ${MIN_WIDTH}px so it stays sharp.`);
+    continue;
+  }
   const dest = path.join(OUT, `${slug}.webp`);
-  await sharp(path.join(INBOX, file)).resize({ width: 1600, height: 1000, fit: "cover", position: "attention" }).webp({ quality: 82 }).toFile(dest);
+  await sharp(src)
+    .rotate()
+    .resize({ width: 1920, height: 1200, fit: "cover", position: "attention" })
+    .webp({ quality: 84, smartSubsample: true })
+    .toFile(dest);
 
   const raw = fs.readFileSync(postPath, "utf8");
   const { data, content } = matter(raw);
   data.image = `/images/posts/${slug}.webp`;
-  data.imageAlt = data.imageAlt || `Illustration for: ${data.title}`;
+  data.imageAlt = data.imageAlt || briefs[slug]?.alt || data.title;
   fs.writeFileSync(postPath, matter.stringify(content, data));
   fs.renameSync(path.join(INBOX, file), path.join(INBOX, "done", file));
   const kb = Math.round(fs.statSync(dest).size / 1024);

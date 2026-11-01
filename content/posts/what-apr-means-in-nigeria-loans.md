@@ -2,7 +2,7 @@
 title: "What APR Means in Nigeria Loans (And Why It Matters More Than the Interest Rate)"
 slug: "what-apr-means-in-nigeria-loans"
 date: "2026-04-23T21:26:13+01:00"
-updated: "2026-04-24T21:17:38+01:00"
+updated: "2026-11-01T12:00:00+01:00"
 category: "debt"
 tags: ["Explainer"]
 author: "benedict"
@@ -12,6 +12,7 @@ focusKeyword: "What APR means"
 keyTakeaways: ["APR stands for Annual Percentage Rate. It is the cost of borrowing expressed as a yearly percentage.", "It is designed to include more than just the basic interest rate — the idea is to give you one number that reflects a fuller picture of what a loan costs, making it easier to compare different offers."]
 sources: ["Central Bank of Nigeria — consumer protection and lending transparency framework", "Federal Competition and Consumer Protection Commission (FCCPC) — digital lending guidelines and consumer rights", "Standard financial literacy resources on Annual Percentage Rate as a lending disclosure tool"]
 calculator: "loan-calculator"
+reviewed: "2026-11-01"
 wpId: 438
 ---
 
@@ -151,7 +152,7 @@ When you are weighing up loan offers, use this approach:
 
 **What should I do if a lender is unclear about their APR or total charges?** Ask for a full written breakdown of every cost before agreeing to anything. If a lender cannot or will not clearly explain what the loan will cost in total, that is a reason to look elsewhere.
 
-**Is APR regulated in Nigeria?** The Central Bank of Nigeria has issued guidance on transparency in lending and has pushed for clearer cost disclosure from financial institutions, including digital lenders. However, disclosure practices vary across lenders and platforms. As a borrower, you still need to read loan terms carefully and ask questions rather than assuming all lenders follow the same standard.
+**Is APR regulated in Nigeria?** Banks and microfinance banks are supervised by the CBN, which requires clear disclosure of charges. Digital and app-based lenders have been regulated by the FCCPC since July 2025, under rules that require clear loan terms and fair pricing. However, disclosure practices still vary across lenders and platforms. As a borrower, you still need to read loan terms carefully and ask questions rather than assuming all lenders follow the same standard.
 
 **What is a reasonable APR for loans in Nigeria?** This varies widely depending on the lender type, loan duration, and the borrower's profile. Bank and formal institution loans typically carry lower rates than digital loan apps. There is no single "normal" figure — which is exactly why comparing APR across offers is important rather than accepting the first offer you see.
 

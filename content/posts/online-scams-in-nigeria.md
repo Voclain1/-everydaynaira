@@ -2,7 +2,7 @@
 title: "Online Scams in Nigeria in 2026: The Most Common Tricks and How to Avoid Them"
 slug: "online-scams-in-nigeria"
 date: "2026-04-21T18:10:17+01:00"
-updated: "2026-04-21T20:45:50+01:00"
+updated: "2026-11-01T12:00:00+01:00"
 category: "money-safety"
 tags: ["Explainer"]
 author: "benedict"
@@ -11,6 +11,7 @@ tagline: "Learn the most common scams in Nigeria in 2026, how they work, and the
 focusKeyword: "online scams"
 keyTakeaways: ["Scammers in Nigeria are using everyday tools like WhatsApp, bank alerts, social media, and fake websites to steal money and personal information.", "The most common scams in 2026 involve fake bank messages, impersonation, fake online stores, investment fraud, job scams, OTP theft, and POS-related fraud.", "You can protect yourself by slowing down, verifying before you act, and never sharing OTPs, PINs, or personal details over a message or call.", "If you have already been scammed, contact your bank immediately, report to the EFCC, and alert your network."]
 sources: ["Economic and Financial Crimes Commission (EFCC) — consumer fraud advisories and reporting channels", "Central Bank of Nigeria (CBN) — consumer protection guidance and fraud awareness notices", "Nigerian Communications Commission (NCC) — telecom-related fraud and SIM swap advisories", "Securities and Exchange Commission Nigeria (SEC Nigeria) — investor protection resources and registered operators list", "Nigeria Deposit Insurance Corporation (NDIC) — depositor protection guidance"]
+reviewed: "2026-11-01"
 wpId: 423
 ---
 
@@ -263,14 +264,15 @@ Being scammed is not a sign of weakness or stupidity. These schemes are designed
 
 1. **Your bank's fraud team** Your first call should always be to your bank. Nigerian banks are required to have fraud response channels. The number is on your card or the bank's official website.
 2. **Economic and Financial Crimes Commission (EFCC)** The EFCC handles financial fraud. You can report online at efcc.gov.ng or call their hotline. They also accept reports through their social media pages.
-3. **Central Bank of Nigeria (CBN)** For complaints about banking services and unresolved fraud issues with your bank, you can contact the CBN Consumer Protection Department at [consumerprotection@cbn.gov.ng](mailto:consumerprotection@cbn.gov.ng).
+3. **Central Bank of Nigeria (CBN)** For complaints about banking services and unresolved fraud issues with your bank, you can contact the CBN Consumer Protection Department at [cpd@cbn.gov.ng](mailto:cpd@cbn.gov.ng). Complain to your bank first and include its complaint reference number.
 4. **Nigerian Communications Commission (NCC)** For telecom-related scams involving SIM swaps, number spoofing, or SMS phishing, contact the NCC at ncc.gov.ng or their consumer line.
 5. **Securities and Exchange Commission Nigeria (SEC Nigeria)** For investment fraud and Ponzi scheme complaints, file a report at sec.gov.ng.
-6. **Nigeria Police Force** For offline fraud or if you can identify the scammer, you can report to the nearest police station or through the NPF's cybercrime reporting channels.
+6. **Federal Competition and Consumer Protection Commission (FCCPC)** For fake or abusive loan apps, debt shaming, and misleading consumer offers, report at fccpc.gov.ng. Since 2025, every digital lender must be registered with the FCCPC.
+7. **Nigeria Police Force** For offline fraud or if you can identify the scammer, you can report to the nearest police station or through the NPF's cybercrime reporting channels.
 
 Keep a record of every report you make, including dates and reference numbers.
 
-[*Also read **Bank charges explained***](/bank-charges-nigeria/)
+[*Also read **What to do after an unauthorized debit***](/what-to-do-after-an-unauthorized-debit-in-nigeria/)
 
 ## Frequently Asked Questions
 
