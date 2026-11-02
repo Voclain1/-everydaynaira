@@ -1,14 +1,14 @@
 ---
-title: "Online Scams in Nigeria in 2026: The Most Common Tricks and How to Avoid Them"
+title: "Online Scams in Nigeria (2026): The Most Common Types and How to Stay Safe"
 slug: "online-scams-in-nigeria"
 date: "2026-04-21T18:10:17+01:00"
 updated: "2026-11-01T12:00:00+01:00"
 category: "money-safety"
 tags: ["Explainer"]
 author: "benedict"
-description: "Scammers in Nigeria are getting smarter. Here are the most common scams targeting Nigerians in 2026, how they work, the warning signs, and exactly what to do to protect yourself."
+description: "Scammers in Nigeria are getting smarter. Here are the most common scams in 2026, how they work, and what to do if you've already been targeted."
 tagline: "Learn the most common scams in Nigeria in 2026, how they work, and the warning signs to watch for. Protect yourself with simple, practical tips to avoid fraud online and offline."
-focusKeyword: "online scams"
+focusKeyword: "online scams in Nigeria"
 keyTakeaways: ["Scammers in Nigeria are using everyday tools like WhatsApp, bank alerts, social media, and fake websites to steal money and personal information.", "The most common scams in 2026 involve fake bank messages, impersonation, fake online stores, investment fraud, job scams, OTP theft, and POS-related fraud.", "You can protect yourself by slowing down, verifying before you act, and never sharing OTPs, PINs, or personal details over a message or call.", "If you have already been scammed, contact your bank immediately, report to the EFCC, and alert your network."]
 sources: ["efcc","cbn-consumer-protection-regs","ncc-fraud","sec-registered-operators","ndic","cbn-how-to-complain","fccpc"]
 reviewed: "2026-11-01"

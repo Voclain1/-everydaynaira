@@ -1,14 +1,14 @@
 ---
-title: "What APR Means in Nigeria Loans (And Why It Matters More Than the Interest Rate)"
+title: "What APR Means in Nigeria — And Why It Matters More Than Your Interest Rate"
 slug: "what-apr-means-in-nigeria-loans"
 date: "2026-04-23T21:26:13+01:00"
 updated: "2026-11-01T12:00:00+01:00"
 category: "debt"
 tags: ["Explainer"]
 author: "benedict"
-description: "Seen \"APR\" on a loan app or bank offer and not sure what it means? This guide explains APR in simple language, how it differs from interest rate, and how to use it to compare loans in Nigeria more wisely."
+description: "Seen "APR" on a loan app and not sure what it means? This guide explains APR in simple terms and shows why it matters more than the headline rate."
 tagline: "APR can make a loan look clearer or more confusing, depending on how it is presented. This guide breaks down what APR means in Nigeria loans and how to use it before you borrow."
-focusKeyword: "What APR means"
+focusKeyword: "APR meaning Nigeria"
 keyTakeaways: ["APR stands for Annual Percentage Rate. It is the cost of borrowing expressed as a yearly percentage.", "It is designed to include more than just the basic interest rate — the idea is to give you one number that reflects a fuller picture of what a loan costs, making it easier to compare different offers."]
 sources: ["cbn-consumer-protection-regs","fccpc-deon-2025","cfpb-apr","fccpc"]
 calculator: "loan-calculator"
@@ -57,7 +57,7 @@ Here is the clearest way to put it:
 
 So two lenders can both charge 20% interest, but one also charges a ₦5,000 processing fee and a ₦3,000 admin fee, while the other charges nothing extra. The APR for the first lender would be higher than 20%, even though the interest rate is the same.
 
-This is why APR exists: to make that difference visible.
+This is why APR exists: to make that difference visible. For a deeper look at how interest is structured across different loan types in Nigeria, see our guide on [how loan interest works in Nigeria](/how-loan-interest-works-in-nigeria/).
 
 ## What APR may include in a loan
 
@@ -123,7 +123,7 @@ APR is a useful starting point, not a finish line. Here is what to check beyond 
 
 **Early repayment terms** If you want to pay off your loan ahead of schedule, will you save money on interest, or will you still owe the full amount? Some loan structures mean early repayment saves very little. Confirm this before signing.
 
-**Whether all charges are clearly disclosed upfront** A lender that is confident in their offer will explain all fees clearly before you accept. If a lender makes it difficult to find the full cost breakdown, or if the numbers only become clear after you have already accepted the offer, treat that as a warning sign.
+**Whether all charges are clearly disclosed upfront** A lender that is confident in their offer will explain all fees clearly before you accept. If a lender makes it difficult to find the full cost breakdown, or if the numbers only become clear after you have already accepted the offer, treat that as a warning sign. For a broader list of what to look for, see our guide on [signs of dangerous loan offers every Nigerian should know](/signs-of-dangerous-loan-offers-every-nigerian-should-know/).
 
 ## How to compare loans more wisely
 
@@ -165,4 +165,4 @@ APR is one of those finance terms that looks complicated but actually has a stra
 
 But do not let APR carry all the weight. The most important question to ask any lender is not just "what is your APR?" It is: "if I borrow this amount and repay as scheduled, exactly how much will I pay back in total?"
 
-That question, combined with a clear understanding of the fee structure and the penalty terms, puts you in a much stronger position than most borrowers. And that is what comparing loans wisely actually looks like.
+That question, combined with a clear understanding of the fee structure and the penalty terms, puts you in a much stronger position than most borrowers. And that is what comparing loans wisely actually looks like. If you are weighing up whether to borrow at all, our guide on [salary advance vs personal loan](/salary-advance-vs-personal-loan-which-one-should-you-take/) may also help you decide.

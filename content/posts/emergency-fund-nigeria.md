@@ -8,7 +8,7 @@ tags: ["How-To Guide"]
 author: "benedict"
 description: "An emergency fund is your financial safety net. Here's what it is, how much you actually need in Nigeria, and the simplest way to start building one"
 tagline: "An emergency fund gives you breathing room when life gets expensive without warning. Here’s how to build one in Nigeria, even if you can only start small."
-focusKeyword: "emergency fund, emergency fund calculator"
+focusKeyword: "emergency fund Nigeria"
 keyTakeaways: ["An emergency fund is not only for people who already have plenty of money. It is a practical safety cushion that helps when life becomes expensive without warning.", "You do not need a huge amount to begin. What matters most is starting with something small and giving it a clear purpose.", "A separate savings account and a consistent transfer plan can make it easier to build your emergency fund without mixing it with everyday spending.", "If money is already tight, building an emergency fund may feel slow, but even a small buffer can give you better options when an unexpected expense comes up.", "The goal is not to fix your finances overnight. The goal is to reduce pressure the next time something goes wrong.", "Use our emergency fund calculator to estimate how much you may need based on your real monthly expenses."]
 sources: ["efina-a2f-2023","ndic","cbn-consumer-protection-regs","ndic-coverage-2024"]
 calculator: "emergency-fund-calculator"

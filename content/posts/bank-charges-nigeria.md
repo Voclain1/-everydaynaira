@@ -6,7 +6,7 @@ updated: "2026-11-01T12:00:00+01:00"
 category: "banking"
 tags: ["Explainer"]
 author: "benedict"
-description: "A clear, practical guide to the most common bank charges in Nigeria — what they are, which ones are regulated, why banks deduct them, and what you can do to reduce the fees eating into your account."
+description: "A clear guide to the most common bank charges in Nigeria — what they are, which ones are legal, and how to avoid paying more than you should."
 tagline: "Understand common bank charges in Nigeria, why banks deduct them, and how to avoid unnecessary fees. Learn what each charge means and how to reduce the cost of everyday banking."
 focusKeyword: "bank charges in nigeria"
 keyTakeaways: ["Banks in Nigeria can charge for certain services, but the CBN sets caps and rules in its Guide to Charges, revised in 2026.", "Under the 2026 guide, interbank transfers up to ₦5,000 are free, ₦5,000 to ₦50,000 costs ₦10, and above ₦50,000 costs ₦50.", "Your own bank's ATM is free. Another bank's ATM costs ₦100 per ₦20,000 withdrawn, plus up to ₦500 extra at off-site machines.", "Monthly card maintenance fees on naira debit cards have been scrapped, and current account maintenance fees are being phased out by 2027.", "Government charges sit on top: 7.5% VAT on bank fees, and ₦50 stamp duty paid by the sender on transfers of ₦10,000 or more.", "If a charge looks wrong, complain to your bank first, then escalate to the CBN at cpd@cbn.gov.ng."]

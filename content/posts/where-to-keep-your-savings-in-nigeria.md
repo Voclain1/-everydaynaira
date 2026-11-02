@@ -1,14 +1,14 @@
 ---
-title: "Where to Keep Your Savings in Nigeria: Safe Options for Different Goals"
+title: "Where to Keep Your Savings in Nigeria: Options for Every Goal"
 slug: "where-to-keep-your-savings-in-nigeria"
 date: "2026-05-02T19:59:15+01:00"
 updated: "2026-11-01T12:00:00+01:00"
 category: "savings"
 tags: ["Explainer"]
 author: "benedict"
-description: "Not sure where to keep your savings in Nigeria? This guide explains your real options — savings accounts, fixed deposits, fintech wallets, and more — so you can choose what works for your situation."
+description: "Not sure where to keep your savings in Nigeria? This guide explains your real options — savings accounts, fixed deposits, dollar savings, and more."
 tagline: "The best place to keep your savings depends on what the money is for, how soon you may need it, and how easy it is for you to spend it. This guide explains the safest and smartest places to keep savings in Nigeria without making your money too hard to reach or too easy to touch."
-focusKeyword: "savings"
+focusKeyword: "where to keep savings in Nigeria"
 keyTakeaways: ["The best place to keep savings depends entirely on what the money is for — there is no single right answer.", "Emergency savings need to be safe and quick to access when you need them.", "Goal-based savings need protection from impulse spending, not just a place to sit.", "Your main options include separate savings accounts, fixed deposits, fintech savings products, and cooperatives — each with different trade-offs.", "The trade-offs that matter most are safety, ease of access, discipline support, and returns.", "Your main bank account is one of the worst places to keep savings — too easy to spend from.", "Keeping cash at home is also a poor choice — no protection, no earnings, and always within reach."]
 sources: ["ndic","cbn-consumer-protection-regs","sec-registered-operators","efina-a2f-2023","ndic-coverage-2024","cbn-guide-charges-2026","dailytrust-cbn-charges-2026"]
 calculator: "emergency-fund-calculator"

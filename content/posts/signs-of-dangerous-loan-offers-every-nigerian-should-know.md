@@ -6,9 +6,9 @@ updated: "2026-11-01T12:00:00+01:00"
 category: "debt"
 tags: ["Explainer"]
 author: "benedict"
-description: "Urgent need for money? Learn the dangerous loan offer signs Nigerian borrowers often miss — hidden charges, pressure tactics, unclear rates, and more — before you accept anything."
+description: "Urgent need for cash? Know the warning signs of dangerous loan offers in Nigeria — hidden charges, fake lenders, and how to spot them before signing."
 tagline: "Some loan offers look helpful at first, but the real risk is often hidden in the fine print, vague terms, or repayment pressure. This guide shows the warning signs of a risky loan offer in Nigeria before you accept it."
-focusKeyword: "Loan"
+focusKeyword: "dangerous loan offers in Nigeria"
 keyTakeaways: ["A loan offer becomes risky when it hides important information, rushes you into a decision, is unclear about what repayment will actually cost, or comes from a lender with no verifiable identity.", "Warning signs include vague interest rates, hidden charges, pressure to borrow immediately, abusive collection threats, and requests for access that seem excessive.", "A clean loan offer gives you enough information to decide calmly. A risky one tries to prevent that."]
 sources: ["fccpc-deon-2025","fccpc","cbn-licensed-institutions","ndpc","nairametrics-fccpc-2026","cbn-how-to-complain"]
 calculator: "loan-calculator"

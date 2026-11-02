@@ -6,7 +6,7 @@ updated: "2026-11-01T12:00:00+01:00"
 category: "money-safety"
 tags: ["Explainer"]
 author: "benedict"
-description: "Money left your account without your permission? Here is exactly what to do after an unauthorized debit in Nigeria — from your very first step to escalating if your bank does not fix it."
+description: "Money left your account without permission? Here's exactly what to do after an unauthorized debit in Nigeria — bank dispute, CBN, and what to expect."
 tagline: "Money left your account without your approval? Here’s how to respond fast, report it properly, and reduce further risk."
 focusKeyword: "Unauthorized Debit"
 keyTakeaways: ["Screenshot the alert and check the full transaction details in your banking app", "Think through whether it could be a subscription, failed transaction, or known bank charge", "If you genuinely did not authorize it, block your card immediately through your app", "Change your internet banking password and transaction PIN if you suspect fraud", "Call your bank's fraud or customer care line right away", "Write down the date, amount, narration, and transaction reference before you do anything else", "When you reach the bank, ask for a complaint reference number and write it down"]
