@@ -13,6 +13,9 @@ keyTakeaways: ["Stamp duty on bank transfers is a government charge, not a bank 
 sources: ["nigeria-tax-act-2025","kuda-stamp-duty","techcabal-transfers-2026","techcabal-60-naira","cbn-guide-charges-2026","dailytrust-cbn-charges-2026","firs-stamp-duty-circular","mazars-finance-act-2020","cbn-how-to-complain"]
 reviewed: "2026-11-01"
 wpId: 460
+image: /images/posts/stamp-duty-on-bank-transfer-in-nigeria-explained.webp
+imageAlt: "A market trader sending a bank transfer on her phone at her stall"
+
 ---
 
 You send ₦20,000 to a friend at another bank. The transfer goes through, and then a second, smaller debit appears on your statement. The description says "stamp duty", "SD charge", or something close.

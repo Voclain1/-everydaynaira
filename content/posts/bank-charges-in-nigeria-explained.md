@@ -13,6 +13,9 @@ keyTakeaways: ["Most bank charges in Nigeria are legitimate, but often poorly ex
 sources: ["cbn-guide-charges-2026","dailytrust-cbn-charges-2026","cbn-atm-faq-2025","ncc-ussd-2025","nigeria-tax-act-2025","cbn-how-to-complain","kuda-stamp-duty"]
 reviewed: "2026-11-01"
 wpId: 402
+image: /images/posts/bank-charges-in-nigeria-explained.webp
+imageAlt: "A hand holding a phone with debit alerts above a highlighted bank statement"
+
 ---
 
 You check your account balance and the number is lower than you expected. You did not spend that money. You did not make a large transfer. But something came out — a small deduction here, another one there, a mysterious line that just says "charge" or "VAT" or "SMS fee."

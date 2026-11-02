@@ -14,6 +14,9 @@ sources: ["cbn-consumer-protection-regs","fccpc-deon-2025","cfpb-apr","fccpc"]
 calculator: "loan-calculator"
 reviewed: "2026-11-01"
 wpId: 438
+image: /images/posts/what-apr-means-in-nigeria-loans.webp
+imageAlt: "Two loan offer letters on a desk with a calculator and a pen"
+
 ---
 
 You are checking a loan offer on an app or a bank page. The monthly repayment looks manageable. Then somewhere on the screen you spot a line that reads something like **"APR: 48%"** — and you pause.

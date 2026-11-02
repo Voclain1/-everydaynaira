@@ -14,6 +14,9 @@ sources: ["nbs-cpi-sep-2026","cbn-finlit","efina-a2f-2023","nigeria-tax-act-2025
 calculator: "savings-goal-calculator"
 reviewed: "2026-11-01"
 wpId: 77
+image: /images/posts/how-to-save-money-in-nigeria-as-a-salary-earner-practical-guide.webp
+imageAlt: "A salary earner in his car after work, checking a savings transfer on his phone"
+
 ---
 
 Salary enters the account and the month begins. Rent, transport, food, airtime, electricity, a family request, a small emergency, and somewhere around the third week, the account balance is thin again. Not because anything dramatic happened. Just because the month happened.

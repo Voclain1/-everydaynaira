@@ -14,6 +14,9 @@ sources: ["cbn-finlit","efina-a2f-2023","nbs-cpi-sep-2026"]
 calculator: "budget-calculator"
 reviewed: "2026-11-01"
 wpId: 21
+image: /images/posts/how-to-create-a-monthly-budget-in-nigeria.webp
+imageAlt: "A woman writing her monthly budget in a notebook at a dining table, with naira notes and a phone beside her"
+
 ---
 
 Most people do not lose track of money in one dramatic moment. It happens gradually. The month starts well, then small spending decisions pile up quietly until there is almost nothing left. You look at your account and wonder where it all went.

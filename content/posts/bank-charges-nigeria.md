@@ -13,6 +13,9 @@ keyTakeaways: ["Banks in Nigeria can charge for certain services, but the CBN se
 sources: ["cbn-guide-charges-2026","dailytrust-cbn-charges-2026","cbn-atm-faq-2025","ncc-ussd-2025","nigeria-tax-act-2025","cbn-how-to-complain","kuda-stamp-duty","candide-charges-2026"]
 reviewed: "2026-11-01"
 wpId: 420
+image: /images/posts/bank-charges-nigeria.webp
+imageAlt: "A customer using an ATM outside a bank branch in Nigeria"
+
 ---
 
 You check your account balance on a Tuesday morning and notice it is ₦200 lower than what you expected. No transfer went out. No bill was due. But the money is gone.

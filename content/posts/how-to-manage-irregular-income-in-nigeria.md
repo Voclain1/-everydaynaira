@@ -14,6 +14,9 @@ sources: ["cbn-finlit","efina-a2f-2023","nbs-nlfs","nairametrics-self-employed"]
 calculator: "emergency-fund-calculator"
 reviewed: "2026-11-01"
 wpId: 494
+image: /images/posts/how-to-manage-irregular-income-in-nigeria.webp
+imageAlt: "A ride-hailing driver checking his weekly earnings in his parked car"
+
 ---
 
 One month, ₦250,000 enters. You settle some bills, breathe a little, maybe buy something you have been putting off. The next month, only ₦60,000 comes in — and rent is due, food is finishing, transport still costs what it always does, and two people have called asking for help.

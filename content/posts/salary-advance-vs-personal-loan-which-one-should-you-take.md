@@ -14,6 +14,9 @@ sources: ["cbn-consumer-protection-regs","fccpc-deon-2025","efina-a2f-2023","nib
 calculator: "loan-calculator"
 reviewed: "2026-11-01"
 wpId: 456
+image: /images/posts/salary-advance-vs-personal-loan-which-one-should-you-take.webp
+imageAlt: "An office worker reading a payslip at their desk, a phone beside it"
+
 ---
 
 Your salary has not dropped yet. Payday is still ten days away. But something has come up — rent, a medical bill, your child's school fees, a repair you cannot delay. You need money now, and you are trying to figure out whether to take a salary advance or apply for a personal loan.

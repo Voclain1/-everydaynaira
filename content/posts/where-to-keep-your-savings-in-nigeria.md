@@ -14,6 +14,9 @@ sources: ["ndic","cbn-consumer-protection-regs","sec-registered-operators","efin
 calculator: "emergency-fund-calculator"
 reviewed: "2026-11-01"
 wpId: 467
+image: /images/posts/where-to-keep-your-savings-in-nigeria.webp
+imageAlt: "A piggy bank, bank passbook, phone and cooperative card on a shelf"
+
 ---
 
 You decided to save, so you told yourself to keep a specific amount aside every month. You even did it — transferred the money, and felt good about it.
