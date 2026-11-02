@@ -1,5 +1,5 @@
 ---
-title: "Online Scams in Nigeria (2026): The Most Common Types and How to Stay Safe"
+title: "Online Scams in Nigeria: The Most Common Types and How to Stay Safe"
 slug: "online-scams-in-nigeria"
 date: "2026-04-21T18:10:17+01:00"
 updated: "2026-11-01T12:00:00+01:00"

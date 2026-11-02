@@ -1,5 +1,5 @@
 ---
-title: "What APR Means in Nigeria — And Why It Matters More Than Your Interest Rate"
+title: "What APR Means in Nigeria — And Why It Matters More Than the Rate"
 slug: "what-apr-means-in-nigeria-loans"
 date: "2026-04-23T21:26:13+01:00"
 updated: "2026-11-01T12:00:00+01:00"

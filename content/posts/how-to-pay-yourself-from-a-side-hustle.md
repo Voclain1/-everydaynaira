@@ -6,7 +6,7 @@ updated: "2026-11-01T12:00:00+01:00"
 category: "income"
 tags: ["How-To Guide"]
 author: "benedict"
-description: "Most side hustle money disappears before month-end. Here is a simple, practical system on how to pay yourself properly — and actually keeping the business alive."
+description: "Most side hustle money disappears before month-end. Here is a simple system to pay yourself properly and keep the business alive."
 tagline: "Learn a simple way to separate side hustle money, protect your business, and pay yourself properly without spending everything that comes in."
 focusKeyword: "how to pay yourself"
 keyTakeaways: ["Treating side hustle money as \"free money\" is the most common reason the hustle stalls or disappears quietly. Structure changes that.", "Separating business money from personal money — even mentally, and ideally physically — makes it possible to actually know whether the hustle is working.", "Pay yourself from profit, not from sales. Deduct business costs first.", "Use percentages rather than fixed amounts, especially if income is irregular. It keeps the system honest.", "A small reserve fund protects the business during slow months and removes the pressure of needing every good month to be perfect.", "Paying yourself is not optional. It is part of making the side hustle sustainable. But it must be planned, not impulsive."]

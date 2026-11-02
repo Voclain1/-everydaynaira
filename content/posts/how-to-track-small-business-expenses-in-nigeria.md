@@ -6,7 +6,7 @@ updated: "2026-11-01T12:00:00+01:00"
 category: "income"
 tags: ["How-To Guide"]
 author: "benedict"
-description: "Learn how to track your small business expenses in Nigeria without complicated accounting. A practical guide for traders, freelancers, and small business owners."
+description: "Track your small business expenses in Nigeria without complicated accounting. A practical guide for traders, freelancers, and small business owners."
 tagline: "Small expenses can quietly drain business money when nothing is being tracked properly. This guide explains how small business owners in Nigeria can record expenses clearly, spot waste faster, and understand where their money is really going."
 focusKeyword: "track small business expenses"
 keyTakeaways: ["Tracking expenses means recording every cost your business pays — stock, transport, delivery, airtime, rent, packaging, fuel, and everything else", "Write down each expense as it happens, before memory fades", "Group similar costs into categories so patterns become visible", "Review your records at least once a week", "You do not need accounting software to start — a notebook or basic spreadsheet is enough"]
