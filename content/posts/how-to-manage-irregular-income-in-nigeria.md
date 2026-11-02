@@ -27,31 +27,15 @@ This is what makes irregular income genuinely difficult. It is not always about 
 
 This guide is about building that structure.
 
-## What Irregular Income Actually Means
+## Understanding Irregular Income
 
-Irregular income is any money that does not arrive in a fixed, predictable amount at the same time every month.
+Irregular income is any money that does not arrive in a fixed, predictable amount at the same time every month. It covers freelancers waiting on client payments, artisans and tradespeople whose work comes in waves, online sellers and traders whose revenue depends on demand, POS operators with daily cash flow that varies week to week, commission earners, contract workers, tutors, consultants, delivery workers, and small business owners whose monthly income depends on how busy the period is.
 
-It covers a wide range of situations:
+Irregular income can be weekly, monthly, seasonal, or completely unpredictable. The challenge is real. But it is manageable if you stop trying to budget as though your income behaves like a salary.
 
-Freelancers waiting on client payments. Artisans and tradespeople whose work comes in waves. Online sellers and traders whose revenue depends on demand. POS operators with daily cash flow that varies week to week. Content creators with platform earnings and brand deals. Commission earners whose pay reflects what they sell that month. Contract workers paid per project. Tutors, consultants, delivery workers, and small business owners whose monthly income depends on how busy the period is.
+A few honest reasons this is difficult: you often do not know what will come in next month, so planning feels pointless. Good months create a false sense of normal — if you earn ₦350,000 in one month and adjust your spending to match, the ₦130,000 month that follows will feel catastrophic, even though ₦130,000 is not a bad number on its own. Family and social obligations add further pressure: a visible good month often attracts requests from relatives, friends, and neighbours, and many people give beyond what their system can support.
 
-Irregular income can be weekly, monthly, seasonal, or completely unpredictable. Some people earn more in December and less in January. Others have strong months randomly with quiet stretches in between. Others are still in the early phase where income is growing but not yet stable.
-
-The challenge is real. But it is manageable if you stop trying to budget as though your income behaves like a salary.
-
-## Why Irregular Income Is Hard to Handle
-
-A few honest reasons this is difficult:
-
-You often do not know what will come in next month, so planning feels pointless. When money enters, the relief of having it makes spending feel justified. Bills, however, are fixed — rent, school fees, loan repayments, electricity — and they do not negotiate around your income cycle.
-
-Good months create a false sense of normal. If you earn ₦350,000 in one month and adjust your spending to match, the ₦130,000 month that follows will feel catastrophic — even though ₦130,000 is not a bad number on its own.
-
-Family and social obligations add pressure. In Nigeria especially, a visible good month often attracts requests — from relatives, friends, and neighbours who need help. Saying no is genuinely hard, and many people give beyond what their system can support.
-
-And for freelancers and small business owners, there is the additional problem of mixing business money and personal money. When a customer pays you, it can feel like your money — but if that payment includes funds for restocking, materials, or tools, spending it personally creates a hole in the business.
-
-These are real patterns. The fix is not willpower alone. It is structure.
+The fix is not willpower alone. It is structure.
 
 ## Step 1: Know Your Baseline Monthly Expenses
 
@@ -126,7 +110,9 @@ Sales are not profit. If ₦80,000 enters from product sales but ₦55,000 of th
 
 Keeping business income separate from personal income is one of the most practical things a self-employed person in Nigeria can do. The article on [how to pay yourself from a side hustle](/how-to-pay-yourself-from-a-side-hustle/) covers this in detail, including simple formulas for splitting business income by type of hustle.
 
-## Step 7: Use Windfalls Wisely
+## Step 7: Handle Windfalls and Track Weekly
+
+### Use windfalls wisely
 
 When a larger-than-expected payment arrives, the temptation is to treat the whole thing as free money. A more structured approach:
 
@@ -134,54 +120,43 @@ Cover any overdue bills first. Refill the slow-month fund if it has been used. S
 
 The key warning here is this: one good month should not reset your lifestyle. The rent upgrade, the new device, the regular outings — if these are funded by a single windfall, the next ordinary month will feel inadequate by comparison. Use windfalls to strengthen your foundation, not raise your ceiling.
 
-## Step 8: Track Income and Expenses Weekly
+### Track income and expenses weekly
 
 With irregular income, monthly reviews are often too infrequent. A simple weekly check keeps you oriented before things go wrong.
 
-Track at minimum:
-
-- Date
-- Source of income
-- Amount received
-- Business costs that week
-- Personal spending
-- Savings or reserve contribution
-- Running balance
+Track at minimum: date, source of income, amount received, business costs that week, personal spending, savings or reserve contribution, and running balance.
 
 A notebook works. Google Sheets works. The notes app on your phone works. The format matters less than the habit. Once you can see the pattern clearly — where money comes from, how fast it leaves, what categories are eating the most — you can make better decisions at the point when income enters.
 
-## Step 9: Plan Bills Before Enjoyment
+## Step 8: Plan Bills First and Reduce Fixed Costs
+
+### Plan bills before enjoyment
 
 When money is irregular, the order in which you allocate it matters more than it does for salary earners.
 
-A sensible order:
+A sensible order: food and basic daily living first, then rent and utilities, transport and work costs, debt obligations, slow-month fund and savings, and personal enjoyment last.
 
-1. Food and basic daily living
-2. Rent and utilities
-3. Transport and work costs
-4. Debt obligations
-5. Slow-month fund and savings
-6. Personal enjoyment
+This does not mean enjoyment is wrong. It means enjoyment is more sustainable when it comes after the foundation is covered.
 
-This does not mean enjoyment is wrong. It means enjoyment is more sustainable when it comes after the foundation is covered. The problem is not spending on yourself — the problem is spending on yourself before the things that keep your life stable are sorted.
-
-## Step 10: Reduce Fixed Expenses Where Possible
+### Reduce fixed expenses where possible
 
 Irregular income becomes harder to manage when fixed expenses are too high.
 
 Expensive rent relative to income, too many subscriptions, high loan repayments, lifestyle commitments made during a good period — these create pressure that does not ease when income drops.
 
-This is not a call to live without comfort. It is a practical observation: the fewer fixed commitments you have relative to your lowest normal income, the more breathing room you create. Every fixed cost you can reduce or eliminate increases your ability to survive a slow month without panic.
+The fewer fixed commitments you have relative to your lowest normal income, the more breathing room you create. Every fixed cost you can reduce or eliminate increases your ability to survive a slow month without panic.
 
 If you want to apply a percentage-based framework to your fixed and flexible expenses, the [50/30/20 budget method](/5030-20-budget-rule-for-nigerians/) can be adapted for irregular income by applying the ratios to whatever entered that month rather than a fixed salary.
 
-## What to Do in a Bad Income Month
+## What to Do When Income Swings
+
+### In a bad income month
 
 Pause non-essential spending immediately — not permanently, just for that month. Use the slow-month fund for what it was built for. If you can negotiate a payment date extension on a bill, ask — many landlords, suppliers, and even lenders will agree if approached honestly and early. Focus energy on income-generating activities rather than worrying about what did not come in. Avoid panic borrowing if another option exists. Review what caused the shortfall — was it seasonal, an unusual delay, or a gap you can close?
 
-And do not shame yourself. A dry month is not a verdict on your capability. It is part of the pattern that irregular income creates. Having a system means it hurts less.
+Do not shame yourself. A dry month is not a verdict on your capability. It is part of the pattern that irregular income creates. Having a system means it hurts less.
 
-## What to Do in a Good Income Month
+### In a good income month
 
 Do not immediately conclude that every month will be like this one. Rebuild reserves first. Pay any bills ahead of schedule where possible. Invest in tools, training, or anything that improves your ability to earn. Set aside business costs and any relevant tax provisions. Reward yourself with something small and intentional. Save the rest.
 
@@ -206,16 +181,12 @@ If ₦200,000 enters that month, the extra ₦80,000 is distributed deliberately
 
 Where to keep that reserve matters too. The guide on [where to keep your savings in Nigeria](/where-to-keep-your-savings-in-nigeria/) covers some practical options that balance accessibility with protection from casual spending.
 
-## A Simple Rule to Remember
+## The Core Rule — and Where to Start
 
 **Build your life around your lowest normal income, then use better months to create breathing space.**
 
 This is the core idea behind every step in this guide. Not pessimism — realism. When your baseline is set at a number your income can reliably reach even in slow periods, you stop feeling like you are falling behind every time a quiet month arrives. And when better months come, you have something to show for them: a stronger reserve, a cleared debt, tools that help you earn more.
 
-## Final Thought
-
 Irregular income does not have to mean financial chaos. It does mean you need a more thoughtful system than someone with a fixed salary — because your income will not do the organising for you.
 
-You cannot control exactly when payments arrive or how much a particular month brings in. What you can control is what happens the moment money enters: where it goes first, how it is divided, and whether the system you have built can survive a quiet period without falling apart.
-
-That system does not need to be perfect from the start. Start with knowing your baseline. Separate your money. Track what comes in. The rest gets easier from there.
+Start with knowing your baseline. Separate your money. Track what comes in. The rest gets easier from there.

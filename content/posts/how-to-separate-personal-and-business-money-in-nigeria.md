@@ -6,7 +6,7 @@ updated: "2026-11-01T12:00:00+01:00"
 category: "income"
 tags: ["How-To Guide"]
 author: "benedict"
-description: "Mixing personal and business money in Nigeria? Here's a simple, practical guide to separating your finances, paying yourself properly, and finally knowing whether your business is making profit."
+description: "Mixing personal and business money? Here's a practical guide to separating your finances in Nigeria — accounts, systems, and when to formalize."
 tagline: "When personal and business money stay in the same place, it becomes hard to know what the business is truly earning or spending. This guide shows small business owners in Nigeria how to separate both clearly and manage money with less confusion."
 focusKeyword: "how to separate personal and business money"
 keyTakeaways: ["Open a dedicated bank account for business income only, collect all customer payments into that account", "Decide on a fixed or flexible amount to pay yourself, and keep a simple record of every business expense.", "You do not need to be registered or incorporated to start doing this today."]

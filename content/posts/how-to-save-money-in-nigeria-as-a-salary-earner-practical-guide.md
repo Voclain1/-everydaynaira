@@ -6,9 +6,9 @@ updated: "2026-11-01T12:00:00+01:00"
 category: "savings"
 tags: ["How-To Guide"]
 author: "benedict"
-description: "Saving on a Nigerian salary is hard but possible. This practical guide shows salary earners how to build a real saving habit despite rent, transport, food costs, and family obligations."
+description: "Saving on a Nigerian salary is hard but possible. Practical steps, real naira examples, and savings methods that actually work for salary earners."
 tagline: "Learn how to save money consistently on a salary in Nigeria, with realistic budgeting methods, real examples, and tips that work even when income feels tight."
-focusKeyword: "save money"
+focusKeyword: "how to save money in Nigeria as a salary earner"
 keyTakeaways: ["Saving on a salary in Nigeria is not about finding extra money. It is about protecting a portion of the money you already have before the month can spend it for you.", "Start with a number you can commit to without straining. Move it to a separate place on the day your salary arrives. Keep it there. Build the habit before you build the balance.", "That is the foundation. Everything else, including bigger savings, specific goals, and longer-term financial stability, can be built on top of it once the habit is real."]
 sources: ["nbs-cpi-sep-2026","cbn-finlit","efina-a2f-2023","nigeria-tax-act-2025","africacheck-tax-factsheet"]
 calculator: "savings-goal-calculator"
@@ -59,7 +59,7 @@ Some people use automatic transfers to a separate savings account. Others move t
 
 ### Keep your savings in a separate account
 
-When savings sit in the same account as daily spending, they get spent. Not always intentionally, but gradually. A separate account, even a basic one at your bank or a labelled savings pocket on a fintech app, creates a barrier that slows spending.
+When savings sit in the same account as daily spending, they get spent. Not always intentionally, but gradually. A separate account, even a basic one at your bank or a labelled savings pocket on a fintech app, creates a barrier that slows spending. If you are unsure which account type makes sense, see our guide on [where to keep your savings in Nigeria](/where-to-keep-your-savings-in-nigeria/).
 
 The friction of having to log into a different account or transfer money back before spending it gives you a moment to reconsider. That moment is valuable.
 
@@ -79,13 +79,13 @@ List your income. List your actual monthly costs, including the irregular ones t
 
 A budget gives every naira a job, which means less money drifts into spending that you did not consciously choose.
 
-For a full walkthrough, see our guide on how to create a monthly budget in Nigeria.
+For a full walkthrough, see our guide on [how to create a monthly budget in Nigeria](/how-to-create-a-monthly-budget-in-nigeria/).
 
 ### Plan for expenses you already know are coming
 
 Rent renewal, school fees, Christmas, travel, a phone that is showing signs of age — these are not surprises. They are predictable costs that many people fail to save toward in advance.
 
-Setting aside a small amount every month toward each of these costs means the money is ready when the time comes. This approach, sometimes called sinking funds, is one of the most practical saving tools available for salary earners.
+Setting aside a small amount every month toward each of these costs means the money is ready when the time comes. This approach, sometimes called sinking funds, is one of the most practical saving tools available for salary earners. Learn more in our guide on [what sinking funds are and how to use them in Nigeria](/what-are-sinking-funds-and-how-do-you-use-them-in-nigeria/).
 
 If your rent renewal is ₦600,000 and it comes up every twelve months, setting aside ₦50,000 per month means you are never scrambling at renewal time.
 

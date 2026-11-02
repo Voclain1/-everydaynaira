@@ -6,7 +6,7 @@ updated: "2026-11-01T12:00:00+01:00"
 category: "banking"
 tags: ["Explainer"]
 author: "benedict"
-description: "Your bank balance keeps shrinking and you are not sure why. This guide explains every common bank charge in Nigeria, which ones are normal, which deserve a closer look, and how to reduce what you pay."
+description: "Your bank balance keeps shrinking and you're not sure why. This guide explains every common bank charge in Nigeria — what it is and how to avoid it."
 tagline: "Understand the common bank charges on your account in Nigeria, what they mean, and why banks deduct them. Learn which fees are normal, which ones deserve attention, and how to reduce unnecessary charges."
 focusKeyword: "bank charges in Nigeria"
 keyTakeaways: ["Most bank charges in Nigeria are legitimate, but often poorly explained.", "The CBN revised its Guide to Charges in 2026: small transfers up to ₦5,000 are free, naira card maintenance fees are gone, and current account maintenance fees end in 2027.", "VAT (7.5%) and stamp duty (₦50 on transfers of ₦10,000 or more, paid by the sender since January 2026) are government charges, not bank profit.", "Your own bank's ATM is free; other banks' ATMs cost ₦100 per ₦20,000 withdrawn, plus up to ₦500 at off-site machines.", "Unclear, repeated, or unusually high deductions should be checked, and you can escalate unresolved complaints to the CBN at cpd@cbn.gov.ng."]
@@ -148,7 +148,7 @@ If you make a single transfer and see three separate debits for it, something ma
 Transfer fees, for instance, have regulated caps. If what you are being charged seems far outside normal range, verify with the CBN's published guidelines or your bank's official fee page before assuming it is correct.
 
 **Recurring debits you do not recognize**
-These could be subscription charges from third-party services you signed up for at some point, or they could be unauthorized. Check your transaction history for the originating service name. If you cannot identify it, contact your bank.
+These could be subscription charges from third-party services you signed up for at some point, or they could be unauthorized. Check your transaction history for the originating service name. If you cannot identify it, contact your bank. Recurring unauthorized debits can also be a sign of fraud — our guide on [common online scams in Nigeria](/online-scams-in-nigeria/) covers how to spot these patterns early.
 
 **Charges on a dormant or lightly used account**
 If an account you rarely use is losing money every month, ask why. Under the 2026 guide, reactivating a dormant account is free, and naira card maintenance fees should no longer apply.
@@ -195,7 +195,7 @@ Streaming services, fintech apps, and other platforms can charge your account if
 Call your bank's customer service line, use the in-app chat, or visit a branch. Ask them to identify the specific deduction by date and amount. Legitimate charges can always be explained.
 
 **Step 4: File a dispute if the charge cannot be explained**
-If your bank cannot explain the deduction or confirms that it was applied in error, ask them to raise a dispute or reversal. Most Nigerian banks have a formal dispute process. Get a reference number for your complaint.
+If your bank cannot explain the deduction or confirms that it was applied in error, ask them to raise a dispute or reversal. Most Nigerian banks have a formal dispute process. Get a reference number for your complaint. For a full step-by-step walkthrough, see our guide on [what to do after an unauthorized debit in Nigeria](/what-to-do-after-an-unauthorized-debit-in-nigeria/).
 
 **Step 5: Escalate to the CBN if your bank does not resolve it**
 The Central Bank of Nigeria has a Consumer Protection Department that handles unresolved banking complaints. Email [cpd@cbn.gov.ng](mailto:cpd@cbn.gov.ng) or write to any CBN branch, attaching your bank's complaint reference number. The CBN expects you to give your bank about two weeks first. This is your right as a bank customer.
@@ -206,7 +206,7 @@ The charges on your bank account are real, but they are not mysterious once you 
 
 The problem is that banks rarely explain them clearly in the moment. That is why your statement feels confusing.
 
-Now that you know what to look for, you can do three things: track your account regularly, understand which charges are standard, and question anything that does not fit. You do not have to accept an unexplained deduction quietly. You have the right to ask, and you have the right to dispute.
+Now that you know what to look for, you can do three things: track your account regularly, understand which charges are standard, and question anything that does not fit. You do not have to accept an unexplained deduction quietly. You have the right to ask, and you have the right to dispute. If you also have loans or credit products, see our guide on [signs of dangerous loan offers every Nigerian should know](/signs-of-dangerous-loan-offers-every-nigerian-should-know/) — some of the same patterns that produce hidden bank charges appear in predatory lending too.
 
 ## Frequently asked questions
 

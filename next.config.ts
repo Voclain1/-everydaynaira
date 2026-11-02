@@ -40,6 +40,9 @@ const nextConfig: NextConfig = {
       { source: "/:type(post|page|category|local|author)-sitemap.xml", destination: "/sitemap.xml", permanent: true },
       { source: "/sitemap", destination: "/sitemap.xml", permanent: true },
       { source: "/home", destination: "/", permanent: true },
+      // Cannibalisation fix: thin duplicate consolidated into the full guide
+      { source: "/bank-charges-nigeria", destination: "/bank-charges-in-nigeria-explained/", permanent: true },
+      { source: "/bank-charges-nigeria/", destination: "/bank-charges-in-nigeria-explained/", permanent: true },
       ...Object.entries(legacyIds as Record<string, string>).flatMap(([id, dest]) => [
         { source: "/", has: [{ type: "query" as const, key: "p", value: id }], destination: dest, permanent: true },
         { source: "/", has: [{ type: "query" as const, key: "page_id", value: id }], destination: dest, permanent: true },

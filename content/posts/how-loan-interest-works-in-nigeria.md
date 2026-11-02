@@ -6,7 +6,7 @@ updated: "2026-11-01T12:00:00+01:00"
 category: "debt"
 tags: ["Explainer"]
 author: "benedict"
-description: "Many borrowers are surprised by how much they actually repay. This guide explains how loan interest works in Nigeria — how it is calculated, what it adds to your repayment, and what to check before you borrow."
+description: "Many borrowers are surprised by the real cost of their loan. This guide explains how interest works in Nigeria — flat rate, reducing balance, and APR."
 tagline: "A loan may look affordable at first, but interest can change the real cost quickly. This guide explains how loan interest works in Nigeria and what to check before you borrow."
 focusKeyword: "loan interest"
 keyTakeaways: ["Loan interest is the extra money you pay a lender for using their money. It is usually charged as a percentage of the amount you borrow.", "How much you end up paying depends on the interest rate, how long the loan runs, and the calculation method the lender uses.", "In almost every case, the total amount you repay is higher — sometimes significantly higher — than the amount you originally borrowed."]

@@ -1,14 +1,14 @@
 ---
-title: "50/30/20 Budget Rule in Nigeria: Does It Really Work for Salary Earners?"
+title: "50/30/20 Budget Rule in Nigeria: Does It Work for Salary Earners?"
 slug: "5030-20-budget-rule-for-nigerians"
 date: "2026-04-15T18:40:20+01:00"
 updated: "2026-11-01T12:00:00+01:00"
 category: "budgeting"
 tags: ["Explainer"]
 author: "benedict"
-description: "Does the 50/30/20 budget rule in Nigeria really work? See how the rule works, where it breaks down for salary earners, and how to adapt it to real Nigerian living costs."
+description: "Does the 50/30/20 rule work on a Nigerian salary? See where it breaks down and how to adapt it to real naira budgets."
 tagline: "A practical guide to the 50/30/20 budget rule in Nigeria, and how salary earners can adapt it to real living costs."
-focusKeyword: "50/30/20 rule"
+focusKeyword: "50/30/20 budget rule Nigeria"
 keyTakeaways: []
 sources: ["cfpb-budgets","all-your-worth","nbs-consumption-2019","nbs-cpi-jun-2025","nbs-transport-fare","nbs-pms-jun-2025","efina-beyond-access","nbs-cpi-sep-2026"]
 calculator: "budget-calculator"
@@ -155,7 +155,7 @@ Yes, food is a need. But not every food expense is a need. Frequent takeout, con
 Another mistake is ignoring irregular expenses.
 Many Nigerians budget for monthly bills but forget things like:
 school levies, rent renewals, medical surprises, birthdays, festive travel, and family emergencies.
-That is where sinking funds help. Instead of waiting for those expenses to shock you, save for them gradually.
+That is where sinking funds help. Instead of waiting for those expenses to shock you, save for them gradually. Our guide on [what sinking funds are and how to use them in Nigeria](/what-are-sinking-funds-and-how-do-you-use-them-in-nigeria/) explains how to set them up alongside your regular budget.
 A third mistake is copying foreign examples too literally.
 A budgeting rule from another country can still be useful, but your numbers must reflect your own rent, transport, work setup, and family responsibilities.
 Another common problem is saving only “if possible.”

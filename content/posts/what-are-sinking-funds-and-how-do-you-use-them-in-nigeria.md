@@ -51,7 +51,7 @@ Sinking funds solve this by making the future expense visible and concrete from 
 
 These three things serve different purposes, and confusing them is one of the most common money mistakes people make.
 
-**An emergency fund** exists for unexpected, unplanned events. Job loss, a sudden medical bill, a burst pipe, a family crisis that demands immediate money. You do not know when these things will happen or exactly how much they will cost. The fund is there to protect you from being completely exposed.
+**An emergency fund** exists for unexpected, unplanned events. Job loss, a sudden medical bill, a burst pipe, a family crisis that demands immediate money. You do not know when these things will happen or exactly how much they will cost. The fund is there to protect you from being completely exposed. If you have not built yours yet, see our guide on [how to build an emergency fund in Nigeria](/emergency-fund-nigeria/).
 
 **A sinking fund** is for expenses you already know are coming. Rent renewal, school fees, a planned trip, a phone you know needs replacing, annual subscriptions, family events. The timing and rough cost are known in advance. You are simply spreading the financial weight across many months so it does not crush you all at once.
 
@@ -91,7 +91,7 @@ This step matters more than it sounds.
 
 When sinking fund money sits in the same account as your daily spending, it quietly disappears. Keeping it separate, even just in a clearly labelled piggy bank account or a sub-wallet feature on a banking app, creates a psychological boundary that makes the money harder to spend casually.
 
-Many Nigerian banks and fintech platforms now offer sub-account features or savings pockets that allow you to label and ring-fence specific amounts. Use these if they are available to you. If not, even a separate savings account at your bank works fine.
+Many Nigerian banks and fintech platforms now offer sub-account features or savings pockets that allow you to label and ring-fence specific amounts. Use these if they are available to you. If not, even a separate savings account at your bank works fine. Our guide on [where to keep your savings in Nigeria](/where-to-keep-your-savings-in-nigeria/) covers the best options for each use case.
 
 The label is important. Seeing "Rent Fund — ₦300,000 of ₦600,000" is more motivating and more protective than seeing a single lump sum that could be spent on anything.
 
@@ -140,7 +140,7 @@ If your monthly income is limited, you may not be able to fund every sinking fun
 
 Start with the one or two most urgent upcoming expenses. Focus your available saving capacity there first. As other expenses come closer in time, you can start those funds or reallocate once earlier targets are met.
 
-For irregular income earners, the approach is slightly different. Rather than committing to a fixed monthly amount, contribute a percentage of whatever comes in. When a higher-income month arrives, make larger contributions. When a quieter month comes, contribute what you can and make up the difference when income recovers.
+For irregular income earners, the approach is slightly different. Rather than committing to a fixed monthly amount, contribute a percentage of whatever comes in. When a higher-income month arrives, make larger contributions. When a quieter month comes, contribute what you can and make up the difference when income recovers. Our guide on [managing irregular income in Nigeria](/how-to-manage-irregular-income-in-nigeria/) goes deeper on this approach.
 
 The key principle remains the same: direct money toward a specific named goal before it disappears into general spending.
 

@@ -6,7 +6,7 @@ updated: "2026-11-01T12:00:00+01:00"
 category: "banking"
 tags: ["Explainer"]
 author: "benedict"
-description: "Since January 2026, the ₦50 stamp duty on transfers of ₦10,000 or more is paid by the sender, not the receiver. Here is how it works, what is exempt, and what to do if it looks wrong."
+description: "Since January 2026, the ₦50 stamp duty on transfers of ₦10,000 or more is paid by the sender. Here's what changed, why, and how to track it on your statement."
 tagline: "That ₦50 stamp duty line on your statement moved sides in 2026. This guide explains who pays it now, which transfers are exempt, how it adds to your transfer fee, and what to do if it looks wrong."
 focusKeyword: "stamp duty"
 keyTakeaways: ["Stamp duty on bank transfers is a government charge, not a bank fee. Your bank collects it and passes it to the Nigeria Revenue Service (NRS), the agency that replaced FIRS in 2026.", "Since 1 January 2026, under the Nigeria Tax Act 2025, the ₦50 charge on electronic transfers of ₦10,000 or more is paid by the sender. Before 2026, the receiver paid it.", "Transfers below ₦10,000 are not charged. Banks also exempt salary payments and transfers between your own accounts at the same bank, though each bank applies the exemptions in its own way.", "Stamp duty is separate from your bank's transfer fee, so a ₦20,000 transfer to another bank can cost about ₦60 in total: ₦50 stamp duty plus the bank's transfer fee.", "A correctly applied charge cannot be reversed, but a charge on a transfer under ₦10,000, a duplicate, or a charge on an exempt transfer is an error you can dispute with your bank."]
