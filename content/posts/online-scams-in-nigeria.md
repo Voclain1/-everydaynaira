@@ -13,6 +13,9 @@ keyTakeaways: ["Scammers in Nigeria are using everyday tools like WhatsApp, bank
 sources: ["efcc","cbn-consumer-protection-regs","ncc-fraud","sec-registered-operators","ndic","cbn-how-to-complain","fccpc"]
 reviewed: "2026-11-01"
 wpId: 423
+image: /images/posts/online-scams-in-nigeria.webp
+imageAlt: "A person at night looking cautiously at a suspicious message on their phone"
+
 ---
 
 ## Common Scams in Nigeria in 2026: What to Watch Out For and How to Stay Safe

@@ -13,6 +13,9 @@ keyTakeaways: ["Tracking expenses means recording every cost your business pays 
 sources: ["score-bookkeeping","google-sheets-help","nigeria-tax-act-2025","pwc-tax-reform","thecable-small-company","nrs","africacheck-tax-factsheet"]
 reviewed: "2026-11-01"
 wpId: 504
+image: /images/posts/how-to-track-small-business-expenses-in-nigeria.webp
+imageAlt: "A business owner photographing a receipt with her phone at a shop counter"
+
 ---
 
 You made sales this week. Payments came in. Your account moved. But somehow, you feel no different from last week.

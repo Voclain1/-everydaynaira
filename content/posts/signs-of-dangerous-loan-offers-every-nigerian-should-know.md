@@ -14,6 +14,9 @@ sources: ["fccpc-deon-2025","fccpc","cbn-licensed-institutions","ndpc","nairamet
 calculator: "loan-calculator"
 reviewed: "2026-11-01"
 wpId: 447
+image: /images/posts/signs-of-dangerous-loan-offers-every-nigerian-should-know.webp
+imageAlt: "A hand hesitating over a loan app permission request on a phone"
+
 ---
 
 ## Dangerous Loan Offer Signs: How to Spot a Risky Loan in Nigeria Before You Sign
