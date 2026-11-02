@@ -6,7 +6,7 @@ updated: "2026-11-01T12:00:00+01:00"
 category: "debt"
 tags: ["Explainer"]
 author: "benedict"
-description: "Seen "APR" on a loan app and not sure what it means? This guide explains APR in simple terms and shows why it matters more than the headline rate."
+description: "Seen APR on a loan app and not sure what it means? This guide explains APR in simple terms and shows why it matters more than the headline rate."
 tagline: "APR can make a loan look clearer or more confusing, depending on how it is presented. This guide breaks down what APR means in Nigeria loans and how to use it before you borrow."
 focusKeyword: "APR meaning Nigeria"
 keyTakeaways: ["APR stands for Annual Percentage Rate. It is the cost of borrowing expressed as a yearly percentage.", "It is designed to include more than just the basic interest rate — the idea is to give you one number that reflects a fuller picture of what a loan costs, making it easier to compare different offers."]
