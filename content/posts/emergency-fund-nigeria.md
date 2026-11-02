@@ -14,6 +14,9 @@ sources: ["efina-a2f-2023","ndic","cbn-consumer-protection-regs","ndic-coverage-
 calculator: "emergency-fund-calculator"
 reviewed: "2026-11-01"
 wpId: 465
+image: /images/posts/emergency-fund-nigeria.webp
+imageAlt: "A technician repairing a generator in a compound while the homeowner waits to pay"
+
 ---
 
 It usually happens without warning. A hospital bill that cannot wait. A generator that breaks down in the middle of harmattan. A landlord asking for rent two weeks earlier than expected. A family call from the village that needs money today.

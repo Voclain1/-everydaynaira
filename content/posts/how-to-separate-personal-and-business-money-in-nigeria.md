@@ -13,6 +13,9 @@ keyTakeaways: ["Open a dedicated bank account for business income only, collect 
 sources: ["nigeria-tax-act-2025","pwc-tax-reform","thecable-small-company","nrs","africacheck-tax-factsheet"]
 reviewed: "2026-11-01"
 wpId: 499
+image: /images/posts/how-to-separate-personal-and-business-money-in-nigeria.webp
+imageAlt: "A shop owner sorting cash into two piles beside two phones and a sales notebook"
+
 ---
 
 Imagine this. You run a small business — maybe you sell fabric online, do makeup, fix phones, or offer a service from home. Every week, customers send you payments. Some go to your GTBank account. Some hit your Opay. A few come in cash. You use the same balance to buy stock, pay for transport, send money home, buy data, and settle your market woman.

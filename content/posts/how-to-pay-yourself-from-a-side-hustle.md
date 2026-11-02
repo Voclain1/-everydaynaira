@@ -14,6 +14,9 @@ sources: ["efina-a2f-2023","nigeria-tax-act-2025","pwc-tax-reform","thecable-sma
 calculator: "budget-calculator"
 reviewed: "2026-11-01"
 wpId: 490
+image: /images/posts/how-to-pay-yourself-from-a-side-hustle.webp
+imageAlt: "A fashion designer in her home studio transferring money on her phone"
+
 ---
 
 You finish the job, receive the alert, and feel good for about ten minutes. Then the transport money is gone. Then the data. Then something at home needs attention. Then a family member asks. By the time the week ends, you are looking at your account trying to remember what exactly ₦80,000 actually went on — and whether the side hustle is even working.

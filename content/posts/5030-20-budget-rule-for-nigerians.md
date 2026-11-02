@@ -14,6 +14,9 @@ sources: ["cfpb-budgets","all-your-worth","nbs-consumption-2019","nbs-cpi-jun-20
 calculator: "budget-calculator"
 reviewed: "2026-11-01"
 wpId: 312
+image: /images/posts/5030-20-budget-rule-for-nigerians.webp
+imageAlt: "Naira notes split into three piles beside receipts and a pen on a kitchen counter"
+
 ---
 
 The 50/30/20 budget rule sounds neat on paper.

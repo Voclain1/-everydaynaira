@@ -14,6 +14,9 @@ sources: ["cbn-consumer-protection-regs","nibss","efina-a2f-2023","cfpb-apr","fc
 calculator: "loan-calculator"
 reviewed: "2026-11-01"
 wpId: 439
+image: /images/posts/how-loan-interest-works-in-nigeria.webp
+imageAlt: "A man at a desk working through a loan repayment schedule with a calculator"
+
 ---
 
 Imagine you see a loan offer on your banking app. ₦150,000 available, described as "low interest." The repayment looks manageable at first glance, so you tap accept.
