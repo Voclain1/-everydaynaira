@@ -1,7 +1,22 @@
 import type { Metadata, Viewport } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
+import { Barlow_Condensed, Barlow } from "next/font/google";
 import "./globals.css";
+
+const barlowCondensed = Barlow_Condensed({
+  subsets: ["latin"],
+  weight: ["800"],
+  variable: "--font-barlow-condensed",
+  display: "swap",
+});
+
+const barlow = Barlow({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-barlow",
+  display: "swap",
+});
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
@@ -23,7 +38,7 @@ export const viewport: Viewport = { themeColor: "#F3F2ED" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-NG" className={`${GeistSans.variable} ${GeistMono.variable}`}>
+    <html lang="en-NG" className={`${GeistSans.variable} ${GeistMono.variable} ${barlowCondensed.variable} ${barlow.variable}`}>
       <body className="min-h-screen">
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-lime focus:px-4 focus:py-2">
           Skip to content
