@@ -14,6 +14,9 @@ sources: ["cbn-finlit","efina-a2f-2023","nbs-consumption-2019"]
 calculator: "savings-goal-calculator"
 reviewed: "2026-11-01"
 wpId: 63
+image: /images/posts/what-are-sinking-funds-and-how-do-you-use-them-in-nigeria.webp
+imageAlt: "Four envelopes of naira notes set aside for different planned expenses"
+
 ---
 
 Some expenses are not really surprises. You know the school fees are coming. You know Christmas will require money. You know your rent renewal is three months away. The problem is not that these costs catch you off guard. The problem is that they find you unprepared.

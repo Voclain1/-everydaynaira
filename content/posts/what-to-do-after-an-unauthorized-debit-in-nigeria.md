@@ -13,6 +13,9 @@ keyTakeaways: ["Screenshot the alert and check the full transaction details in y
 sources: ["cbn-consumer-protection-regs","ndic","efcc","nibss","cbn-how-to-complain","cbn-app-fraud-draft","cbn-guide-charges-2026","dailytrust-cbn-charges-2026"]
 reviewed: "2026-11-01"
 wpId: 425
+image: /images/posts/what-to-do-after-an-unauthorized-debit-in-nigeria.webp
+imageAlt: "A customer pointing out a transaction on her statement at a bank service desk"
+
 ---
 
 You get an alert. Your heart drops. The message says money has left your account, and you did not send it anywhere.
