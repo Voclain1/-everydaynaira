@@ -8,14 +8,21 @@ async function page(path){
  assert.equal(response.status,200,`Unexpected HTTP status at ${path}: ${response.status}`);
  return response.text();
 }
-const [robots,sitemap,home,article,banking,search,feed]=await Promise.all([
+const [robots,sitemap,home,article,banking,search,feed,archive]=await Promise.all([
  page("/robots.txt"),page("/sitemap.xml"),page("/"),
  page("/bank-charges-in-nigeria-explained/"),page("/banking/"),
- page("/search-index.json"),page("/feed.xml"),
+ page("/search-index.json"),page("/feed.xml"),page("/guides/"),
 ]);
 assert(robots.includes(`Sitemap: ${canonical}/sitemap.xml`),"robots canonical sitemap mismatch");
 assert(sitemap.includes(`<loc>${canonical}/bank-charges-in-nigeria-explained/</loc>`),"Main article missing from sitemap");
 assert(!sitemap.includes("bank-charges-nigeria/"),"Retired duplicate is indexed in sitemap");
+assert(sitemap.includes(`<loc>${canonical}/guides/</loc>`),"Complete article archive missing from sitemap");
+assert(archive.includes(`rel="canonical" href="${canonical}/guides/"`)||archive.includes(`href="${canonical}/guides/" rel="canonical"`),"Article archive has invalid canonical");
+assert(home.includes('href="/guides/"'),"Homepage does not link to complete article archive");
+const indexedPosts=JSON.parse(search).filter(item=>item.k==="guide");
+assert.equal(indexedPosts.length,new Set(indexedPosts.map(item=>item.u)).size,"Duplicate article URLs in search index");
+assert.equal(indexedPosts.length,26,"Unexpected total public article count in archive coverage test");
+for(const item of indexedPosts)assert(archive.includes(`href="${item.u}"`),`Published guide missing from complete archive: ${item.u}`);
 assert(sitemap.includes(`${canonical}/images/posts/bank-charges-in-nigeria-explained.webp`),"Sitemap uses incorrect cover image URL");
 for(const [label,html,path] of [["home",home,"/"],["bank charges",article,"/bank-charges-in-nigeria-explained/"]]){
  const url=canonical+path;
@@ -43,6 +50,7 @@ for(const slug of guides){
  assert(search.includes(`"u":"${route}"`),`Article missing from search index: ${slug}`);
  assert(feed.includes(`<link>${url}</link>`),`Article missing from RSS: ${slug}`);
  assert(/<h1[^>]*>/.test(html),`Missing rendered heading for ${slug}`);
+ assert(home.includes(`href="${route}"`),`Newly published guide not visible on homepage latest section: ${slug}`);
 }
-console.log("Rendered SEO checks passed: canonical metadata, sitemap, robots, article image, category links, search, RSS and all eight new guides.");
+console.log("Rendered SEO checks passed: full 26-guide archive, new article homepage visibility, canonical metadata, sitemap, robots, images, search and RSS.");
 

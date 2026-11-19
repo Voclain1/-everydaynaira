@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: absUrl("/"), lastModified: latest, changeFrequency: "weekly", priority: 1 },
     { url: absUrl("/start-here/"), changeFrequency: "monthly", priority: 0.8 },
+    { url: absUrl("/guides/"), lastModified: latest, changeFrequency: "weekly", priority: 0.8 },
     { url: absUrl("/tools/"), changeFrequency: "monthly", priority: 0.8 },
     ...TOPICS.map((t) => ({
       url: absUrl(t.hub),

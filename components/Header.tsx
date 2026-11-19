@@ -12,6 +12,7 @@ const SearchDialog = dynamic(() => import("./SearchDialog").then((m) => m.Search
 import { TOPICS } from "@/lib/topics";
 
 const NAV = [
+  { href: "/guides/", label: "All guides" },
   { href: "/start-here/", label: "Start here" },
   { href: "/tools/", label: "Calculators" },
   { href: "/about-everydaynaira/", label: "About" },

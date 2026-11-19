@@ -173,9 +173,12 @@ export default function Home() {
       {/* ---------- Latest ---------- */}
       <section className="border-t border-line">
         <div className="wrap py-20 md:py-28">
-          <h2 className="display text-[clamp(2.2rem,4.6vw,3.6rem)]">Latest guides</h2>
+          <div className="flex flex-wrap items-end justify-between gap-5">
+            <h2 className="display text-[clamp(2.2rem,4.6vw,3.6rem)]">Latest guides</h2>
+            <Link href="/guides/" className="btn btn-ghost">Browse all {posts.length} guides <Arrow /></Link>
+          </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {posts.slice(0, 6).map((p) => (
+            {posts.slice(0, 9).map((p) => (
               <PostCard key={p.slug} post={p} />
             ))}
           </div>
