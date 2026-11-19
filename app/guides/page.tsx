@@ -37,7 +37,7 @@ export default function GuidesIndex() {
         </div>
       </section>
 
-      <main className="wrap py-14 md:py-20">
+      <div className="wrap py-14 md:py-20">
         <section aria-labelledby="browse-topics-heading">
           <h2 id="browse-topics-heading" className="text-xl font-bold tracking-[-0.025em]">Explore by topic</h2>
           <nav aria-label="Browse guides by topic" className="mt-5 flex flex-wrap gap-2.5">
@@ -60,7 +60,7 @@ export default function GuidesIndex() {
             ))}
           </div>
         </section>
-      </main>
+      </div>
       <NewsletterBand />
 
       <JsonLd data={{
