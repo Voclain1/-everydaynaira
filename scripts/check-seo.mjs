@@ -9,7 +9,7 @@ const pages=fs.readdirSync(path.join(root,"content/pages")).filter(f=>f.endsWith
 const hubs=[...read("lib/topics.ts").matchAll(/hub: "(\/[^"]+\/)",/g)].map(x=>x[1]);
 const normal=(v)=>{const p=new URL(v,"https://www.everydaynaira.com").pathname;return p==="/" ? p : p.replace(/\/+$/,"")+"/"};
 const sources=JSON.parse(read("content/sources.json")),links=JSON.parse(read("lib/legacy-link-fixes.json"));
-const routes=new Set(["/","/authors/","/start-here/","/tools/","/contact/",...hubs,...[...posts,...pages].map(x=>"/"+x.data.slug+"/")]);
+const routes=new Set(["/","/authors/","/start-here/","/guides/","/tools/","/contact/",...hubs,...[...posts,...pages].map(x=>"/"+x.data.slug+"/")]);
 const redirected=new Set(["/bank-charges-nigeria/",...Object.keys(links).map(normal)]);
 assert.equal(new Set([...posts,...pages].map(p=>p.data.slug)).size,posts.length+pages.length,"Duplicate slugs");
 assert(!posts.some(p=>p.file==="bank-charges-nigeria.md"),"Archived banking duplicate is still live");

@@ -30,6 +30,7 @@ export function Footer() {
           title="Start"
           links={[
             { href: "/start-here/", label: "Start here" },
+            { href: "/guides/", label: "All guides" },
             { href: "/tools/", label: "Calculators" },
             { href: "/feed.xml", label: "RSS feed" },
           ]}
