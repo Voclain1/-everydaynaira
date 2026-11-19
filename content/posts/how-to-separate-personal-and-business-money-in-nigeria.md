@@ -228,3 +228,7 @@ You do not need a registered company. You do not need an accountant. You do not 
 The confusion that comes from mixing everything together is not just a financial problem — it is exhausting. You spend mental energy worrying about money you cannot even see clearly. Once you separate, something shifts. The business starts to feel real. The profit starts to feel real. And the decisions — whether to restock, expand, hire, or hold back — start to feel a lot more grounded.
 
 Start today. Open the account. Send yourself the first proper transfer. And begin knowing your numbers.
+
+## Two small habits that reinforce the separation
+
+Record receipts and withdrawals with [a simple daily sales ledger](/how-to-record-daily-sales-and-expenses-in-a-small-nigerian-business/), then use [a weekly cash-flow forecast](/weekly-cash-flow-forecast-for-small-business-in-nigeria/) to protect supplier payments and prevent the business account from becoming an informal household wallet.

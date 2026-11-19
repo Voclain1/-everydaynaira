@@ -306,3 +306,7 @@ If you have been scammed, do not wait and hope. Contact your bank, document what
 Share this article with someone who might need it. Scam awareness spreads faster when more people are watching out for each other.
 
 [*Read more on how to protect yourself from falling to scams online*](/money-safety/)
+
+## When fraud has already happened
+
+For urgent next steps after paying a fraudulent seller, use [the scam-transfer action plan](/what-to-do-after-sending-money-to-an-online-scammer-in-nigeria/). To protect yourself from fake support teams that promise reversals, read [how to spot impersonated bank customer service](/how-to-identify-fake-bank-customer-service-numbers-in-nigeria/).

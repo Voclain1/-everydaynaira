@@ -262,3 +262,7 @@ The goal here is not to make you distrust every lender or avoid credit entirely.
 The most important habit is simple: slow down long enough to understand what you are agreeing to. A lender who will not give you that time is a lender worth reconsidering. A loan that only makes sense if you accept it immediately is often a loan that does not make sense at all.
 
 Check the cost in full. Verify who you are borrowing from. Read what happens if repayment is late. Then decide.
+
+## Verify the actual lender
+
+Before installing a lending app, use our [FCCPC lender approval verification checklist](/how-to-check-if-a-loan-app-is-approved-in-nigeria/). If a collector threatens to contact your family or misuse your phone contacts, follow [the loan-app harassment complaint guide](/how-to-report-loan-app-harassment-in-nigeria/).
