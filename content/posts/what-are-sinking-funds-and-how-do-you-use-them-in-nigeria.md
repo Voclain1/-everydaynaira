@@ -144,6 +144,8 @@ For irregular income earners, the approach is slightly different. Rather than co
 
 The key principle remains the same: direct money toward a specific named goal before it disappears into general spending.
 
+For the most common large lump-sum expense, our [annual rent savings worksheet](/how-to-save-for-annual-house-rent-in-nigeria/) shows exact monthly and weekly amounts to set aside.
+
 ## Frequently Asked Questions
 
 **How many sinking funds can I have at once?** As many as make sense for your situation. Some people run two or three. Others manage five or six. The practical limit is your ability to contribute meaningfully to each one every month. If contributions become too small to matter, reduce the number of active funds.

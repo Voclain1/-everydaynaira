@@ -189,4 +189,6 @@ This is the core idea behind every step in this guide. Not pessimism — realism
 
 Irregular income does not have to mean financial chaos. It does mean you need a more thoughtful system than someone with a fixed salary — because your income will not do the organising for you.
 
+For a hands-on version with per-payment buckets and a slow-week calculation, follow [how to budget daily or weekly income in Nigeria](/how-to-budget-when-paid-daily-or-weekly-in-nigeria/).
+
 Start with knowing your baseline. Separate your money. Track what comes in. The rest gets easier from there.

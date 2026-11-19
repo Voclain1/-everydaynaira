@@ -26,6 +26,8 @@ But the good news is that most of these charges have clear explanations. Some ar
 
 This guide breaks down the common charges that reduce your bank balance in Nigeria, explains why they exist, and tells you what you can realistically do about them.
 
+If the debit relates to a transfer that never arrived, start with [failed transfers and reversal steps](/bank-transfer-failed-but-debited-in-nigeria/). For small recurring message deductions, use the dedicated [SMS alert charges guide](/sms-alert-charges-in-nigeria/), and for unresolved bank complaints follow [the CBN escalation checklist](/how-to-report-a-bank-to-cbn-in-nigeria/).
+
 Nigerian banks are permitted to charge you for several services — including transfers, ATM withdrawals at other banks, card issuance, SMS alerts, and current account maintenance. These charges are partly regulated by the Central Bank of Nigeria (CBN) and partly determined by individual bank policies. VAT is added on top of most service charges. Some deductions are normal. Others need a closer look. You have the right to ask questions and dispute unexplained charges.
 
 ## Common bank charges in Nigeria and what they mean

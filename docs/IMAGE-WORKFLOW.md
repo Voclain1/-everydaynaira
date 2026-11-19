@@ -82,3 +82,10 @@ Add a brief to `content/image-briefs.json` when you write the post:
 Good briefs describe one real moment (a trader sending a transfer at her stall), name concrete
 Nigerian details (generator, POS terminal, danfo, prepaid meter token), and keep screens and
 paperwork blurred so no fake text appears.
+
+
+### Sprint 01 image release gate
+
+For the eight articles added in `content/topical-authority-sprint-01-2026-11-19`, the publisher requires the Layer 2 **natural editorial photograph** before merging PR #4. Layer 1 is a technical fallback and does **not** satisfy their publication-quality expectation for this batch. All eight scene briefs live in `content/image-briefs.json`, and copy-ready prompts are included in `docs/image-prompts.md`.
+
+Run `npm run images:optimize` on 8 approved, full-resolution 16:10 photographs named after their slugs, commit the generated `public/images/posts/<slug>.webp` files and the front-matter `image` and `imageAlt` fields. CI deliberately fails for this batch until every selected image exists. Check realism, rights and editorial appropriateness before selecting any asset. Do not invent image paths or borrow another publisher's copyrighted photography without permission.

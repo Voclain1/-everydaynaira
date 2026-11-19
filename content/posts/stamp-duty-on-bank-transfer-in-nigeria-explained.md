@@ -165,4 +165,4 @@ Stamp duty on bank transfers confuses people because the rules changed and nobod
 
 It is a government levy — not a bank fee — collected on transfers of ₦10,000 or more and passed to the Nigeria Revenue Service. If the deduction matches a qualifying transfer you sent, there is nothing further to do. If something looks wrong, follow the steps above and raise it formally.
 
-To see every other charge that can appear on your statement, read our guide to [bank charges in Nigeria](/bank-charges-in-nigeria-explained/), or browse the [banking guides](/banking/).
+To see every other charge that can appear on your statement, read our guide to [bank charges in Nigeria](/bank-charges-in-nigeria-explained/) or the [SMS alert charges breakdown](/sms-alert-charges-in-nigeria/). If the bank cannot explain a deduction, use the [CBN complaint steps](/how-to-report-a-bank-to-cbn-in-nigeria/), or browse the [banking guides](/banking/).

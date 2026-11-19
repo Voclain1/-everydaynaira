@@ -25,4 +25,24 @@ assert(!banking.includes('href="/bank-charges-nigeria/"'),"Banking category link
 assert(!search.includes('"u":"/bank-charges-nigeria/"'),"Redirected article still in search index");
 assert(!feed.includes("<link>"+canonical+"/bank-charges-nigeria/</link>"),"Redirected article still in RSS feed");
 assert(article.includes("2020 Guide")&&article.includes("EXPOSURE DRAFT"),"Bank charges correction is missing from rendered content");
-console.log("Rendered SEO checks passed: canonical metadata, sitemap, robots, article image, category links, search and RSS.");
+const guides=[
+ "bank-transfer-failed-but-debited-in-nigeria",
+ "how-to-reverse-money-sent-to-wrong-account-in-nigeria",
+ "how-to-report-a-bank-to-cbn-in-nigeria",
+ "sms-alert-charges-in-nigeria",
+ "how-to-budget-150000-to-250000-naira-salary-in-nigeria",
+ "how-to-budget-when-paid-daily-or-weekly-in-nigeria",
+ "how-to-save-for-annual-house-rent-in-nigeria",
+ "flat-rate-vs-reducing-balance-loan-interest-in-nigeria",
+];
+for(const slug of guides){
+ const route="/"+slug+"/",url=canonical+route;
+ const html=await page(route);
+ assert(html.includes(`rel="canonical" href="${url}"`)||html.includes(`href="${url}" rel="canonical"`),`Invalid canonical for new article ${slug}`);
+ assert(sitemap.includes(`<loc>${url}</loc>`),`Article missing in sitemap: ${slug}`);
+ assert(search.includes(`"u":"${route}"`),`Article missing from search index: ${slug}`);
+ assert(feed.includes(`<link>${url}</link>`),`Article missing from RSS: ${slug}`);
+ assert(/<h1[^>]*>/.test(html),`Missing rendered heading for ${slug}`);
+}
+console.log("Rendered SEO checks passed: canonical metadata, sitemap, robots, article image, category links, search, RSS and all eight new guides.");
+

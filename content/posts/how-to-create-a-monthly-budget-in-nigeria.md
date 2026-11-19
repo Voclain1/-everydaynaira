@@ -25,6 +25,8 @@ A monthly budget is the simplest way to stop that from happening. Not because it
 
 This guide explains exactly how to build one that is honest and realistic, whether you earn a salary, run a side hustle, or both.
 
+If you want concrete figures, compare the worked [₦150,000 and ₦250,000 salary budgets](/how-to-budget-150000-to-250000-naira-salary-in-nigeria/). People who are paid in smaller instalments can use [our daily and weekly income system](/how-to-budget-when-paid-daily-or-weekly-in-nigeria/) instead.
+
 ## What a Monthly Budget Really Means
 
 A budget is not a punishment. It is not a spreadsheet you fill once and forget. And it is not proof that you are bad with money.
