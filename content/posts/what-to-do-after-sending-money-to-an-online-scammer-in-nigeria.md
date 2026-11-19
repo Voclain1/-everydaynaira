@@ -11,6 +11,8 @@ updated: "2026-11-19T17:00:00+01:00"
 category: "money-safety"
 tags: ["Scams","Fraud","Bank transfers"]
 author: "benedict"
+image: "/images/posts/what-to-do-after-sending-money-to-an-online-scammer-in-nigeria.webp"
+imageAlt: "A buyer checking a suspicious online payment and order message"
 ---
 
 You send ₦85,000 for a product on social media. The supposed seller blocks you the moment you share the receipt. The transfer succeeded, but nothing has been delivered.

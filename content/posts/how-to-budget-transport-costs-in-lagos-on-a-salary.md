@@ -11,6 +11,8 @@ updated: "2026-11-19T17:00:00+01:00"
 category: "budgeting"
 tags: ["Transport","Lagos","Salary"]
 author: "benedict"
+image: "/images/posts/how-to-budget-transport-costs-in-lagos-on-a-salary.webp"
+imageAlt: "A Lagos commuter reviewing transport expenses near a bus stop"
 ---
 
 You spend ₦1,500 getting to work and another ₦1,500 coming home. It does not feel like an enormous amount on Monday. By the end of a 22-day working month, that routine has cost **₦66,000**—before weekend trips, unexpected fares or days you take a different route.

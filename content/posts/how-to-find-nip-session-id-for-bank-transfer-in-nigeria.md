@@ -11,6 +11,8 @@ updated: "2026-11-19T17:00:00+01:00"
 category: "banking"
 tags: ["NIP","Bank transfer","Troubleshooting"]
 author: "benedict"
+image: "/images/posts/how-to-find-nip-session-id-for-bank-transfer-in-nigeria.webp"
+imageAlt: "A person checking the reference details for a bank transfer on a phone"
 ---
 
 A seller says the bank transfer never arrived. Your app shows *successful*. Customer support asks for the NIP session ID, but all you see on the receipt is a short reference number. Where is this ID, and do you need it before the bank can investigate?

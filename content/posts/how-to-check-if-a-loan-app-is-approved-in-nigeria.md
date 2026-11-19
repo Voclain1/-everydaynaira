@@ -11,6 +11,8 @@ updated: "2026-11-19T17:00:00+01:00"
 category: "debt"
 tags: ["Loan apps","FCCPC","Safety"]
 author: "benedict"
+image: "/images/posts/how-to-check-if-a-loan-app-is-approved-in-nigeria.webp"
+imageAlt: "A woman checking a lender's information on her phone and laptop"
 ---
 
 A loan app promises ₦100,000 in five minutes. Its advertisement uses the words *approved*, *safe* and *instant*. Before installing it or sharing your contacts, how do you know whether the company is actually authorised to offer digital loans in Nigeria?

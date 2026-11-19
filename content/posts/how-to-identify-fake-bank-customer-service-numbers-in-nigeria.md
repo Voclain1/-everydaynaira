@@ -11,6 +11,8 @@ updated: "2026-11-19T17:00:00+01:00"
 category: "money-safety"
 tags: ["Phishing","Bank support","Online safety"]
 author: "benedict"
+image: "/images/posts/how-to-identify-fake-bank-customer-service-numbers-in-nigeria.webp"
+imageAlt: "A person carefully checking a customer-service message on a smartphone"
 ---
 
 You search for your bank's support number. A sponsored result shows the correct logo and offers to resolve a failed transfer in minutes. The person you contact asks for a six-digit code.

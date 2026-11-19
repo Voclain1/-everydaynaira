@@ -11,6 +11,8 @@ updated: "2026-11-19T17:00:00+01:00"
 category: "income"
 tags: ["Cash flow","SME","Planning"]
 author: "benedict"
+image: "/images/posts/weekly-cash-flow-forecast-for-small-business-in-nigeria.webp"
+imageAlt: "A tailor reviewing weekly business payments at a workshop table"
 ---
 
 A small business has paid customers in its sales records but owes ₦90,000 to a supplier on Friday. Several clients promise to pay next week. The business may be profitable on paper and still not have enough cash for that Friday bill.

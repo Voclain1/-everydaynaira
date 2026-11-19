@@ -11,6 +11,8 @@ updated: "2026-11-19T17:00:00+01:00"
 category: "savings"
 tags: ["Emergency fund","Irregular income","Savings"]
 author: "benedict"
+image: "/images/posts/how-to-build-an-emergency-fund-with-irregular-income-in-nigeria.webp"
+imageAlt: "A freelancer organising an emergency savings envelope beside a work notebook"
 ---
 
 A freelance job pays well in September. October is quiet. A trader has five strong market days followed by two weeks of low sales. How do you save for emergencies if your income doesn't arrive the same way every month?

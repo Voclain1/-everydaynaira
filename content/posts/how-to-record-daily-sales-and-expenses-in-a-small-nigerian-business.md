@@ -11,6 +11,8 @@ updated: "2026-11-19T17:00:00+01:00"
 category: "income"
 tags: ["Trading","Bookkeeping","Small business"]
 author: "benedict"
+image: "/images/posts/how-to-record-daily-sales-and-expenses-in-a-small-nigerian-business.webp"
+imageAlt: "A shopkeeper recording daily sales in a notebook at a provision shop counter"
 ---
 
 A provision-shop owner receives ₦80,000 from customers in one busy day. At closing, only ₦37,000 is left in cash. Did the business lose money? Was there a theft? Or did stock purchases and transfers account for the difference?

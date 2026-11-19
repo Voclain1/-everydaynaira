@@ -11,6 +11,8 @@ updated: "2026-11-19T17:00:00+01:00"
 category: "banking"
 tags: ["ATM","Banking","Consumer rights"]
 author: "benedict"
+image: "/images/posts/atm-debited-but-no-cash-dispensed-in-nigeria.webp"
+imageAlt: "A bank customer checking an ATM cash slot after an unsuccessful withdrawal"
 ---
 
 You ask an ATM for ₦40,000. The screen says *unable to dispense cash*. Your account balance falls by ₦40,000 anyway. A bystander says you should try again, but you are worried that you will lose another ₦40,000.

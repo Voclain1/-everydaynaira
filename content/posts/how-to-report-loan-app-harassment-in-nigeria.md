@@ -11,6 +11,8 @@ updated: "2026-11-19T17:00:00+01:00"
 category: "money-safety"
 tags: ["Loan collection","Privacy","Consumer rights"]
 author: "benedict"
+image: "/images/posts/how-to-report-loan-app-harassment-in-nigeria.webp"
+imageAlt: "A woman reviewing troubling phone messages at home"
 ---
 
 A loan-app collector threatens to send your photograph to everyone in your contact list. Some messages describe you as a criminal. You may owe a real loan, but you do not know what to do about the threats—or whether the lender can legally contact other people about your debt.

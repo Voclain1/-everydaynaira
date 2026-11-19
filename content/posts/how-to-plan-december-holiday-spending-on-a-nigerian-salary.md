@@ -11,6 +11,8 @@ updated: "2026-11-19T17:00:00+01:00"
 category: "budgeting"
 tags: ["December budget","Family expenses","Planning"]
 author: "benedict"
+image: "/images/posts/how-to-plan-december-holiday-spending-on-a-nigerian-salary.webp"
+imageAlt: "Family members planning holiday shopping expenses at home"
 ---
 
 December arrives with invitations, family responsibilities, travel plans, food shopping and pressure to make the holidays memorable. Then January arrives with normal bills—and sometimes school fees or house rent.

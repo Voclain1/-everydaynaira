@@ -11,6 +11,8 @@ updated: "2026-11-19T17:00:00+01:00"
 category: "savings"
 tags: ["School fees","Saving","Family budget"]
 author: "benedict"
+image: "/images/posts/how-to-save-for-school-fees-every-term-in-nigeria.webp"
+imageAlt: "A parent planning school expenses beside children's exercise books"
 ---
 
 A school term starts in eight weeks. The fee invoice says ₦120,000, but you also expect to buy books, uniforms and transport. You know the deadline, yet the total can still catch you unprepared.
