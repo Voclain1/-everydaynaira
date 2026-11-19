@@ -11,6 +11,8 @@ updated: "2026-11-19T16:47:00+01:00"
 category: "banking"
 tags: ["Banking","How-to guide"]
 author: "benedict"
+image: "/images/posts/sms-alert-charges-in-nigeria.webp"
+imageAlt: "A person reviewing phone alerts and a notebook to check bank notification charges"
 ---
 
 Your bank takes ₦3 here, ₦5 there, and by the end of the month you have a long line of alert charges. Is that allowed? Should every message cost money? Can you turn off SMS without missing fraud warnings?

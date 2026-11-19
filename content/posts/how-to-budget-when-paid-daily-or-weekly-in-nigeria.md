@@ -11,6 +11,8 @@ updated: "2026-11-19T16:47:00+01:00"
 category: "budgeting"
 author: "benedict"
 tags: ["Budgeting","How-to guide"]
+image: "/images/posts/how-to-budget-when-paid-daily-or-weekly-in-nigeria.webp"
+imageAlt: "A provision shop owner counting daily earnings beside a paper ledger"
 ---
 
 If your income arrives in pieces, monthly budgeting can feel unrealistic. One week you make ₦60,000. The next week it rains, customers stay away and you bring home ₦18,000. Rent still has the same due date.

@@ -12,6 +12,8 @@ updated: "2026-11-19T16:47:00+01:00"
 category: "budgeting"
 author: "benedict"
 tags: ["Budgeting","How-to guide"]
+image: "/images/posts/how-to-budget-150000-to-250000-naira-salary-in-nigeria.webp"
+imageAlt: "A Nigerian salary earner planning household spending at a dining table"
 ---
 
 It is payday. ₦150,000 lands in your account. You pay for transport, send money home, buy data, restock the kitchen and suddenly the salary looks much smaller. You still have an annual rent payment ahead of you.

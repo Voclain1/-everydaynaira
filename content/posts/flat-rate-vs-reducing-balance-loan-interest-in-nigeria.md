@@ -12,6 +12,8 @@ updated: "2026-11-19T16:47:00+01:00"
 category: "debt"
 tags: ["Loans","Explainer"]
 author: "benedict"
+image: "/images/posts/flat-rate-vs-reducing-balance-loan-interest-in-nigeria.webp"
+imageAlt: "A borrower comparing two loan repayment schedules using a calculator"
 ---
 
 A lender offers you ₦300,000 at **3% interest per month**. Another lender also says 3%. Does that mean both loans cost the same?

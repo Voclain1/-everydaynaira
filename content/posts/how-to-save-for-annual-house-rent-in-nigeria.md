@@ -11,6 +11,8 @@ updated: "2026-11-19T16:47:00+01:00"
 category: "savings"
 tags: ["Saving","How-to guide"]
 author: "benedict"
+image: "/images/posts/how-to-save-for-annual-house-rent-in-nigeria.webp"
+imageAlt: "Two people planning an annual rent payment at their home table"
 ---
 
 Your house rent is due in March. It is November, and you have only a small amount saved. The landlord is unlikely to accept “I forgot to budget” as a payment plan.

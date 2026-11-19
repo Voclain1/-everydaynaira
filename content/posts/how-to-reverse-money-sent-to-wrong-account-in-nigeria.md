@@ -11,6 +11,8 @@ tagline: "A mistaken transfer is not the same as a failed payment. The recovery 
 focusKeyword: "how to reverse money sent to wrong bank account in Nigeria"
 keyTakeaways: ["Report the error to the sending bank immediately and request a formal transfer recall.","A successfully credited wrong-account transfer is not automatically reversible merely because the sender made a mistake.","Banks may need the recipient's consent or additional formal processes; recovery is not guaranteed.","Preserve the original payment instruction, beneficiary details, receipt and your bank complaint number.","If it was an unauthorised or fraudulent transfer, use the fraud-reporting route rather than describing it as a simple typo."]
 sources: ["cbn-consumer-protection-regs","cbn-complaints-page","nibss-nip","cbn-how-to-complain"]
+image: "/images/posts/how-to-reverse-money-sent-to-wrong-account-in-nigeria.webp"
+imageAlt: "An office worker checking a transfer receipt after sending money to the wrong account"
 ---
 
 One wrong digit can send your money to somebody else. It might be a rent payment, a school fee or money meant for a supplier. The amount leaves your account, the receiving bank accepts it, and the name on the receipt is not the person you meant to pay.

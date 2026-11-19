@@ -11,6 +11,8 @@ updated: "2026-11-19T16:47:00+01:00"
 category: "banking"
 tags: ["Banking","How-to guide"]
 author: "benedict"
+image: "/images/posts/how-to-report-a-bank-to-cbn-in-nigeria.webp"
+imageAlt: "A woman organising documents before making a complaint about a bank transaction"
 ---
 
 A bank keeps telling you the same thing: *Please wait for feedback.* You have waited, called again and been transferred to another department. Meanwhile your money, account access or complaint remains unresolved.

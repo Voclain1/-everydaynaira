@@ -11,6 +11,8 @@ tagline: "The money left your account. The receiver has nothing. Here is how to 
 focusKeyword: "bank transfer failed but money deducted in Nigeria"
 keyTakeaways: ["A debit alert alone does not prove the recipient was credited: confirm the status before sending again.","Collect the transaction reference, time, amount, sender bank and receiving bank before opening a dispute.","NIBSS says failed transfers are generally expected to reverse immediately or within 24 hours, but investigation and exceptions can take longer.","Complain to your sending bank first and request a tracking number; escalate an unresolved complaint through the CBN process.","Never pay a stranger or share an OTP to 'release' a reversal."]
 sources: ["nibss-payment-failure","nibss-nip","cbn-complaints-page","cbn-consumer-protection-regs","cbn-how-to-complain"]
+image: "/images/posts/bank-transfer-failed-but-debited-in-nigeria.webp"
+imageAlt: "A person in a Lagos home checking a bank transfer status on a phone"
 ---
 
 You send ₦48,000 for an urgent purchase. Your bank alerts you that the money has left your account, but the seller says nothing arrived. The app alternates between *pending* and *successful*. You are worried that if you send it again, you could lose another ₦48,000.
