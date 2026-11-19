@@ -189,7 +189,7 @@ function PostView({ post }: { post: Post }) {
                 ))}
               </ol>
               <p className="mt-6 text-sm text-ink-3">
-                Links checked {formatDate(post.reviewed ?? post.updated)}. Found something out of date? <Link href="/contact/" className="link">Tell us</Link> and we will check it against the source. Read our <Link href="/fact-checking-policy/" className="link">fact-checking policy</Link>.
+                Article reviewed {formatDate(post.reviewed ?? post.updated)}. Found something out of date? <Link href="/contact/" className="link">Tell us</Link> and we will check it against the source. Read our <Link href="/fact-checking-policy/" className="link">fact-checking policy</Link>.
               </p>
             </section>
           )}

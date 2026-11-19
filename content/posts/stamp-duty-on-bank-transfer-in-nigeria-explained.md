@@ -69,7 +69,7 @@ Each bank implements these exemptions through its own systems, and some describe
 
 Stamp duty sits on top of your bank's own transfer fee. The two are separate charges that often arrive as separate debit lines.
 
-For transfers made on a customer's electronic device, the published **CBN 2020 Guide to Charges** sets maximum bank transfer fees of ₦10 for amounts up to ₦5,000, ₦25 for ₦5,001–₦50,000 and ₦50 above ₦50,000. An April 2026 draft proposed new bands, but that document was expressly circulated for comment and does not by itself establish that the proposal took effect.
+For transfers made on a customer's electronic device, the published **CBN 2020 Guide to Charges** sets maximum bank transfer fees of ₦10 for amounts up to ₦5,000, ₦25 for ₦5,001–₦50,000 and ₦50 above ₦50,000. An April 2026 **exposure draft** proposed new bands, but the document was expressly circulated for comment and does not by itself establish that the proposal took effect.
 
 The following are **maximum-fee illustrations**, not quotes for every bank. The totals exclude any VAT on the bank service fee:
 
