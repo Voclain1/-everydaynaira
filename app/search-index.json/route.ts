@@ -23,6 +23,7 @@ export function GET() {
     ].map(([id, t, d]) => ({ t, u: `/tools/#${id}`, c: "Calculator", d, h: "calculator tool naira", b: d, k: "tool" })),
     ...getAllDocPages().map((p) => ({ t: p.title, u: `/${p.slug}/`, c: "Page", d: p.description, h: p.toc.map((t) => t.text).join(" "), b: p.intro, k: "page" })),
     { t: "All money guides", u: "/guides/", c: "Page", d: "Browse every published EverydayNaira article in one place.", h: "all guides articles posts latest archive", b: "", k: "page" },
+    { t: "Bank dispute evidence checklist", u: "/resources/bank-dispute-checklist/", c: "Free resource", d: "Printable evidence checklist and complaint letter template.", h: "dispute evidence ATM NIP bank transfer reference complaint", b: "No sign-up or sensitive account input.", k: "page" },
     { t: "Start here", u: "/start-here/", c: "Page", d: "A clear path through the basics.", h: "beginner new", b: "", k: "page" },
     { t: "Contact", u: "/contact/", c: "Page", d: "Corrections, questions and editorial enquiries.", h: "email", b: "", k: "page" },
   ];

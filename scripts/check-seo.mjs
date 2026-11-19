@@ -9,7 +9,7 @@ const pages=fs.readdirSync(path.join(root,"content/pages")).filter(f=>f.endsWith
 const hubs=[...read("lib/topics.ts").matchAll(/hub: "(\/[^"]+\/)",/g)].map(x=>x[1]);
 const normal=(v)=>{const p=new URL(v,"https://www.everydaynaira.com").pathname;return p==="/" ? p : p.replace(/\/+$/,"")+"/"};
 const sources=JSON.parse(read("content/sources.json")),links=JSON.parse(read("lib/legacy-link-fixes.json"));
-const routes=new Set(["/","/authors/","/start-here/","/guides/","/tools/","/contact/",...hubs,...[...posts,...pages].map(x=>"/"+x.data.slug+"/")]);
+const routes=new Set(["/","/authors/","/start-here/","/guides/","/tools/","/resources/bank-dispute-checklist/","/contact/",...hubs,...[...posts,...pages].map(x=>"/"+x.data.slug+"/")]);
 const redirected=new Set(["/bank-charges-nigeria/",...Object.keys(links).map(normal)]);
 assert.equal(new Set([...posts,...pages].map(p=>p.data.slug)).size,posts.length+pages.length,"Duplicate slugs");
 assert(!posts.some(p=>p.file==="bank-charges-nigeria.md"),"Archived banking duplicate is still live");
@@ -35,6 +35,20 @@ for(const slug of sprintGuides){
  assert(post.data.imageAlt?.trim(),`Missing descriptive image alt text: ${slug}`);
  assert(fs.existsSync(path.join(root,"public",post.data.image.replace(/^\//,""))),`Missing photographic WebP: ${slug}`);
 
+}
+
+const sprint2Guides=["atm-debited-but-no-cash-dispensed-in-nigeria","how-to-find-nip-session-id-for-bank-transfer-in-nigeria","how-to-check-if-a-loan-app-is-approved-in-nigeria","how-to-report-loan-app-harassment-in-nigeria","what-to-do-after-sending-money-to-an-online-scammer-in-nigeria","how-to-identify-fake-bank-customer-service-numbers-in-nigeria","how-to-save-for-school-fees-every-term-in-nigeria","how-to-build-an-emergency-fund-with-irregular-income-in-nigeria","how-to-record-daily-sales-and-expenses-in-a-small-nigerian-business","weekly-cash-flow-forecast-for-small-business-in-nigeria","how-to-budget-transport-costs-in-lagos-on-a-salary","how-to-plan-december-holiday-spending-on-a-nigerian-salary"];
+for(const slug of sprint2Guides){
+ const post=posts.find(p=>p.data.slug===slug);
+ assert(post,`Sprint 2 guide missing: ${slug}`);
+ const words=post.content.trim().split(/\s+/).length;
+ assert(words>=750,`Sprint 2 guide too short (${words} words): ${slug}`);
+ assert((post.data.sources??[]).length>=2,`Sprint 2 guide missing source references: ${slug}`);
+ assert((post.content.match(/\]\(\/[^)\s]+\)/g)??[]).length>=3,`Sprint 2 guide lacks contextual internal links: ${slug}`);
+ assert(!post.data.reviewed,`Sprint 2 guide not independently fact-checked: ${slug}`);
+ assert(post.data.image===`/images/posts/${slug}.webp`,`Publisher-approved real-life featured photo required before release: ${slug}`);
+ assert(post.data.imageAlt?.trim(),`Image alt text is missing: ${slug}`);
+ assert(fs.existsSync(path.join(root,"public",post.data.image.replace(/^\//,""))),`Publisher-approved WebP photo missing: ${slug}`);
 }
 assert(read("lib/site.ts").includes('url: "https://www.everydaynaira.com"'),"Incorrect canonical host");
 assert(read("app/sitemap.ts").includes("images: p.image ? [absUrl(p.image)] : undefined"),"Article image sitemap incorrect");

@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absUrl("/start-here/"), changeFrequency: "monthly", priority: 0.8 },
     { url: absUrl("/guides/"), lastModified: latest, changeFrequency: "weekly", priority: 0.8 },
     { url: absUrl("/tools/"), changeFrequency: "monthly", priority: 0.8 },
+    { url: absUrl("/resources/bank-dispute-checklist/"), changeFrequency: "monthly", priority: 0.7 },
     ...TOPICS.map((t) => ({
       url: absUrl(t.hub),
       lastModified: topicLastModified(t.category),
