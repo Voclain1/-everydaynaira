@@ -2,16 +2,16 @@
 title: "Understanding All the Bank Charges on Your Bank Account in Nigeria"
 slug: "bank-charges-in-nigeria-explained"
 date: "2026-04-18T23:17:59+01:00"
-updated: "2026-11-01T12:00:00+01:00"
+updated: "2026-11-19T15:20:00+01:00"
 category: "banking"
 tags: ["Explainer"]
 author: "benedict"
 description: "Your bank balance keeps shrinking and you're not sure why. This guide explains every common bank charge in Nigeria — what it is and how to avoid it."
 tagline: "Understand the common bank charges on your account in Nigeria, what they mean, and why banks deduct them. Learn which fees are normal, which ones deserve attention, and how to reduce unnecessary charges."
 focusKeyword: "bank charges in Nigeria"
-keyTakeaways: ["Most bank charges in Nigeria are legitimate, but often poorly explained.", "The CBN revised its Guide to Charges in 2026: small transfers up to ₦5,000 are free, naira card maintenance fees are gone, and current account maintenance fees end in 2027.", "VAT (7.5%) and stamp duty (₦50 on transfers of ₦10,000 or more, paid by the sender since January 2026) are government charges, not bank profit.", "Your own bank's ATM is free; other banks' ATMs cost ₦100 per ₦20,000 withdrawn, plus up to ₦500 at off-site machines.", "Unclear, repeated, or unusually high deductions should be checked, and you can escalate unresolved complaints to the CBN at cpd@cbn.gov.ng."]
-sources: ["cbn-guide-charges-2026","dailytrust-cbn-charges-2026","cbn-atm-faq-2025","ncc-ussd-2025","nigeria-tax-act-2025","cbn-how-to-complain","kuda-stamp-duty"]
-reviewed: "2026-11-01"
+keyTakeaways: ["Most bank charges in Nigeria are legitimate, but often poorly explained.", "The CBN published revised charges in April 2026 as an exposure draft, not a verified final replacement: check the current CBN circular and your bank tariff before treating draft fees as effective.", "The published 2020 electronic-transfer caps are ₦10, ₦25 and ₦50 by amount band; later confirmed ATM and tax changes apply separately.", "VAT (7.5%) and stamp duty (₦50 on transfers of ₦10,000 or more, generally paid by the sender since January 2026) are government charges, not bank profit.", "Your own bank\u0027s ATM is free; other banks\u0027 ATMs cost ₦100 per ₦20,000 withdrawn, with a disclosed surcharge at off-site machines.", "Unclear or repeated deductions can be disputed through your bank and escalated to the CBN."]
+sources: ["cbn-guide-charges-2020","cbn-draft-guide-charges-2026","cbn-atm-faq-2025","ncc-ussd-2025","nigeria-tax-act-2025","cbn-how-to-complain","kuda-stamp-duty"]
+reviewed: "2026-11-19"
 wpId: 402
 image: /images/posts/bank-charges-in-nigeria-explained.webp
 imageAlt: "A hand holding a phone with debit alerts above a highlighted bank statement"
@@ -32,17 +32,17 @@ Nigerian banks are permitted to charge you for several services — including tr
 
 ### Transfer charges
 
-When you send money to another bank, a transfer fee applies. The CBN caps these fees in its Guide to Charges. Under the version revised in 2026:
+When you send money from your phone or banking app to another bank, your bank may charge an electronic-transfer fee. The CBN's **2020 Guide to Charges** sets these published maximum bands for transfers made on a customer's electronic device:
 
-- **Up to ₦5,000:** free
-- **₦5,000 to ₦50,000:** ₦10
-- **Above ₦50,000:** ₦50
+- **Up to ₦5,000:** up to ₦10.
+- **₦5,001 to ₦50,000:** up to ₦25.
+- **Above ₦50,000:** up to ₦50.
 
-Transfers within the same bank are usually free.
+Transfers within the same bank are generally free. These are **maximums, not guaranteed fees**: your bank may charge less and different channels may have different tariffs.
 
-What matters to know is this: transfer fees are regulated. Banks cannot simply charge whatever they want. If a fee looks higher than these caps, compare it with your bank's published tariff and ask.
+**Important regulatory status (checked 19 November 2026):** The CBN circulated a revised Guide to Charges in April 2026, proposing free transfers up to ₦5,000 and lower charges in some bands. The CBN document is expressly marked **EXPOSURE DRAFT**, with a public-comment deadline. We have not verified a final CBN instrument making those proposed figures operative; do not treat them as settled law. Check the [2020 Guide](https://www.cbn.gov.ng/Out/2019/CCD/Guide%20to%20Charges%20by%20Banks%20Other%20Financial%20and%20Non-Financial%20Institutions%20eff%20Jan%201%202020.pdf), the [April 2026 exposure draft](https://www.cbn.gov.ng/Out/2026/CCD/Signed%20Guide%20to%20Charges%20April%202026.pdf), later circulars and your bank's current tariff before disputing a specific charge.
 
-Two things are often added on top: VAT on the bank's fee, and ₦50 stamp duty if you send ₦10,000 or more. So a ₦20,000 interbank transfer typically shows a ₦10 fee plus a ₦50 stamp duty line. This is not an error — it is how transfer costs work in Nigeria now.
+VAT may apply to the bank's service fee. Separately, since January 2026, a qualifying ₦20,000 transfer generally attracts ₦50 stamp duty paid by the sender. At the 2020 electronic-transfer maximum, that example is **up to ₦25 bank fee plus ₦50 stamp duty, before any VAT on the fee**.
 
 ### VAT on banking services
 
@@ -68,11 +68,11 @@ The old allowance of three free withdrawals a month at other banks' ATMs has end
 
 ### Card maintenance fees
 
-Under the CBN's revised 2026 Guide to Charges, banks can no longer charge maintenance fees on **naira debit and credit cards**. If you still see a card maintenance deduction on a naira card after May 2026, query it.
+Under the published 2020 CBN Guide, **naira cards linked to current accounts have no periodic maintenance fee**, while **cards linked to savings accounts can attract up to ₦50 quarterly**. The April 2026 draft proposed removing naira card maintenance charges more broadly, but do not assume that proposal took effect without a final CBN circular.
 
 You can still be charged for:
 
-- **Issuing or replacing a card:** up to ₦1,500 for a standard naira card. Virtual cards are free.
+- **Issuing, replacing or renewing a standard naira card:** the published 2020 guide provides for a ₦1,000 one-off fee. Confirm any later change with your bank.
 - **Foreign currency cards:** an annual maintenance fee can still apply.
 
 ### SMS alert charges
@@ -81,11 +81,11 @@ SMS alerts tell you every time money moves in or out of your account. They are o
 
 Banks can still charge for SMS alerts on transactions you make, but only on a cost-recovery basis — roughly what the bank pays the network to send the message. The charge per message is small, but it adds up across many transactions.
 
-Email alerts are free under the 2026 guide, and most banks send free in-app notifications. Turning off alerts entirely is not advisable. But if you are comfortable monitoring your account through email or your banking app, switching can reduce what you pay.
+Email notifications are free under the published 2020 guide,
 
 ### Account maintenance fees
 
-Current accounts in Nigeria can attract a current account maintenance fee (CAMF), charged on customer-initiated debits. Under the 2026 guide, it is capped at ₦0.50 per ₦1,000 of debits in 2026 and is scheduled to be abolished in 2027.
+Current accounts in Nigeria can attract a current account maintenance fee (CAMF) on certain customer-initiated debits. Under the published 2020 CBN Guide, the cap is **₦1 per ₦1,000 (one per mille)**. The April 2026 exposure draft proposed a phased reduction and eventual removal, but those dates are not confirmed as operative by that draft alone.
 
 Savings accounts do not attract this charge. If you notice a monthly maintenance deduction on a savings account, ask your bank to explain it.
 
@@ -105,7 +105,7 @@ Transfers below ₦10,000, salary payments, and transfers between your own accou
 
 ### Charges from using a POS terminal or making card payments
 
-When you pay with your debit card at a store, the CBN's 2026 guide says the cardholder should not be charged: the merchant pays a service charge of 0.5% of the transaction, capped at ₦10,000. If a shop insists on adding a "POS charge" to a card payment, that cost is meant to be the merchant's, not yours. (Cash withdrawals from POS agents are different — agents set their own fees.)
+When you pay with your debit card at a store, the published 2020 CBN guide caps merchant service commission at 0.5% of the transaction, up to ₦1,000. A merchant service fee is ordinarily borne by the merchant, not added as an unexplained bank deduction to the cardholder. This differs from cash withdrawal fees charged by POS agents. Ask for a breakdown of any extra store charge.
 
 Your bank may also apply a small charge for some card transactions, particularly for international payments or transactions in foreign currencies.
 
@@ -127,11 +127,11 @@ The frustration most people feel is not really about whether the charges are leg
 
 These charges are common, regulated or disclosed, and apply across most banks:
 
-- Transfer fees within the CBN caps (free up to ₦5,000, ₦10, or ₦50)
+- Electronic-transfer fees within the published caps (up to ₦10, ₦25 or ₦50 depending on amount and channel)
 - VAT on service charges
 - ATM charges at other banks' machines
 - SMS alert fees on a cost-recovery basis
-- Current account maintenance fees (until 2027)
+- Current account maintenance fees within the applicable published cap; verify whether any later CBN circular changed it
 - ₦50 stamp duty when you send ₦10,000 or more
 
 These do not mean you have to accept them without question, but they are standard parts of banking in Nigeria.
@@ -151,10 +151,10 @@ Transfer fees, for instance, have regulated caps. If what you are being charged 
 These could be subscription charges from third-party services you signed up for at some point, or they could be unauthorized. Check your transaction history for the originating service name. If you cannot identify it, contact your bank. Recurring unauthorized debits can also be a sign of fraud — our guide on [common online scams in Nigeria](/online-scams-in-nigeria/) covers how to spot these patterns early.
 
 **Charges on a dormant or lightly used account**
-If an account you rarely use is losing money every month, ask why. Under the 2026 guide, reactivating a dormant account is free, and naira card maintenance fees should no longer apply.
+If an account you rarely use is losing money every month, ask why. The published 2020 guide already provides that account reactivation itself has no charge, while naira card maintenance depends on account type.
 
-**A card maintenance fee on a naira card**
-These were scrapped in the 2026 guide. If one still appears after May 2026, ask your bank to reverse it.
+**An unexplained card maintenance fee**
+A naira card attached to a current account has no card maintenance charge under the published 2020 guide; savings-linked cards may have a quarterly charge. Ask your bank which rule and tariff apply instead of assuming the April 2026 draft is already binding.
 
 ## How to reduce unnecessary bank charges
 
@@ -170,10 +170,10 @@ In many cases, digital transfers cost less than branch-initiated transfers. Make
 If SMS alerts are costing you money and you are comfortable checking your banking app for notifications, ask your bank whether a lower-cost alert option is available.
 
 **Send fewer, larger transfers**
-Every transfer of ₦10,000 or more attracts ₦50 stamp duty plus the bank's fee. Paying someone ₦30,000 once costs about ₦60; paying ₦10,000 three times costs about ₦180.
+Qualifying transfers of ₦10,000 or more normally attract ₦50 stamp duty in addition to any bank fee. At the 2020 electronic-transfer cap, a single ₦30,000 transfer could involve ₦25 plus ₦50 duty, while three separate ₦10,000 transfers could involve three ₦25 fees and three ₦50 duties (₦75 versus ₦225 before VAT). Actual bank charges may be lower.
 
 **Use accounts that match your actual needs**
-Current accounts carry a maintenance fee until 2027; savings accounts do not. If you have a current account but your needs are simpler, ask whether a savings account would serve you better.
+Current accounts may have maintenance fees; savings accounts do not attract CAMF. Do not assume the proposed 2027 phase-out is effective without a final circular. If you have a current account but your needs are simpler, ask whether a savings account would serve you better.
 
 **Check your bank's current fee schedule**
 Most Nigerian banks publish their fee schedules on their website or in their help centers. Reading this once is worth it — it shows you exactly what you should expect to see on your statement.
@@ -211,7 +211,7 @@ Now that you know what to look for, you can do three things: track your account 
 ## Frequently asked questions
 
 **Why does my bank deduct money even when I do not make any transactions?**
-SMS alert fees and current account maintenance fees can appear without you making a transfer. Naira card maintenance fees were scrapped in 2026, so if you still see one, ask your bank to explain or reverse it.
+SMS alert charges or current-account fees may appear even if you did not just make a transfer. Under the published 2020 guide, current-account-linked naira cards have no periodic maintenance fee; savings-linked cards can attract up to ₦50 quarterly. The proposed 2026 fee reductions were published as a draft, so check the current approved schedule.
 
 **Is VAT on bank charges legal?**
 Yes. VAT is a government tax at a rate of 7.5 percent and applies to banking services in Nigeria. It is collected by the bank on behalf of the Nigeria Revenue Service (NRS), formerly FIRS.

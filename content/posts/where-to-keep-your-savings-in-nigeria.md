@@ -10,7 +10,7 @@ description: "Not sure where to keep your savings in Nigeria? This guide explain
 tagline: "The best place to keep your savings depends on what the money is for, how soon you may need it, and how easy it is for you to spend it. This guide explains the safest and smartest places to keep savings in Nigeria without making your money too hard to reach or too easy to touch."
 focusKeyword: "where to keep savings in Nigeria"
 keyTakeaways: ["The best place to keep savings depends entirely on what the money is for — there is no single right answer.", "Emergency savings need to be safe and quick to access when you need them.", "Goal-based savings need protection from impulse spending, not just a place to sit.", "Your main options include separate savings accounts, fixed deposits, fintech savings products, and cooperatives — each with different trade-offs.", "The trade-offs that matter most are safety, ease of access, discipline support, and returns.", "Your main bank account is one of the worst places to keep savings — too easy to spend from.", "Keeping cash at home is also a poor choice — no protection, no earnings, and always within reach."]
-sources: ["ndic","cbn-consumer-protection-regs","sec-registered-operators","efina-a2f-2023","ndic-coverage-2024","cbn-guide-charges-2026","dailytrust-cbn-charges-2026"]
+sources: ["ndic","cbn-consumer-protection-regs","sec-registered-operators","efina-a2f-2023","ndic-coverage-2024","cbn-guide-charges-2020"]
 calculator: "emergency-fund-calculator"
 reviewed: "2026-11-01"
 wpId: 467
@@ -45,7 +45,7 @@ When the money is in a different account with a different card (or no card at al
 Savings accounts in Nigeria typically offer some interest on your balance, though rates vary between banks and can be modest. More importantly, deposits in licensed banks are insured by the Nigeria Deposit Insurance Corporation (NDIC). If a commercial bank fails, each depositor is covered up to ₦5 million per bank. At microfinance banks, primary mortgage banks, and payment service banks, the limit is ₦2 million.
 This is one of the most reliable everyday savings options — not flashy, but solid.
 **Good for:** emergency savings, general savings, keeping money out of your main spending flow.
-**Watch out for:** some banks charge account maintenance fees, SMS alert fees, or minimum balance penalties. Before opening one, check the charges. You can find a full breakdown of what to look for in our guide to [bank charges in Nigeria explained](/bank-charges-nigeria/).
+**Watch out for:** some banks charge account maintenance fees, SMS alert fees, or minimum balance penalties. Before opening one, check the charges. You can find a full breakdown of what to look for in our guide to [bank charges in Nigeria explained](/bank-charges-in-nigeria-explained/).
 
 ### 2. A Fixed Deposit or Locked Savings Product
 

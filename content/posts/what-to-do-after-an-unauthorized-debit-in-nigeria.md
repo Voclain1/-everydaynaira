@@ -2,7 +2,7 @@
 title: "What to Do After an Unauthorized Debit in Nigeria"
 slug: "what-to-do-after-an-unauthorized-debit-in-nigeria"
 date: "2026-04-21T18:14:18+01:00"
-updated: "2026-11-01T12:00:00+01:00"
+updated: "2026-11-19T15:20:00+01:00"
 category: "money-safety"
 tags: ["Explainer"]
 author: "benedict"
@@ -10,8 +10,8 @@ description: "Money left your account without permission? Here's exactly what to
 tagline: "Money left your account without your approval? Here’s how to respond fast, report it properly, and reduce further risk."
 focusKeyword: "Unauthorized Debit"
 keyTakeaways: ["Screenshot the alert and check the full transaction details in your banking app", "Think through whether it could be a subscription, failed transaction, or known bank charge", "If you genuinely did not authorize it, block your card immediately through your app", "Change your internet banking password and transaction PIN if you suspect fraud", "Call your bank's fraud or customer care line right away", "Write down the date, amount, narration, and transaction reference before you do anything else", "When you reach the bank, ask for a complaint reference number and write it down"]
-sources: ["cbn-consumer-protection-regs","ndic","efcc","nibss","cbn-how-to-complain","cbn-app-fraud-draft","cbn-guide-charges-2026","dailytrust-cbn-charges-2026"]
-reviewed: "2026-11-01"
+sources: ["cbn-consumer-protection-regs","ndic","efcc","nibss","cbn-how-to-complain","cbn-app-fraud-draft","cbn-guide-charges-2020","cbn-draft-guide-charges-2026"]
+reviewed: "2026-11-19"
 wpId: 425
 image: /images/posts/what-to-do-after-an-unauthorized-debit-in-nigeria.webp
 imageAlt: "A customer pointing out a transaction on her statement at a bank service desk"
@@ -134,11 +134,11 @@ You can contact the service directly to cancel if you no longer want it, or ask 
 - the amount is small and matches known bank fee patterns (for example, SMS alert fees, a transfer fee, or ₦50 stamp duty after you sent ₦10,000 or more)
 - the narration includes language like "SMS charge," "VAT," "stamp duty," or "account maintenance"
 
-Note that naira card maintenance fees were scrapped under the CBN's revised 2026 Guide to Charges. If you see one after May 2026, treat it as a charge to query.
+The published 2020 CBN Guide says naira cards linked to current accounts have no periodic maintenance fee, but savings-linked naira cards may attract a maximum ₦50 quarterly fee. A wider removal was proposed in an April 2026 exposure draft; do not assume that draft took effect. If a deduction looks wrong, query it with your bank.
 
 If you are unsure what a particular bank charge is for, ask your bank to explain it in writing.
 
-[*Also read **Bank charges explained***](/bank-charges-nigeria/)
+[*Also read **Bank charges explained***](/bank-charges-in-nigeria-explained/)
 
 ## How to Report the Debit to Your Bank
 
