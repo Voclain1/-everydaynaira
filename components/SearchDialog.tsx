@@ -73,7 +73,6 @@ export function SearchDialog({ open, onClose }: { open: boolean; onClose: () => 
       .map((r) => r.d);
   }, [docs, terms]);
 
-  useEffect(() => setActive(0), [q]);
 
   const go = (u: string) => {
     onClose();
@@ -98,7 +97,7 @@ export function SearchDialog({ open, onClose }: { open: boolean; onClose: () => 
           <input
             ref={input}
             value={q}
-            onChange={(e) => setQ(e.target.value)}
+            onChange={(e) => { setQ(e.target.value); setActive(0); }}
             onKeyDown={(e) => {
               if (e.key === "ArrowDown") { e.preventDefault(); setActive((a) => Math.min(a + 1, results.length - 1)); }
               if (e.key === "ArrowUp") { e.preventDefault(); setActive((a) => Math.max(a - 1, 0)); }
@@ -122,7 +121,7 @@ export function SearchDialog({ open, onClose }: { open: boolean; onClose: () => 
               <p className="text-sm text-ink-3">Popular searches</p>
               <div className="mt-3 flex flex-wrap gap-2">
                 {SUGGESTED.map((s) => (
-                  <button key={s} type="button" onClick={() => setQ(s)} className="border border-line px-3 py-1.5 text-sm hover:border-ink hover:bg-lime-wash">
+                  <button key={s} type="button" onClick={() => { setQ(s); setActive(0); }} className="border border-line px-3 py-1.5 text-sm hover:border-ink hover:bg-lime-wash">
                     {s}
                   </button>
                 ))}

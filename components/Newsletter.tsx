@@ -30,7 +30,7 @@ export function NewsletterForm({ source = "site", dark = false }: { source?: str
   if (state === "done")
     return (
       <p role="status" className={`border px-4 py-4 font-medium ${dark ? "border-lime text-lime" : "border-ink bg-lime-wash"}`}>
-        You're subscribed. The next issue lands in your inbox this week.
+        You&apos;re subscribed. The next issue lands in your inbox this week.
       </p>
     );
 
