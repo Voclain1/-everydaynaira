@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "images:prompts": "node scripts/image-prompts.mjs",
     "images:optimize": "node scripts/optimize-images.mjs",
-    "check:urls": "node scripts/check-urls.mjs"
+    "check:urls": "node scripts/check-urls.mjs",
+    "typecheck": "tsc --noEmit",
+    "check:seo": "node scripts/check-seo.mjs"
   },
   "dependencies": {
     "geist": "1.4.2",
@@ -35,6 +37,8 @@
     "@types/react-dom": "^19.3.0",
     "sharp": "^0.35.5",
     "tailwindcss": "4.1.10",
-    "typescript": "5.8.3"
+    "typescript": "5.8.3",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.4.3"
   }
 }
