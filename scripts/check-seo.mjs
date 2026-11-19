@@ -31,6 +31,10 @@ for(const slug of sprintGuides){
  assert((post.data.sources??[]).length>=2,`Sprint 1 guide lacks references: ${slug}`);
  assert((post.content.match(/\]\(\/[^)\s]+\)/g)??[]).length>=3,`Sprint 1 guide lacks internal pathways: ${slug}`);
  assert(!post.data.reviewed,`Do not label a new article independently fact-checked before editorial sign-off: ${slug}`);
+ assert(post.data.image===`/images/posts/${slug}.webp`,`Sprint 1 article needs a selected real-life editorial photo: ${slug}`);
+ assert(post.data.imageAlt?.trim(),`Missing descriptive image alt text: ${slug}`);
+ assert(fs.existsSync(path.join(root,"public",post.data.image.replace(/^\//,""))),`Missing photographic WebP: ${slug}`);
+
 }
 assert(read("lib/site.ts").includes('url: "https://www.everydaynaira.com"'),"Incorrect canonical host");
 assert(read("app/sitemap.ts").includes("images: p.image ? [absUrl(p.image)] : undefined"),"Article image sitemap incorrect");

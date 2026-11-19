@@ -163,3 +163,68 @@ Save as `image-inbox/where-to-keep-your-savings-in-nigeria.png` · alt text: "A 
 ```
 a still life on a wooden shelf: a sealed clay piggy bank, a folded bank passbook, a phone showing a savings app (screen blurred) and a small cooperative contribution card, morning light. Editorial documentary photograph set in Nigeria, real everyday life, unposed. Shot on a full-frame camera with a 35mm lens at f/2.0, natural available light, gentle shadows, true-to-life colour with warm neutral tones and slightly muted saturation, fine natural film grain, realistic skin texture and pores, natural hands with five fingers, authentic Nigerian clothing, homes and streets. Composition with the subject in the centre third and calm space around it. No text, no readable screens, no logos or brand names, no watermarks.
 ```
+
+## Bank Transfer Failed but Money Was Deducted in Nigeria: What to Do
+
+Save as `image-inbox/bank-transfer-failed-but-debited-in-nigeria.png` · alt text: "A person in a Lagos home checking a bank transfer status on a phone"
+
+```
+candid medium shot inside a modest Lagos flat in daylight, a Nigerian young adult in casual house clothes seated at a slightly worn wooden table, studying a blurred bank transfer confirmation on a smartphone, another phone set down beside a small notepad, body language concerned but composed, balcony grille and everyday household details in background. Editorial documentary photograph set in Nigeria, real everyday life, unposed. Shot on a full-frame camera with a 35mm lens at f/2.0, natural available light, gentle shadows, true-to-life colour with warm neutral tones and slightly muted saturation, fine natural film grain, realistic skin texture and pores, natural hands with five fingers, authentic Nigerian clothing, homes and streets. Composition with the subject in the centre third and calm space around it. No text, no readable screens, no logos or brand names, no watermarks.
+```
+
+## Sent Money to the Wrong Bank Account in Nigeria? How to Request a Recall
+
+Save as `image-inbox/how-to-reverse-money-sent-to-wrong-account-in-nigeria.png` · alt text: "An office worker checking a transfer receipt after sending money to the wrong account"
+
+```
+a Nigerian professional in a compact shared office beside a window, seated sideways at a desk and carefully reviewing a blurred bank transfer receipt on a phone with a paper notebook and pen beside it, natural indirect afternoon daylight, understated expression of concentration, no visible account details. Editorial documentary photograph set in Nigeria, real everyday life, unposed. Shot on a full-frame camera with a 35mm lens at f/2.0, natural available light, gentle shadows, true-to-life colour with warm neutral tones and slightly muted saturation, fine natural film grain, realistic skin texture and pores, natural hands with five fingers, authentic Nigerian clothing, homes and streets. Composition with the subject in the centre third and calm space around it. No text, no readable screens, no logos or brand names, no watermarks.
+```
+
+## How to Report a Bank to the CBN in Nigeria: Complaint Steps and Template
+
+Save as `image-inbox/how-to-report-a-bank-to-cbn-in-nigeria.png` · alt text: "A woman organising documents before making a complaint about a bank transaction"
+
+```
+documentary over-the-shoulder scene in an ordinary Nigerian home office, Nigerian woman organizing printed complaint notes and a bank transaction slip with all text completely blurred on a wooden desk, open laptop with indistinct screen, a pen and a phone nearby, calm daylight through louvred window. Editorial documentary photograph set in Nigeria, real everyday life, unposed. Shot on a full-frame camera with a 35mm lens at f/2.0, natural available light, gentle shadows, true-to-life colour with warm neutral tones and slightly muted saturation, fine natural film grain, realistic skin texture and pores, natural hands with five fingers, authentic Nigerian clothing, homes and streets. Composition with the subject in the centre third and calm space around it. No text, no readable screens, no logos or brand names, no watermarks.
+```
+
+## SMS Alert Charges in Nigeria: What Banks Can Charge and How to Reduce Them
+
+Save as `image-inbox/sms-alert-charges-in-nigeria.png` · alt text: "A person reviewing phone alerts and a notebook to check bank notification charges"
+
+```
+close up of a Nigerian adult's hands holding a smartphone at a small kitchen table in an everyday Lagos apartment, screen showing an abstract blurred sequence of unreadable debit notification rows, handwritten personal expense notebook and a biro on the table, believable soft morning window light. Editorial documentary photograph set in Nigeria, real everyday life, unposed. Shot on a full-frame camera with a 35mm lens at f/2.0, natural available light, gentle shadows, true-to-life colour with warm neutral tones and slightly muted saturation, fine natural film grain, realistic skin texture and pores, natural hands with five fingers, authentic Nigerian clothing, homes and streets. Composition with the subject in the centre third and calm space around it. No text, no readable screens, no logos or brand names, no watermarks.
+```
+
+## How to Budget a ₦150,000–₦250,000 Salary in Nigeria (Real Examples)
+
+Save as `image-inbox/how-to-budget-150000-to-250000-naira-salary-in-nigeria.png` · alt text: "A Nigerian salary earner planning household spending at a dining table"
+
+```
+natural editorial photo of a Nigerian salary earner in their late twenties sitting at a modest dining table, casually sorting household grocery receipts and making a pencil budget in an ordinary ruled notebook, small piles of unbranded cash in a tin tray, ceiling fan and local patterned curtains in background, soft late-afternoon available light. Editorial documentary photograph set in Nigeria, real everyday life, unposed. Shot on a full-frame camera with a 35mm lens at f/2.0, natural available light, gentle shadows, true-to-life colour with warm neutral tones and slightly muted saturation, fine natural film grain, realistic skin texture and pores, natural hands with five fingers, authentic Nigerian clothing, homes and streets. Composition with the subject in the centre third and calm space around it. No text, no readable screens, no logos or brand names, no watermarks.
+```
+
+## How to Budget When You Are Paid Daily or Weekly in Nigeria
+
+Save as `image-inbox/how-to-budget-when-paid-daily-or-weekly-in-nigeria.png` · alt text: "A provision shop owner counting daily earnings beside a paper ledger"
+
+```
+realistic candid portrait at a small Lagos neighbourhood provision shop, Nigerian shopkeeper counting daily earnings with a pen and simple ruled ledger book on the counter, stacked bread and household goods behind, warm daylight entering through shop entrance, hands visible naturally and all written entries unreadable. Editorial documentary photograph set in Nigeria, real everyday life, unposed. Shot on a full-frame camera with a 35mm lens at f/2.0, natural available light, gentle shadows, true-to-life colour with warm neutral tones and slightly muted saturation, fine natural film grain, realistic skin texture and pores, natural hands with five fingers, authentic Nigerian clothing, homes and streets. Composition with the subject in the centre third and calm space around it. No text, no readable screens, no logos or brand names, no watermarks.
+```
+
+## How to Save for Annual House Rent in Nigeria Without Last-Minute Debt
+
+Save as `image-inbox/how-to-save-for-annual-house-rent-in-nigeria.png` · alt text: "Two people planning an annual rent payment at their home table"
+
+```
+quiet candid photograph of a Nigerian couple in a simple rented Lagos apartment, seated side-on at a dining table reviewing an unmarked calendar and household budget notebook, keys on the tabletop and moving cartons softly out of focus in background, diffused daylight through window, relatable and unposed. Editorial documentary photograph set in Nigeria, real everyday life, unposed. Shot on a full-frame camera with a 35mm lens at f/2.0, natural available light, gentle shadows, true-to-life colour with warm neutral tones and slightly muted saturation, fine natural film grain, realistic skin texture and pores, natural hands with five fingers, authentic Nigerian clothing, homes and streets. Composition with the subject in the centre third and calm space around it. No text, no readable screens, no logos or brand names, no watermarks.
+```
+
+## Flat Rate vs Reducing Balance Loans in Nigeria: ₦300,000 Example
+
+Save as `image-inbox/flat-rate-vs-reducing-balance-loan-interest-in-nigeria.png` · alt text: "A borrower comparing two loan repayment schedules using a calculator"
+
+```
+close over-the-shoulder documentary photograph in a Nigerian home study, hands using a plain physical calculator beside two paper loan repayment schedules with all numbers and words softly out of focus, a pen pointing between the papers, realistic wooden desk with slight everyday wear, neutral afternoon natural light. Editorial documentary photograph set in Nigeria, real everyday life, unposed. Shot on a full-frame camera with a 35mm lens at f/2.0, natural available light, gentle shadows, true-to-life colour with warm neutral tones and slightly muted saturation, fine natural film grain, realistic skin texture and pores, natural hands with five fingers, authentic Nigerian clothing, homes and streets. Composition with the subject in the centre third and calm space around it. No text, no readable screens, no logos or brand names, no watermarks.
+```
+
