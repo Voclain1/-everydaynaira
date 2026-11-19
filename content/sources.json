@@ -301,5 +301,10 @@
     "publisher": "Nigeria Data Protection Commission",
     "title": "Report a data protection/privacy violation",
     "url": "https://services.ndpc.gov.ng/breach/"
+  },
+  "cbn-fraud-and-scam": {
+    "publisher": "Central Bank of Nigeria",
+    "title": "Consumer Protection: Fraud and Scam Awareness",
+    "url": "https://www.cbn.gov.ng/supervision/cpdfraudandscam.html"
   }
 }
