@@ -1,0 +1,39 @@
+name: SEO and build quality
+on:
+  push:
+    branches: [main, "seo/**"]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Lint
+        run: npm run lint
+      - name: Typecheck
+        run: npm run typecheck
+      - name: SEO checks
+        run: npm run check:seo
+      - name: Build
+        run: npm run build
+      - name: Check legacy URLs on running site
+        run: |
+          npm run start -- -p 3000 > /tmp/everydaynaira-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          for try in $(seq 1 30); do
+            if curl -fsS http://localhost:3000/ >/dev/null; then break; fi
+            sleep 2
+          done
+          npm run check:urls -- http://localhost:3000
+          npm run check:rendered-seo -- http://localhost:3000

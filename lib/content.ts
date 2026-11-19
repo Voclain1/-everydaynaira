@@ -104,8 +104,9 @@ function render(md: string) {
   return { html, toc };
 }
 
-function textOf(node: any): string {
-  if (node.type === "text") return node.value;
+type TextTree = { type: string; value?: string; children?: TextTree[] };
+function textOf(node: TextTree): string {
+  if (node.type === "text") return node.value ?? "";
   return (node.children ?? []).map(textOf).join("");
 }
 

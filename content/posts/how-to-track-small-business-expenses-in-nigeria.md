@@ -95,7 +95,7 @@ Not all businesses have the same costs. But most Nigerian small business owners 
 
 **Packaging** Bags, boxes, labels, tape, nylon, stickers. These costs feel minor per unit but accumulate quickly, especially for businesses fulfilling many orders.
 
-**Bank charges and transfer fees** Every USSD transfer, mobile banking charge, or ATM fee related to business payments is a cost. If you are making many transfers a week, this number can surprise you. If you want a clearer picture of how these charges work, our explainer on [bank transfer fees in Nigeria](/bank-charges-nigeria/) breaks them down.
+**Bank charges and transfer fees** Every USSD transfer, mobile banking charge, or ATM fee related to business payments is a cost. If you are making many transfers a week, this number can surprise you. If you want a clearer picture of how these charges work, our explainer on [bank transfer fees in Nigeria](/bank-charges-in-nigeria-explained/) breaks them down.
 
 **Support staff payments** If you have someone who helps run the business — a shop assistant, a delivery person, a cleaner — their pay is a business expense.
 

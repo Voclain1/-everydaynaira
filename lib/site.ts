@@ -1,7 +1,7 @@
 export const SITE = {
   name: "EverydayNaira",
   legalName: "EveryDay Naira",
-  url: (process.env.NEXT_PUBLIC_SITE_URL || "https://everydaynaira.com").replace(/\/$/, ""),
+  url: "https://www.everydaynaira.com", // Matches the live 200 host; the apex redirects to www.
   tagline: "Practical money guidance for everyday Nigerians",
   description:
     "EverydayNaira helps Nigerians understand budgeting, saving, emergency funds, bank charges, debt, and everyday money decisions with clear, practical guidance.",

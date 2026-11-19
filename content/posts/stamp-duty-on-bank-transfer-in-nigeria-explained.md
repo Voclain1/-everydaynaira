@@ -2,16 +2,16 @@
 title: "Stamp Duty on Bank Transfer in Nigeria Explained"
 slug: "stamp-duty-on-bank-transfer-in-nigeria-explained"
 date: "2026-04-26T09:06:35+01:00"
-updated: "2026-11-01T12:00:00+01:00"
+updated: "2026-11-19T15:20:00+01:00"
 category: "banking"
 tags: ["Explainer"]
 author: "benedict"
 description: "Since January 2026, the ₦50 stamp duty on transfers of ₦10,000 or more is paid by the sender. Here's what changed, why, and how to track it on your statement."
 tagline: "That ₦50 stamp duty line on your statement moved sides in 2026. This guide explains who pays it now, which transfers are exempt, how it adds to your transfer fee, and what to do if it looks wrong."
 focusKeyword: "stamp duty"
-keyTakeaways: ["Stamp duty on bank transfers is a government charge, not a bank fee. Your bank collects it and passes it to the Nigeria Revenue Service (NRS), the agency that replaced FIRS in 2026.", "Since 1 January 2026, under the Nigeria Tax Act 2025, the ₦50 charge on electronic transfers of ₦10,000 or more is paid by the sender. Before 2026, the receiver paid it.", "Transfers below ₦10,000 are not charged. Banks also exempt salary payments and transfers between your own accounts at the same bank, though each bank applies the exemptions in its own way.", "Stamp duty is separate from your bank's transfer fee, so a ₦20,000 transfer to another bank can cost about ₦60 in total: ₦50 stamp duty plus the bank's transfer fee.", "A correctly applied charge cannot be reversed, but a charge on a transfer under ₦10,000, a duplicate, or a charge on an exempt transfer is an error you can dispute with your bank."]
-sources: ["nigeria-tax-act-2025","kuda-stamp-duty","techcabal-transfers-2026","techcabal-60-naira","cbn-guide-charges-2026","dailytrust-cbn-charges-2026","firs-stamp-duty-circular","mazars-finance-act-2020","cbn-how-to-complain"]
-reviewed: "2026-11-01"
+keyTakeaways: ["Stamp duty on qualifying bank transfers is a government charge, not a fee the bank keeps.", "Since 1 January 2026, under the Nigeria Tax Act 2025, the ₦50 duty on electronic transfers of ₦10,000 or more is paid by the sender.", "Transfers below ₦10,000, qualifying salary payments and eligible self-transfers are exempt under the relevant rules.", "Bank transfer charges are separate: the published CBN 2020 electronic-transfer caps are ₦10, ₦25 and ₦50 by band; an April 2026 revision was an exposure draft, not a verified final replacement.", "Challenge duplicate duty, deductions below the threshold or other apparent errors with your bank."]
+sources: ["nigeria-tax-act-2025","kuda-stamp-duty","techcabal-transfers-2026","cbn-guide-charges-2020","cbn-draft-guide-charges-2026","firs-stamp-duty-circular","mazars-finance-act-2020","cbn-how-to-complain"]
+reviewed: "2026-11-19"
 wpId: 460
 image: /images/posts/stamp-duty-on-bank-transfer-in-nigeria-explained.webp
 imageAlt: "A market trader sending a bank transfer on her phone at her stall"
@@ -38,7 +38,7 @@ When you see "stamp duty", "SD charge", "electronic money transfer levy", or "go
 
 It is a government levy. This distinction matters more than it might seem.
 
-When your bank charges you a transfer fee or an SMS alert fee, that money goes to the bank. It is paying for something the bank provides. Those charges are worth understanding too — see our guide to [bank charges in Nigeria](/bank-charges-nigeria/) for the current fee bands.
+When your bank charges you a transfer fee or an SMS alert fee, that money goes to the bank. It is paying for something the bank provides. Those charges are worth understanding too — see our guide to [bank charges in Nigeria](/bank-charges-in-nigeria-explained/) for the current fee bands.
 
 Stamp duty is different. Your bank identifies the qualifying transfer, deducts the amount automatically, and remits it to the NRS. The bank's role is purely that of a collection agent.
 
@@ -69,18 +69,20 @@ Each bank implements these exemptions through its own systems, and some describe
 
 Stamp duty sits on top of your bank's own transfer fee. The two are separate charges that often arrive as separate debit lines.
 
-Under the CBN's revised 2026 Guide to Charges, interbank electronic transfers are priced in three bands: free up to ₦5,000, ₦10 from ₦5,000 to ₦50,000, and ₦50 above ₦50,000. Put that together with stamp duty and a transfer to another bank looks like this:
+For transfers made on a customer's electronic device, the published **CBN 2020 Guide to Charges** sets maximum bank transfer fees of ₦10 for amounts up to ₦5,000, ₦25 for ₦5,001–₦50,000 and ₦50 above ₦50,000. An April 2026 **exposure draft** proposed new bands, but the document was expressly circulated for comment and does not by itself establish that the proposal took effect.
 
-| Amount you send | Bank transfer fee | Stamp duty | Total charges |
+The following are **maximum-fee illustrations**, not quotes for every bank. The totals exclude any VAT on the bank service fee:
+
+| Amount you send | Bank fee (up to) | Stamp duty | Combined (up to, before VAT) |
 | --- | --- | --- | --- |
-| ₦4,000 | Free | None | ₦0 |
-| ₦8,000 | ₦10 | None | ₦10 |
-| ₦20,000 | ₦10 | ₦50 | ₦60 |
+| ₦4,000 | ₦10 | None | ₦10 |
+| ₦8,000 | ₦25 | None | ₦25 |
+| ₦20,000 | ₦25 | ₦50 | ₦75 |
 | ₦150,000 | ₦50 | ₦50 | ₦100 |
 
-Some banks also add VAT (7.5%) to their own transfer fee. Check your bank's published tariff for the exact figures it applies.
+Confirm your bank's current tariff, applicable channel and any later CBN circular. A bank may charge less than the maxima above. The ₦50 stamp duty remains a separate legal charge on qualifying transfers.
 
-**A practical tip:** because stamp duty is a flat ₦50 per transfer, sending one ₦30,000 transfer costs less than sending three separate ₦10,000 transfers to the same person (₦60 in total instead of ₦180).
+**A practical tip:** because stamp duty is a flat ₦50 per qualifying transfer, sending one ₦30,000 transfer might cost up to ₦75 in these examples, compared with up to ₦225 for three separate ₦10,000 transfers to the same person, before VAT. Actual fees depend on the bank and channel.
 
 ## Why Stamp Duty Appears on Your Account Statement
 
@@ -163,4 +165,4 @@ Stamp duty on bank transfers confuses people because the rules changed and nobod
 
 It is a government levy — not a bank fee — collected on transfers of ₦10,000 or more and passed to the Nigeria Revenue Service. If the deduction matches a qualifying transfer you sent, there is nothing further to do. If something looks wrong, follow the steps above and raise it formally.
 
-To see every other charge that can appear on your statement, read our guide to [bank charges in Nigeria](/bank-charges-nigeria/), or browse the [banking guides](/banking/).
+To see every other charge that can appear on your statement, read our guide to [bank charges in Nigeria](/bank-charges-in-nigeria-explained/), or browse the [banking guides](/banking/).

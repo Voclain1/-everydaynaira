@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, type SetStateAction } from "react";
 import { Logo } from "./Logo";
 import { Arrow } from "./Arrow";
-import { SearchDialog } from "./SearchDialog";
+import dynamic from "next/dynamic";
+
+// Search is rarely used on initial load: split its dialog and search logic out.
+const SearchDialog = dynamic(() => import("./SearchDialog").then((m) => m.SearchDialog), { ssr: false });
 import { TOPICS } from "@/lib/topics";
 
 const NAV = [
@@ -15,15 +18,26 @@ const NAV = [
 ];
 
 export function Header() {
-  const [open, setOpen] = useState(false);
-  const [topics, setTopics] = useState(false);
-  const [search, setSearch] = useState(false);
   const pathname = usePathname();
-
-  useEffect(() => {
-    setOpen(false);
-    setTopics(false);
-  }, [pathname]);
+  const [menu, setMenu] = useState({ path: pathname, open: false, topics: false });
+  const [search, setSearch] = useState(false);
+  // Derive the visible menu state from the pathname instead of resetting it
+  // synchronously in an effect (avoids an extra client render on navigation).
+  const samePage = menu.path === pathname;
+  const open = samePage && menu.open;
+  const topics = samePage && menu.topics;
+  const setOpen = (next: SetStateAction<boolean>) =>
+    setMenu((current) => ({
+      path: pathname,
+      open: typeof next === "function" ? next(current.path === pathname && current.open) : next,
+      topics: current.path === pathname && current.topics,
+    }));
+  const setTopics = (next: SetStateAction<boolean>) =>
+    setMenu((current) => ({
+      path: pathname,
+      open: current.path === pathname && current.open,
+      topics: typeof next === "function" ? next(current.path === pathname && current.topics) : next,
+    }));
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -35,7 +49,7 @@ export function Header() {
         e.preventDefault();
         setSearch(true);
       }
-      if (e.key === "Escape") setTopics(false);
+      if (e.key === "Escape") setMenu((current) => ({ ...current, topics: false }));
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -143,7 +157,7 @@ export function Header() {
         </div>
       )}
 
-      <SearchDialog open={search} onClose={() => setSearch(false)} />
+      {search && <SearchDialog open={search} onClose={() => setSearch(false)} />}
     </header>
   );
 }

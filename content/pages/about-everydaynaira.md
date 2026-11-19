@@ -3,7 +3,7 @@ title: "About EverydayNaira"
 slug: "about-everydaynaira"
 description: "EverydayNaira is a Nigerian personal finance publishing brand. We make money topics simpler, clearer, and more useful for ordinary Nigerians — without jargon or fake expertise."
 intro: "We are a Nigerian personal finance publishing brand. Our job is to make money topics simpler, clearer, and more useful for ordinary Nigerians — without jargon, hype, or fake expertise."
-updated: "2026-04-30"
+updated: "2026-11-19"
 ---
 
 ## What EverydayNaira is
@@ -69,8 +69,6 @@ We do not invent statistics, guess at fees, or treat rumour as fact. Where infor
 We prefer fewer, stronger pages over many weak ones. A page earns its place on this site by being genuinely useful — not by targeting a keyword or filling a content calendar.
 
 ## The people behind EverydayNaira
-
-AO
 
 Benedict Arinze Belolisah
 
