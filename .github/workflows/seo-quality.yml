@@ -47,3 +47,4 @@ jobs:
             sleep 2
           done
           npm run check:urls -- http://localhost:3000
+          npm run check:rendered-seo -- http://localhost:3000
