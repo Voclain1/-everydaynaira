@@ -88,8 +88,8 @@ export const TOPICS: Topic[] = [
     },
     starters: [
       { label: "Bank charges explained", href: "/bank-charges-in-nigeria-explained/" },
-      { label: "Transfer fees and ATM costs", href: "/bank-charges-nigeria/" },
       { label: "Stamp duty on transfers", href: "/stamp-duty-on-bank-transfer-in-nigeria-explained/" },
+      { label: "Unexplained bank debits", href: "/what-to-do-after-an-unauthorized-debit-in-nigeria/" },
     ],
   },
   {

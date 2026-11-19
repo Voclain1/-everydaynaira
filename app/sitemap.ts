@@ -5,14 +5,23 @@ import { absUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
-  const latest = posts[0]?.updated ?? new Date().toISOString();
+  // The newest published article is not necessarily the most recently updated.
+  const latest = posts.reduce<string | undefined>(
+    (max, p) => (!max || Date.parse(p.updated) > Date.parse(max) ? p.updated : max),
+    undefined,
+  );
+  const topicLastModified = (category: string) =>
+    posts.reduce<string | undefined>(
+      (max, p) => p.category === category && (!max || Date.parse(p.updated) > Date.parse(max)) ? p.updated : max,
+      undefined,
+    );
   return [
     { url: absUrl("/"), lastModified: latest, changeFrequency: "weekly", priority: 1 },
     { url: absUrl("/start-here/"), changeFrequency: "monthly", priority: 0.8 },
     { url: absUrl("/tools/"), changeFrequency: "monthly", priority: 0.8 },
     ...TOPICS.map((t) => ({
       url: absUrl(t.hub),
-      lastModified: posts.find((p) => p.category === t.category)?.updated ?? latest,
+      lastModified: topicLastModified(t.category),
       changeFrequency: "weekly" as const,
       priority: 0.8,
     })),
@@ -21,7 +30,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: p.updated,
       changeFrequency: "monthly" as const,
       priority: 0.7,
-      images: [absUrl(`/og/${p.slug}/`)],
+      // Image sitemap should reference the real article image, not its social preview.
+      images: p.image ? [absUrl(p.image)] : undefined,
     })),
     { url: absUrl("/contact/"), changeFrequency: "yearly", priority: 0.3 },
     { url: absUrl("/authors/"), changeFrequency: "yearly", priority: 0.4 },

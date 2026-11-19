@@ -5,7 +5,10 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Logo } from "./Logo";
 import { Arrow } from "./Arrow";
-import { SearchDialog } from "./SearchDialog";
+import dynamic from "next/dynamic";
+
+// Search is rarely used on initial load: split its dialog and search logic out.
+const SearchDialog = dynamic(() => import("./SearchDialog").then((m) => m.SearchDialog), { ssr: false });
 import { TOPICS } from "@/lib/topics";
 
 const NAV = [
@@ -143,7 +146,7 @@ export function Header() {
         </div>
       )}
 
-      <SearchDialog open={search} onClose={() => setSearch(false)} />
+      {search && <SearchDialog open={search} onClose={() => setSearch(false)} />}
     </header>
   );
 }

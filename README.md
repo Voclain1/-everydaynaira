@@ -28,9 +28,9 @@ npm run dev                  # http://localhost:3000
 3. Deploy, then open the preview URL and run `npm run check:urls -- https://<preview-url>`
    to confirm every old WordPress URL resolves.
 4. Point the domain: Project → Settings → Domains → add `everydaynaira.com` and
-   `www.everydaynaira.com` (redirect www to the apex). Update DNS at your registrar to the
-   records Vercel shows.
-5. In Google Search Console, submit `https://everydaynaira.com/sitemap.xml`.
+   `www.everydaynaira.com` (**redirect the apex to www**, matching the live host and canonical URLs).
+   Update DNS at your registrar to the records Vercel shows.
+5. In Google Search Console, submit `https://www.everydaynaira.com/sitemap.xml`.
 
 ## Moving to a VPS later
 
@@ -80,7 +80,6 @@ Commit and push; Vercel rebuilds automatically. The cover image is generated for
 
 | Variable | Purpose |
 | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Canonical URL, `https://everydaynaira.com` |
 | `BREVO_API_KEY`, `BREVO_LIST_ID` | Newsletter sign-ups go to this Brevo list |
 | `NEWSLETTER_WEBHOOK_URL` | Alternative: post sign-ups to any webhook |
 | `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL` | Contact form email delivery |
