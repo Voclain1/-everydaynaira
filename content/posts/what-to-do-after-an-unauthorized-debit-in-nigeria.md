@@ -247,6 +247,8 @@ An unexpected debit is alarming. But the right response is not panic — it is a
 
 Check the details. Take screenshots. Block the card if needed. Change your credentials. Call your bank with the specifics and ask for a complaint reference number. Then follow up in writing.
 
+If you actually initiated the payment but [sent it to the wrong bank account](/how-to-reverse-money-sent-to-wrong-account-in-nigeria/), request a transfer recall. If it was a [failed payment with an unresolved debit](/bank-transfer-failed-but-debited-in-nigeria/), ask for a transaction trace. These are different disputes.
+
 If your bank resolves it, great. If they do not, escalate to the CBN. The process exists specifically to protect you.
 
 And once this is behind you, use it as a reason to tighten a few habits — transaction alerts, daily limits, keeping your OTP private — so you are better protected going forward.

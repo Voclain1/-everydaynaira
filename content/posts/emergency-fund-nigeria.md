@@ -165,7 +165,7 @@ If you start building general savings alongside your emergency fund, keep them i
 
 **Should I invest my emergency fund?** Generally no. An emergency fund should not be placed in volatile investments or products that take days to liquidate. The goal of an emergency fund is safety and accessibility, not growth. Once your emergency fund is fully built, any extra savings beyond it can be considered for investment.
 
-**Is an emergency fund the same as regular savings?** No. Regular savings are usually directed toward a goal — travel, a purchase, building capital. An emergency fund has a specific purpose: covering urgent, unplanned costs. Mixing the two makes it harder to know what money is truly available for emergencies.
+**Is an emergency fund the same as regular savings?** No. Regular savings are usually directed toward a goal — travel, a purchase, building capital. An emergency fund has a specific purpose: covering urgent, unplanned costs. Mixing the two makes it harder to know what money is truly available for emergencies. For a known yearly bill, use our [annual house rent savings plan](/how-to-save-for-annual-house-rent-in-nigeria/) instead.
 
 **What qualifies as an emergency for the fund?** Genuine emergencies include unexpected medical costs, sudden critical household repairs, urgent transport for a family matter, loss of income, or equipment failure that affects your work or health. A sale, celebration, or planned purchase does not count as an emergency.
 

@@ -194,3 +194,5 @@ Progress from a constrained position is still progress.
 **Is it better to pay off debt or save first?** It depends on the type of debt. High-interest debt, like a short-term loan with steep charges, is generally worth prioritising because the cost of not paying it down quickly can outpace what savings earn. A small emergency fund alongside debt repayment can prevent you from taking on new debt when surprises arise. This topic deserves its own careful consideration based on your specific situation.
 
 **What if I have nothing left after covering my basic costs?** Look first at whether any spending category has genuine flexibility. If not, the focus needs to shift toward increasing income rather than cutting further. Even while working on that, save whatever small amount is possible to maintain the habit.
+
+For worked examples of spending categories and savings on different take-home incomes, see our [₦150,000–₦250,000 Nigerian salary budget](/how-to-budget-150000-to-250000-naira-salary-in-nigeria/).

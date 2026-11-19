@@ -198,7 +198,7 @@ When you see a loan offer, do not stop at the interest rate or the monthly repay
 
 **What is loan interest in simple terms?** Loan interest is the extra money you pay a lender for using their money. It is usually charged as a percentage of what you borrowed. When you repay a loan in full, you return the original amount plus the interest that has built up over the loan period.
 
-**What is the difference between flat rate and reducing balance?** Flat rate applies interest to the original loan amount throughout the entire repayment period. Reducing balance applies interest only to what you still owe, which decreases as you make payments. Reducing balance results in lower total interest paid for the same stated rate.
+**What is the difference between flat rate and reducing balance?** Flat rate applies interest to the original loan amount throughout the entire repayment period. Reducing balance applies interest only to what you still owe, which decreases as you make payments. At the same stated monthly rate and term, a fully amortised reducing-balance loan can cost less; see our [₦300,000 flat-vs-reducing calculation](/flat-rate-vs-reducing-balance-loan-interest-in-nigeria/) to compare real schedules rather than percentages alone.
 
 **Why is my total loan repayment much higher than what I borrowed?** Because interest accumulates over the loan period, and fees are often added on top. The longer the loan runs, the more interest builds. The total repayment is your principal plus all interest and charges over the full term.
 

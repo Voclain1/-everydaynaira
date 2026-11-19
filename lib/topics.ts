@@ -40,9 +40,9 @@ export const TOPICS: Topic[] = [
       cta: "Open the budget calculator",
     },
     starters: [
+      { label: "₦150k–₦250k salary budgets", href: "/how-to-budget-150000-to-250000-naira-salary-in-nigeria/" },
+      { label: "Budgeting with daily or weekly pay", href: "/how-to-budget-when-paid-daily-or-weekly-in-nigeria/" },
       { label: "Monthly budget guide", href: "/how-to-create-a-monthly-budget-in-nigeria/" },
-      { label: "50/30/20 budget for Nigerians", href: "/5030-20-budget-rule-for-nigerians/" },
-      { label: "Budget on irregular income", href: "/how-to-manage-irregular-income-in-nigeria/" },
     ],
   },
   {
@@ -64,8 +64,8 @@ export const TOPICS: Topic[] = [
       cta: "Open the emergency fund calculator",
     },
     starters: [
+      { label: "Save for annual house rent", href: "/how-to-save-for-annual-house-rent-in-nigeria/" },
       { label: "Emergency fund explained", href: "/emergency-fund-nigeria/" },
-      { label: "Saving on a salary", href: "/how-to-save-money-in-nigeria-as-a-salary-earner-practical-guide/" },
       { label: "Sinking funds guide", href: "/what-are-sinking-funds-and-how-do-you-use-them-in-nigeria/" },
     ],
   },
@@ -87,9 +87,9 @@ export const TOPICS: Topic[] = [
       tone: "info",
     },
     starters: [
+      { label: "Failed transfer but debited", href: "/bank-transfer-failed-but-debited-in-nigeria/" },
       { label: "Bank charges explained", href: "/bank-charges-in-nigeria-explained/" },
-      { label: "Stamp duty on transfers", href: "/stamp-duty-on-bank-transfer-in-nigeria-explained/" },
-      { label: "Unexplained bank debits", href: "/what-to-do-after-an-unauthorized-debit-in-nigeria/" },
+      { label: "Wrong transfer recall steps", href: "/how-to-reverse-money-sent-to-wrong-account-in-nigeria/" },
     ],
   },
   {
@@ -116,9 +116,9 @@ export const TOPICS: Topic[] = [
       cta: "Open the loan calculator",
     },
     starters: [
+      { label: "Flat vs reducing loan interest", href: "/flat-rate-vs-reducing-balance-loan-interest-in-nigeria/" },
       { label: "How loan interest works", href: "/how-loan-interest-works-in-nigeria/" },
       { label: "Dangerous loan warning signs", href: "/signs-of-dangerous-loan-offers-every-nigerian-should-know/" },
-      { label: "What APR means", href: "/what-apr-means-in-nigeria-loans/" },
     ],
   },
   {

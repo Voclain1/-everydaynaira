@@ -13,6 +13,25 @@ const routes=new Set(["/","/authors/","/start-here/","/tools/","/contact/",...hu
 const redirected=new Set(["/bank-charges-nigeria/",...Object.keys(links).map(normal)]);
 assert.equal(new Set([...posts,...pages].map(p=>p.data.slug)).size,posts.length+pages.length,"Duplicate slugs");
 assert(!posts.some(p=>p.file==="bank-charges-nigeria.md"),"Archived banking duplicate is still live");
+const sprintGuides=[
+ "bank-transfer-failed-but-debited-in-nigeria",
+ "how-to-reverse-money-sent-to-wrong-account-in-nigeria",
+ "how-to-report-a-bank-to-cbn-in-nigeria",
+ "sms-alert-charges-in-nigeria",
+ "how-to-budget-150000-to-250000-naira-salary-in-nigeria",
+ "how-to-budget-when-paid-daily-or-weekly-in-nigeria",
+ "how-to-save-for-annual-house-rent-in-nigeria",
+ "flat-rate-vs-reducing-balance-loan-interest-in-nigeria",
+];
+for(const slug of sprintGuides){
+ const post=posts.find(p=>p.data.slug===slug);
+ assert(post,`Sprint 1 guide missing: ${slug}`);
+ const words=post.content.trim().split(/\s+/).length;
+ assert(words>=900,`Sprint 1 guide too short (${words} words): ${slug}`);
+ assert((post.data.sources??[]).length>=2,`Sprint 1 guide lacks references: ${slug}`);
+ assert((post.content.match(/\]\(\/[^)\s]+\)/g)??[]).length>=3,`Sprint 1 guide lacks internal pathways: ${slug}`);
+ assert(!post.data.reviewed,`Do not label a new article independently fact-checked before editorial sign-off: ${slug}`);
+}
 assert(read("lib/site.ts").includes('url: "https://www.everydaynaira.com"'),"Incorrect canonical host");
 assert(read("app/sitemap.ts").includes("images: p.image ? [absUrl(p.image)] : undefined"),"Article image sitemap incorrect");
 assert(read("app/robots.ts").includes('absUrl("/sitemap.xml")'),"robots sitemap incorrect");
