@@ -1,0 +1,40 @@
+name: Import publisher-approved Sprint 02 covers (one time)
+on:
+  push:
+    branches: ["content/topical-authority-sprint-02-2026-11-19"]
+    paths: ["scripts/import-approved-sprint2-images.mjs", ".github/workflows/import-approved-sprint2-images.yml"]
+permissions:
+  contents: write
+jobs:
+  import-approved-covers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Download publisher-approved ZIP and verify SHA256
+        shell: bash
+        run: |
+          mkdir -p image-inbox/sprint2 public/images/posts
+          curl --fail --location --retry 3 --max-time 120 'https://d2ol7oe51mr4n9.cloudfront.net/user_3Db11lqrglC1NxdVgV0iTlBiTDs/fff024b6-e6c8-4a78-8c13-2d015b9d5798.zip' -o image-inbox/sprint2/approved.zip
+          echo '6b692e675ddecc7c5f0df49e0caa1d777a1ac6e3a13e3802f86bb2f44ef810ba  image-inbox/sprint2/approved.zip' | sha256sum --check
+          unzip -j -o image-inbox/sprint2/approved.zip '*.webp' -d public/images/posts/
+          unzip -p image-inbox/sprint2/approved.zip review_manifest.json > image-inbox/sprint2/review_manifest.json
+      - name: Validate all twelve photos and exact article names
+        run: node scripts/import-approved-sprint2-images.mjs
+      - name: Commit verified approved photos to Sprint 02 branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/images/posts/*.webp
+          if git diff --cached --quiet; then
+            echo "Images are already present."
+            exit 0
+          fi
+          git commit -m "assets: include twelve approved EverydayNaira Sprint 02 photo covers"
+          git push origin HEAD:content/topical-authority-sprint-02-2026-11-19
