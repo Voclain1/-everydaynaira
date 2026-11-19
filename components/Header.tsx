@@ -49,7 +49,7 @@ export function Header() {
         e.preventDefault();
         setSearch(true);
       }
-      if (e.key === "Escape") setTopics(false);
+      if (e.key === "Escape") setMenu((current) => ({ ...current, topics: false }));
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
