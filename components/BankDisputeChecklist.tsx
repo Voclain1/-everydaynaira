@@ -102,7 +102,7 @@ export function BankDisputeChecklist() {
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <h2 id="complaint-template" className="text-2xl font-bold tracking-[-0.025em]">Bank complaint letter template</h2>
-            <p className="mt-2 max-w-2xl leading-relaxed text-ink-2">Copy and fill the blanks privately. Send your complaint through your institution's verified channel.</p>
+            <p className="mt-2 max-w-2xl leading-relaxed text-ink-2">Copy and fill the blanks privately. Send your complaint through your institution&apos;s verified channel.</p>
           </div>
           <div className="flex flex-wrap gap-2 print:hidden">
             <button type="button" onClick={copyTemplate} className="btn btn-primary">Copy letter</button>
