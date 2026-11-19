@@ -274,5 +274,37 @@
     "publisher": "Central Bank of Nigeria",
     "title": "Consumer Complaints Management System (CCMS) portal",
     "url": "https://complaintsportal.cbn.gov.ng/"
+  },
+  "cbn-atm-guidelines-2026": {
+    "publisher": "Central Bank of Nigeria",
+    "title": "Guidelines on the Operations of ATMs in Nigeria (March 2026), section 11",
+    "url": "https://www.cbn.gov.ng/Out/2026/CCD/ATM%20Guidelines.pdf",
+    "date": "March 2026"
+  },
+  "fccpc-approved-register": {
+    "publisher": "Federal Competition and Consumer Protection Commission",
+    "title": "Approvals of Digital Money Lenders — official current register",
+    "url": "https://fccpc.gov.ng/registration-of-digital-money-lenders/approvals-of-dmls/"
+  },
+  "fccpc-deon-restored-2026": {
+    "publisher": "Federal Competition and Consumer Protection Commission",
+    "title": "FCCPC Resumes Digital Lending Regulation following Federal High Court ruling",
+    "url": "https://fccpc.gov.ng/fccpc-resumes-digital-lending-regulation/",
+    "date": "20 July 2026"
+  },
+  "fccpc-complaint-handling": {
+    "publisher": "Federal Competition and Consumer Protection Commission",
+    "title": "Consumer complaint handling and filing options",
+    "url": "https://fccpc.gov.ng/consumers/complaint-handling/"
+  },
+  "ndpc-breach-portal": {
+    "publisher": "Nigeria Data Protection Commission",
+    "title": "Report a data protection/privacy violation",
+    "url": "https://services.ndpc.gov.ng/breach/"
+  },
+  "cbn-fraud-and-scam": {
+    "publisher": "Central Bank of Nigeria",
+    "title": "Consumer Protection: Fraud and Scam Awareness",
+    "url": "https://www.cbn.gov.ng/supervision/cpdfraudandscam.html"
   }
 }

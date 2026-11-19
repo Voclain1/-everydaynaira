@@ -115,3 +115,7 @@ Treat anyone asking for an OTP, PIN, payment or remote access to “unlock” yo
 A failed bank transfer is stressful, but the safest response is methodical: verify the status, protect the evidence, avoid a duplicate payment, lodge a formal case and escalate when necessary. The number that matters most is not a promised refund hour; it is your **transaction and complaint reference**, which allows the problem to be followed up.
 
 For situations involving a genuine error in the destination account, the process is different. Read [how to recall a wrong-account transfer](/how-to-reverse-money-sent-to-wrong-account-in-nigeria/).
+
+## Related help if the payment still has no answer
+
+A bank may need your exact interbank reference: see [how to find a NIP session ID](/how-to-find-nip-session-id-for-bank-transfer-in-nigeria/). If this happened at a cash machine, use the [ATM non-dispense guide](/atm-debited-but-no-cash-dispensed-in-nigeria/) instead. Our free [bank-dispute evidence checklist](/resources/bank-dispute-checklist/) helps organise the complaint before sending it.

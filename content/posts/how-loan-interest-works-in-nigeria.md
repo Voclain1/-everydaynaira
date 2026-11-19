@@ -221,3 +221,7 @@ The same loan amount can cost significantly more or less depending on the lender
 Before accepting any loan, ask for the total repayment amount, understand whether the rate is flat or reducing, and account for all fees. Those three steps alone will give you a clearer view of what you are actually signing up for.
 
 If you want to go further, the [debt section](/debt/) covers the full picture — from understanding how borrowing works to recognizing the offers you should walk away from.
+
+## Confirm the lender and the offer
+
+Calculating interest is only half the decision. Read [how to check a Nigerian loan app against FCCPC's register](/how-to-check-if-a-loan-app-is-approved-in-nigeria/) before agreeing to the contract. The [digital loan harassment guide](/how-to-report-loan-app-harassment-in-nigeria/) explains what evidence to preserve if collection practices become abusive.

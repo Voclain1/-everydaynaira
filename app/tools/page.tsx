@@ -46,6 +46,12 @@ export default function Tools() {
         <EmergencyFundCalculator n={2} />
         <SavingsGoalCalculator n={3} />
         <LoanCalculator n={4} />
+        <section className="border border-ink bg-card p-6 sm:p-8">
+          <p className="flex items-center gap-3 font-medium"><span className="marker" /> Free printable resource</p>
+          <h2 className="mt-4 text-2xl font-bold tracking-[-0.025em]">Bank transfer dispute checklist</h2>
+          <p className="mt-3 max-w-2xl leading-relaxed text-ink-2">Save the important evidence, ask for the right transaction reference and copy a complaint letter without entering any personal banking details on our website.</p>
+          <Link href="/resources/bank-dispute-checklist/" className="btn btn-ghost mt-6">Open free evidence checklist</Link>
+        </section>
 
         <aside className="border-t-2 border-ink pt-6">
           <h2 className="font-bold">Disclaimer</h2>

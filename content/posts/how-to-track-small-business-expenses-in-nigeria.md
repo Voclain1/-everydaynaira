@@ -206,3 +206,7 @@ Running a business without tracking expenses is like trying to navigate somewher
 You do not need to become an accountant. You need a reliable daily habit — record what the business spends, keep the records organised, and review them regularly. That is it. The tools can be as simple as a notebook. The categories can be simple. What matters is consistency.
 
 Start with today. Write down what the business spent. Do it again tomorrow. Within a few weeks, you will have something no amount of guessing can give you: an honest picture of where the money is actually going — and a real basis for deciding what to do next.
+
+## Use the figures to plan ahead
+
+A [daily sales and expense record](/how-to-record-daily-sales-and-expenses-in-a-small-nigerian-business/) keeps actual money movements separate from profit. Put those records into a [four-week small-business cash-flow forecast](/weekly-cash-flow-forecast-for-small-business-in-nigeria/) so you can spot an upcoming payment gap before it occurs.

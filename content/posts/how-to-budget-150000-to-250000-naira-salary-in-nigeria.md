@@ -143,3 +143,7 @@ For day-to-day cash budgeting, treat contractual debt payments as obligations. Y
 A Nigerian salary budget must account for expensive essentials, yearly bills and unexpected weeks. Start with honest figures, allocate the full take-home amount, then revise against your actual bank statement.
 
 If your income arrives unpredictably rather than monthly, our [daily and weekly pay budgeting guide](/how-to-budget-when-paid-daily-or-weekly-in-nigeria/) uses a different system.
+
+## Test the largest variable costs
+
+If your daily commute is taking a large share of salary, use [the Lagos work-transport calculation](/how-to-budget-transport-costs-in-lagos-on-a-salary/) to quantify the true monthly expense. The [December budget guide](/how-to-plan-december-holiday-spending-on-a-nigerian-salary/) can help prevent seasonal spending from undermining rent and school-fee reserves.

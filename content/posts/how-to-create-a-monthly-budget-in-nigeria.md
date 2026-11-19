@@ -183,3 +183,7 @@ For a more detailed look at this approach, see our guide on [how to manage irreg
 **What if I go over budget in one category?** That is normal, especially early on. The goal is not to never overspend a category. It is to notice when it happens and adjust either that category or another to compensate. Over time, your budget becomes more accurate.
 
 **Should I budget for fun or entertainment?** Yes. A budget that allows no personal spending tends to collapse quickly. Building in a realistic, intentional amount for discretionary spending makes the budget more honest and more sustainable.
+
+## Put the method to work in specific months
+
+If commuting is one of your biggest expenses, use [our Lagos transport budget calculation](/how-to-budget-transport-costs-in-lagos-on-a-salary/). For seasonal costs, build a separate [December spending envelope](/how-to-plan-december-holiday-spending-on-a-nigerian-salary/) rather than pulling money from rent or January essentials.

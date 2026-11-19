@@ -158,3 +158,7 @@ Recognise the gap as early as possible. Review housing costs, realistic income o
 For annual rent, the most useful number is not the final bill. It is the amount you need to set aside **every time you are paid**, calculated from the due date and what you already have.
 
 Start now, keep the reserve visible and review it before the next renewal sneaks up on you.
+
+## Other deadlines that deserve separate money
+
+If you are also paying school fees, calculate a distinct [termly school-fee reserve](/how-to-save-for-school-fees-every-term-in-nigeria/). Keeping them separately labelled avoids spending next term's fees to complete this month's rent savings.

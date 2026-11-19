@@ -114,3 +114,7 @@ That is a [failed or delayed transfer](/bank-transfer-failed-but-debited-in-nige
 Before confirming a transfer, read the **recipient name and bank** on the confirmation screen, not only the digits. Save verified beneficiaries instead of retyping account details. For unusual or large payments, consider making a small test transfer **only if the added charges and inconvenience make sense**.
 
 The best chance of recovery comes from acting promptly and using the banks' official channels. None of the steps above guarantees a refund, but they make sure your case is recorded and handled as the right kind of problem.
+
+## Was it actually a scam rather than a typing error?
+
+If you deliberately paid the account because someone misrepresented a product or identity, read [what to do after sending money to an online scammer](/what-to-do-after-sending-money-to-an-online-scammer-in-nigeria/) instead. A suspected fraud report differs from a straightforward wrong-account recall.

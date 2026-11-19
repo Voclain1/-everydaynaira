@@ -180,3 +180,7 @@ You do not need to start with a large amount. You need to start with something â
 If you are living paycheck to paycheck right now, this habit will not solve everything overnight. But it will change what your options are the next time an unexpected cost lands. That is worth building toward.
 
 Use our [emergency fund calculator](/tools/#emergency-fund-calculator) to find out how much you personally need based on your actual monthly expenses. It takes less than two minutes.
+
+## When your income has no reliable payday
+
+The general reserve principles still apply, but the contribution method should change. See [how irregular earners can build an emergency fund](/how-to-build-an-emergency-fund-with-irregular-income-in-nigeria/) using smaller slow-week deposits and larger top-ups in better weeks.

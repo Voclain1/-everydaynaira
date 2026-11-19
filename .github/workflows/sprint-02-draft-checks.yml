@@ -1,0 +1,21 @@
+name: Sprint 02 draft checks (no publication)
+on:
+  push:
+    branches: ["content/topical-authority-sprint-02-2026-11-19"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  draft-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: node scripts/check-sprint2-drafts.mjs
+      - run: npm run build

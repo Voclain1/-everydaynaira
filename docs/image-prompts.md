@@ -228,3 +228,99 @@ Save as `image-inbox/flat-rate-vs-reducing-balance-loan-interest-in-nigeria.png`
 close over-the-shoulder documentary photograph in a Nigerian home study, hands using a plain physical calculator beside two paper loan repayment schedules with all numbers and words softly out of focus, a pen pointing between the papers, realistic wooden desk with slight everyday wear, neutral afternoon natural light. Editorial documentary photograph set in Nigeria, real everyday life, unposed. Shot on a full-frame camera with a 35mm lens at f/2.0, natural available light, gentle shadows, true-to-life colour with warm neutral tones and slightly muted saturation, fine natural film grain, realistic skin texture and pores, natural hands with five fingers, authentic Nigerian clothing, homes and streets. Composition with the subject in the centre third and calm space around it. No text, no readable screens, no logos or brand names, no watermarks.
 ```
 
+## Sprint 02 — atm-debited-but-no-cash-dispensed-in-nigeria
+
+Save as `image-inbox/atm-debited-but-no-cash-dispensed-in-nigeria.png` · alt text: "A bank customer checking an ATM cash slot after an unsuccessful withdrawal"
+
+```
+unposed documentary scene at an unbranded ATM lobby in Lagos, Nigerian customer standing slightly side-on at a cash machine and looking down at an empty withdrawal tray with one hand open, expression thoughtfully concerned, screen content entirely blurred, realistic concrete wall and daylight, no bank branding or readable text. Documentary editorial photograph of everyday Nigerian life. Natural soft directional daylight, full-frame 35mm lens, f/2.0 realistic depth of field, natural skin texture, five realistic fingers per hand, restrained true-to-life colour and fine grain. Subject centred with quiet visual space. No readable text, logos, invented currency, watermarks or theatrical HDR lighting. 16:10 landscape.
+```
+
+## Sprint 02 — how-to-find-nip-session-id-for-bank-transfer-in-nigeria
+
+Save as `image-inbox/how-to-find-nip-session-id-for-bank-transfer-in-nigeria.png` · alt text: "A person checking the reference details for a bank transfer on a phone"
+
+```
+natural candid scene in a modest Nigerian office, young adult holding a smartphone near a laptop and a ruled notebook while carefully comparing a blurred transfer receipt to an unreadable laptop screen, soft window daylight and authentic office furniture, no banking logos or readable numbers. Documentary editorial photograph of everyday Nigerian life. Natural soft directional daylight, full-frame 35mm lens, f/2.0 realistic depth of field, natural skin texture, five realistic fingers per hand, restrained true-to-life colour and fine grain. Subject centred with quiet visual space. No readable text, logos, invented currency, watermarks or theatrical HDR lighting. 16:10 landscape.
+```
+
+## Sprint 02 — how-to-check-if-a-loan-app-is-approved-in-nigeria
+
+Save as `image-inbox/how-to-check-if-a-loan-app-is-approved-in-nigeria.png` · alt text: "A woman checking a lender's information on her phone and laptop"
+
+```
+candid medium close photograph in a contemporary but ordinary Nigerian home office, adult woman checking a loan app on smartphone against an open laptop showing an indistinct official register, no readable words, pens and notebook on a wooden desk, natural afternoon window light, calm investigative mood. Documentary editorial photograph of everyday Nigerian life. Natural soft directional daylight, full-frame 35mm lens, f/2.0 realistic depth of field, natural skin texture, five realistic fingers per hand, restrained true-to-life colour and fine grain. Subject centred with quiet visual space. No readable text, logos, invented currency, watermarks or theatrical HDR lighting. 16:10 landscape.
+```
+
+## Sprint 02 — how-to-report-loan-app-harassment-in-nigeria
+
+Save as `image-inbox/how-to-report-loan-app-harassment-in-nigeria.png` · alt text: "A woman reviewing troubling phone messages at home"
+
+```
+candid documentary portrait of Nigerian adult woman sitting safely at a small apartment dining table with a smartphone showing blurred unreadable notifications, a closed notebook and cup of tea nearby, concerned but composed, non-dramatic authentic home interior with soft daylight. Documentary editorial photograph of everyday Nigerian life. Natural soft directional daylight, full-frame 35mm lens, f/2.0 realistic depth of field, natural skin texture, five realistic fingers per hand, restrained true-to-life colour and fine grain. Subject centred with quiet visual space. No readable text, logos, invented currency, watermarks or theatrical HDR lighting. 16:10 landscape.
+```
+
+## Sprint 02 — what-to-do-after-sending-money-to-an-online-scammer-in-nigeria
+
+Save as `image-inbox/what-to-do-after-sending-money-to-an-online-scammer-in-nigeria.png` · alt text: "A buyer checking a suspicious online payment and order message"
+
+```
+authentic Nigerian home setting, young adult at table looking seriously at a smartphone and an order note with unreadable text, simple parcel bag and an open laptop with blurred screen nearby, realistic ordinary daylight, thoughtful posture, unposed photojournalism. Documentary editorial photograph of everyday Nigerian life. Natural soft directional daylight, full-frame 35mm lens, f/2.0 realistic depth of field, natural skin texture, five realistic fingers per hand, restrained true-to-life colour and fine grain. Subject centred with quiet visual space. No readable text, logos, invented currency, watermarks or theatrical HDR lighting. 16:10 landscape.
+```
+
+## Sprint 02 — how-to-identify-fake-bank-customer-service-numbers-in-nigeria
+
+Save as `image-inbox/how-to-identify-fake-bank-customer-service-numbers-in-nigeria.png` · alt text: "A person carefully checking a customer-service message on a smartphone"
+
+```
+close candid editorial photograph in a Lagos apartment, hands holding phone with indistinct messaging screen beside another phone and an unbranded paper banking card, all text and numbers unreadable, natural morning light, no invented icons or business logos. Documentary editorial photograph of everyday Nigerian life. Natural soft directional daylight, full-frame 35mm lens, f/2.0 realistic depth of field, natural skin texture, five realistic fingers per hand, restrained true-to-life colour and fine grain. Subject centred with quiet visual space. No readable text, logos, invented currency, watermarks or theatrical HDR lighting. 16:10 landscape.
+```
+
+## Sprint 02 — how-to-save-for-school-fees-every-term-in-nigeria
+
+Save as `image-inbox/how-to-save-for-school-fees-every-term-in-nigeria.png` · alt text: "A parent planning school expenses beside children's exercise books"
+
+```
+Nigerian guardian and school-age child seated together at a modest family table, adult planning expenses in plain ruled notebook while school exercise books and a neatly folded school uniform lie nearby, child's face only partially visible, realistic Lagos apartment morning window light, natural unposed interactions. Documentary editorial photograph of everyday Nigerian life. Natural soft directional daylight, full-frame 35mm lens, f/2.0 realistic depth of field, natural skin texture, five realistic fingers per hand, restrained true-to-life colour and fine grain. Subject centred with quiet visual space. No readable text, logos, invented currency, watermarks or theatrical HDR lighting. 16:10 landscape.
+```
+
+## Sprint 02 — how-to-build-an-emergency-fund-with-irregular-income-in-nigeria
+
+Save as `image-inbox/how-to-build-an-emergency-fund-with-irregular-income-in-nigeria.png` · alt text: "A freelancer organising an emergency savings envelope beside a work notebook"
+
+```
+real Nigerian freelance worker at a modest home worktable sorting unbranded banknotes into separate plain envelopes next to work tools, simple ledger and smartphone, relaxed careful concentration, soft natural side daylight, no legible writing or logos. Documentary editorial photograph of everyday Nigerian life. Natural soft directional daylight, full-frame 35mm lens, f/2.0 realistic depth of field, natural skin texture, five realistic fingers per hand, restrained true-to-life colour and fine grain. Subject centred with quiet visual space. No readable text, logos, invented currency, watermarks or theatrical HDR lighting. 16:10 landscape.
+```
+
+## Sprint 02 — how-to-record-daily-sales-and-expenses-in-a-small-nigerian-business
+
+Save as `image-inbox/how-to-record-daily-sales-and-expenses-in-a-small-nigerian-business.png` · alt text: "A shopkeeper recording daily sales in a notebook at a provision shop counter"
+
+```
+natural documentary photograph at a Lagos neighbourhood provision shop, Nigerian woman shopkeeper writing sales in a ruled paper ledger beside a basic calculator, unbranded packaged groceries and bread visible on shelves, daylight enters through open shop front, relaxed realistic skin texture and hands, no readable brand labels. Documentary editorial photograph of everyday Nigerian life. Natural soft directional daylight, full-frame 35mm lens, f/2.0 realistic depth of field, natural skin texture, five realistic fingers per hand, restrained true-to-life colour and fine grain. Subject centred with quiet visual space. No readable text, logos, invented currency, watermarks or theatrical HDR lighting. 16:10 landscape.
+```
+
+## Sprint 02 — weekly-cash-flow-forecast-for-small-business-in-nigeria
+
+Save as `image-inbox/weekly-cash-flow-forecast-for-small-business-in-nigeria.png` · alt text: "A tailor reviewing weekly business payments at a workshop table"
+
+```
+documentary scene at a small Nigerian tailoring workshop, male tailor in simple casual clothes leaning over a weekly planning notebook, neat stacks of cloth, scissors and tape measure on a worn wooden table, calculator beside the pages, window daylight, all text unreadable, practical working atmosphere. Documentary editorial photograph of everyday Nigerian life. Natural soft directional daylight, full-frame 35mm lens, f/2.0 realistic depth of field, natural skin texture, five realistic fingers per hand, restrained true-to-life colour and fine grain. Subject centred with quiet visual space. No readable text, logos, invented currency, watermarks or theatrical HDR lighting. 16:10 landscape.
+```
+
+## Sprint 02 — how-to-budget-transport-costs-in-lagos-on-a-salary
+
+Save as `image-inbox/how-to-budget-transport-costs-in-lagos-on-a-salary.png` · alt text: "A Lagos commuter reviewing transport expenses near a bus stop"
+
+```
+authentic unposed Lagos city commuter at a roadside bus stop in soft daylight, Nigerian young office worker in neat casual work clothes checking a phone and holding small notebook, distant yellow danfo buses out of focus in background, normal everyday street surroundings, no readable billboards or logos. Documentary editorial photograph of everyday Nigerian life. Natural soft directional daylight, full-frame 35mm lens, f/2.0 realistic depth of field, natural skin texture, five realistic fingers per hand, restrained true-to-life colour and fine grain. Subject centred with quiet visual space. No readable text, logos, invented currency, watermarks or theatrical HDR lighting. 16:10 landscape.
+```
+
+## Sprint 02 — how-to-plan-december-holiday-spending-on-a-nigerian-salary
+
+Save as `image-inbox/how-to-plan-december-holiday-spending-on-a-nigerian-salary.png` · alt text: "Family members planning holiday shopping expenses at home"
+
+```
+candid editorial photograph in an everyday Nigerian household dining room, two adult family members planning year-end spending using plain notebook and unbranded grocery shopping bags, subtle simple seasonal home decoration in background, muted natural window light, realistic unposed expressions, no readable text. Documentary editorial photograph of everyday Nigerian life. Natural soft directional daylight, full-frame 35mm lens, f/2.0 realistic depth of field, natural skin texture, five realistic fingers per hand, restrained true-to-life colour and fine grain. Subject centred with quiet visual space. No readable text, logos, invented currency, watermarks or theatrical HDR lighting. 16:10 landscape.
+```
+

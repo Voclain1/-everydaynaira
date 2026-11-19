@@ -89,3 +89,8 @@ paperwork blurred so no fake text appears.
 For the eight articles added in `content/topical-authority-sprint-01-2026-11-19`, the publisher requires the Layer 2 **natural editorial photograph** before merging PR #4. Layer 1 is a technical fallback and does **not** satisfy their publication-quality expectation for this batch. All eight scene briefs live in `content/image-briefs.json`, and copy-ready prompts are included in `docs/image-prompts.md`.
 
 Run `npm run images:optimize` on 8 approved, full-resolution 16:10 photographs named after their slugs, commit the generated `public/images/posts/<slug>.webp` files and the front-matter `image` and `imageAlt` fields. CI deliberately fails for this batch until every selected image exists. Check realism, rights and editorial appropriateness before selecting any asset. Do not invent image paths or borrow another publisher's copyrighted photography without permission.
+
+
+### Sprint 02 image release gate — 12 articles
+
+The publisher requires personal review and **explicit approval** of real Nigerian editorial photographs for every new article before publication. All 12 draft briefs appear in `content/image-briefs.json`, with their prompts in `docs/image-prompts.md`. Generate separately, present the image previews for approval, then crop and optimise the approved originals to 1920×1200 WebP in `public/images/posts/<slug>.webp`. Insert exact `image` and `imageAlt` metadata into each corresponding Markdown article. Sprint 02 static SEO tests deliberately fail until **all 12** approved real-image files and metadata are present; do not bypass those requirements. PR must remain draft and unmerged until that gate, editorial review and the full workflow pass. These drafts are **not live**.

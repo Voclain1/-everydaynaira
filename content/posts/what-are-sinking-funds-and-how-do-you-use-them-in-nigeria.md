@@ -157,3 +157,7 @@ For the most common large lump-sum expense, our [annual rent savings worksheet](
 **Is a sinking fund the same as a savings goal?** They are similar. A sinking fund is a savings goal with a specific deadline and a clear monthly contribution tied to it. The term "savings goal" can be broader. The mechanics are the same.
 
 **What happens to the money if the expense does not happen?** You keep it. If you saved toward a trip that did not happen, the money can stay in that fund for a future trip, roll into another fund, or move into general savings or your emergency fund. It is still your money.
+
+## Turn your next school bill into a reserve
+
+For parents and guardians, [our school-fee savings plan](/how-to-save-for-school-fees-every-term-in-nigeria/) shows how to calculate the contribution from each payday, including uniforms, materials and a realistic term deadline.

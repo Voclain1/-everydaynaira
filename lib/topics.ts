@@ -40,9 +40,9 @@ export const TOPICS: Topic[] = [
       cta: "Open the budget calculator",
     },
     starters: [
+      { label: "Budget Lagos transport costs", href: "/how-to-budget-transport-costs-in-lagos-on-a-salary/" },
       { label: "₦150k–₦250k salary budgets", href: "/how-to-budget-150000-to-250000-naira-salary-in-nigeria/" },
-      { label: "Budgeting with daily or weekly pay", href: "/how-to-budget-when-paid-daily-or-weekly-in-nigeria/" },
-      { label: "Monthly budget guide", href: "/how-to-create-a-monthly-budget-in-nigeria/" },
+      { label: "Plan December spending", href: "/how-to-plan-december-holiday-spending-on-a-nigerian-salary/" },
     ],
   },
   {
@@ -64,9 +64,9 @@ export const TOPICS: Topic[] = [
       cta: "Open the emergency fund calculator",
     },
     starters: [
+      { label: "Save for school fees each term", href: "/how-to-save-for-school-fees-every-term-in-nigeria/" },
       { label: "Save for annual house rent", href: "/how-to-save-for-annual-house-rent-in-nigeria/" },
-      { label: "Emergency fund explained", href: "/emergency-fund-nigeria/" },
-      { label: "Sinking funds guide", href: "/what-are-sinking-funds-and-how-do-you-use-them-in-nigeria/" },
+      { label: "Emergency fund on irregular income", href: "/how-to-build-an-emergency-fund-with-irregular-income-in-nigeria/" },
     ],
   },
   {
@@ -87,9 +87,9 @@ export const TOPICS: Topic[] = [
       tone: "info",
     },
     starters: [
+      { label: "ATM debit but no cash", href: "/atm-debited-but-no-cash-dispensed-in-nigeria/" },
       { label: "Failed transfer but debited", href: "/bank-transfer-failed-but-debited-in-nigeria/" },
-      { label: "Bank charges explained", href: "/bank-charges-in-nigeria-explained/" },
-      { label: "Wrong transfer recall steps", href: "/how-to-reverse-money-sent-to-wrong-account-in-nigeria/" },
+      { label: "Find a NIP session ID", href: "/how-to-find-nip-session-id-for-bank-transfer-in-nigeria/" },
     ],
   },
   {
@@ -116,8 +116,8 @@ export const TOPICS: Topic[] = [
       cta: "Open the loan calculator",
     },
     starters: [
+      { label: "Check whether a loan app is approved", href: "/how-to-check-if-a-loan-app-is-approved-in-nigeria/" },
       { label: "Flat vs reducing loan interest", href: "/flat-rate-vs-reducing-balance-loan-interest-in-nigeria/" },
-      { label: "How loan interest works", href: "/how-loan-interest-works-in-nigeria/" },
       { label: "Dangerous loan warning signs", href: "/signs-of-dangerous-loan-offers-every-nigerian-should-know/" },
     ],
   },
@@ -139,8 +139,8 @@ export const TOPICS: Topic[] = [
       tone: "info",
     },
     starters: [
-      { label: "Managing irregular income", href: "/how-to-manage-irregular-income-in-nigeria/" },
-      { label: "Paying yourself from a side hustle", href: "/how-to-pay-yourself-from-a-side-hustle/" },
+      { label: "Daily sales and expense ledger", href: "/how-to-record-daily-sales-and-expenses-in-a-small-nigerian-business/" },
+      { label: "Weekly business cash-flow forecast", href: "/weekly-cash-flow-forecast-for-small-business-in-nigeria/" },
       { label: "Separating business money", href: "/how-to-separate-personal-and-business-money-in-nigeria/" },
     ],
   },
@@ -162,9 +162,9 @@ export const TOPICS: Topic[] = [
       tone: "warn",
     },
     starters: [
-      { label: "Common scams in Nigeria", href: "/online-scams-in-nigeria/" },
-      { label: "Unauthorized debit guide", href: "/what-to-do-after-an-unauthorized-debit-in-nigeria/" },
-      { label: "Dangerous loan offers", href: "/signs-of-dangerous-loan-offers-every-nigerian-should-know/" },
+      { label: "Money sent to a scammer", href: "/what-to-do-after-sending-money-to-an-online-scammer-in-nigeria/" },
+      { label: "Fake bank customer care", href: "/how-to-identify-fake-bank-customer-service-numbers-in-nigeria/" },
+      { label: "Report loan-app harassment", href: "/how-to-report-loan-app-harassment-in-nigeria/" },
     ],
   },
 ];

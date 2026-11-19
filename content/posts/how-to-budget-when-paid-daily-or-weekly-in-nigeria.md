@@ -159,3 +159,7 @@ Be cautious: a loan used to cover repeat income gaps can create another fixed bi
 Daily and weekly income needs a **payment-by-payment plan**. Protect business costs, budget on a slow-month floor, split each net payment immediately and review your buckets every week.
 
 The system works because it respects *when* money arrives, not because it assumes your income is stable.
+
+## Add a reserve for unpredictable weeks
+
+Your income buckets can fund more than routine bills. Read [how to build an emergency fund with irregular income](/how-to-build-an-emergency-fund-with-irregular-income-in-nigeria/) and [how to track small-business receipts](/how-to-record-daily-sales-and-expenses-in-a-small-nigerian-business/) before deciding what is genuinely available to save.

@@ -143,3 +143,7 @@ Complaints about regulated payment services may fall within the relevant consume
 Before escalating, make sure you can answer: *What happened? When? How much? Which institution? What reference? When did I complain? What did the bank say? What remedy am I requesting?*
 
 That clarity—not the length of your message—usually makes a financial complaint easier to investigate.
+
+## A practical resource before escalating
+
+You can follow our free [bank dispute evidence checklist and complaint letter](/resources/bank-dispute-checklist/) to prepare the references, correspondence and chronology. If the problem is a machine that debited you without cash, consult the updated [March 2026 ATM reversal guidance](/atm-debited-but-no-cash-dispensed-in-nigeria/).
