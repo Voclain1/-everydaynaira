@@ -124,3 +124,7 @@ No. Consider ownership, insurance, fuel, maintenance, parking and financing. Com
 ## The bottom line
 
 **Multiply your real round-trip fare by the days you travel.** That one calculation makes the transport budget visible. Then test any change against the full household budget, safety and the demands of your work.
+
+## Extend the plan beyond commuting
+
+Once your work journey is budgeted, check it against [the full monthly budgeting method](/how-to-create-a-monthly-budget-in-nigeria/) and your [annual house rent savings target](/how-to-save-for-annual-house-rent-in-nigeria/) before accepting a higher fixed living cost.

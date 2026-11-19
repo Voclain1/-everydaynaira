@@ -96,3 +96,7 @@ An account number alone is different from giving a password or OTP. Still review
 ## The one habit worth remembering
 
 **Verify first, then explain your banking problem.** The faster person replying to a complaint is not necessarily the genuine bank agent.
+
+## Further protection
+
+For a broader set of fraud warning signs, see [our guide to common online scams in Nigeria](/online-scams-in-nigeria/). If an institution fails to investigate an account-security complaint, [the CBN complaint process](/how-to-report-a-bank-to-cbn-in-nigeria/) explains how to preserve a formal case record.
