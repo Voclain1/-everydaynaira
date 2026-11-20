@@ -1,12 +1,12 @@
 # EverydayNaira: Sprint 02 earned-backlink programme
 
-Prepared 19 November 2026. **No outreach has been sent and no editorial link has been acquired by this document.**
+Prepared 19 November 2026; updated 20 November 2026. **Three new tailored Gmail drafts have been saved but none sent; no acquired editorial links have been verified.** The live execution log is in `docs/seo/sprint-03-editorial-outreach-tracker.md`.
 
 ## Editorial resource to pitch
 
 **Free bank-transfer dispute evidence checklist:** https://www.everydaynaira.com/resources/bank-dispute-checklist/
 
-Status: **branch-only draft. This URL must not be pitched as live until the Sprint 02 PR is approved, merged and Vercel deployment independently verified.**
+Status: **published and deployed on 20 November 2026** (Sprint 02 PR #6 merged; Vercel deployment succeeded). This page is an outreach resource, not evidence of an editorial backlink.
 
 Why it could be cited: a free no-login, printable checklist helps users differentiate failed NIP transfer, mistaken recipient, ATM non-dispense and unrecognised debit. It includes a copyable sample complaint letter. It asks for no bank credentials or document uploads.
 
