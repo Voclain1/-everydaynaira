@@ -50,6 +50,12 @@ for(const slug of sprint2Guides){
  assert(post.data.imageAlt?.trim(),`Image alt text is missing: ${slug}`);
  assert(fs.existsSync(path.join(root,"public",post.data.image.replace(/^\//,""))),`Publisher-approved WebP photo missing: ${slug}`);
 }
+const conciseTitles={"stamp-duty-on-bank-transfer-in-nigeria-explained":"Stamp Duty on Bank Transfers in Nigeria","bank-charges-in-nigeria-explained":"Bank Charges in Nigeria: Fees Explained","where-to-keep-your-savings-in-nigeria":"Where to Keep Savings in Nigeria","salary-advance-vs-personal-loan-which-one-should-you-take":"Salary Advance vs Personal Loan in Nigeria","5030-20-budget-rule-for-nigerians":"50/30/20 Budget Rule in Nigeria","how-loan-interest-works-in-nigeria":"How Loan Interest Works in Nigeria","how-to-track-small-business-expenses-in-nigeria":"Track Small Business Expenses in Nigeria","emergency-fund-nigeria":"Emergency Fund in Nigeria: How to Start"};
+for(const [slug,expected] of Object.entries(conciseTitles)){
+ const post=posts.find(p=>p.data.slug===slug);
+ assert(post?.data.seoTitle===expected,`Search title override missing or unexpected: ${slug}`);
+ assert((post.data.seoTitle+" - EverydayNaira").length<=60,`Search title exceeds 60 characters: ${slug}`);
+}
 assert(read("lib/site.ts").includes('url: "https://www.everydaynaira.com"'),"Incorrect canonical host");
 assert(read("app/sitemap.ts").includes("images: p.image ? [absUrl(p.image)] : undefined"),"Article image sitemap incorrect");
 assert(read("app/robots.ts").includes('absUrl("/sitemap.xml")'),"robots sitemap incorrect");

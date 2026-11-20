@@ -45,7 +45,7 @@ const STEPS = [
     body: "Transfer fees, SMS charges, card maintenance fees, and account management fees are common. Many people do not notice them individually, but they reduce your account balance steadily across a full year.",
     links: [
       { label: "Bank charges explained", href: "/bank-charges-in-nigeria-explained/" },
-      { label: "Transfer fees guide", href: "/bank-charges-nigeria/" },
+      { label: "SMS alert charges", href: "/sms-alert-charges-in-nigeria/" },
     ],
   },
   {
