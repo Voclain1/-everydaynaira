@@ -1,7 +1,7 @@
 ---
 slug: "how-to-check-if-a-loan-app-is-approved-in-nigeria"
 title: "How to Check Whether a Loan App Is Approved in Nigeria (FCCPC Checklist)"
-description: "Before borrowing from a Nigerian loan app, check the FCCPC approved digital lenders register, legal company name, permissions, loan terms and current regulatory status."
+description: "Before borrowing, verify a Nigerian loan app against the FCCPC lender register and review its fees, repayment terms and data permissions."
 tagline: "A clean app-store page and a friendly name are not proof of a safe lender. Match the legal company and app against the regulator's current records."
 focusKeyword: "how to check if loan app is approved in Nigeria"
 keyTakeaways: ["Check the FCCPC's current register of approved digital lenders; approval status can change.","Match both the legal operator name and the actual app/product name, not just a familiar logo.","Some financial institutions are supervised under different regulatory regimes; verify the licence of the underlying legal entity.","Read disbursement, fees, repayment dates, late charges and data permissions before accepting.","FCCPC says enforcement of the 2025 DEON digital-lending regulations resumed after a July 20, 2026 Federal High Court ruling."]

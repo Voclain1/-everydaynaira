@@ -1,0 +1,18 @@
+name: Live host and canonical verification
+on:
+  workflow_dispatch:
+  push:
+    branches: ["seo/sprint-03-indexing-canonical-and-ctr"]
+    paths: [".github/workflows/seo-live-host-diagnostic.yml", "scripts/diagnose-live-hosts.mjs"]
+permissions:
+  contents: read
+jobs:
+  verify-production-hosts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify permanent redirects, www canonicals and sitemap
+        run: node scripts/diagnose-live-hosts.mjs

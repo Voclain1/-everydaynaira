@@ -1,5 +1,6 @@
 ---
 title: "Where to Keep Your Savings in Nigeria: Options for Every Goal"
+seoTitle: "Where to Keep Savings in Nigeria"
 slug: "where-to-keep-your-savings-in-nigeria"
 date: "2026-05-02T19:59:15+01:00"
 updated: "2026-11-01T12:00:00+01:00"

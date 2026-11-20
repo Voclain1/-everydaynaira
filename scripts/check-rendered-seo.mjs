@@ -68,5 +68,9 @@ for(const slug of secondGuides){
  assert(archive.includes(`href="${route}"`),`Missing guide archive card: ${slug}`);
  assert(html.includes(`/images/posts/${slug}.webp`),`Missing approved photographic cover: ${slug}`);
 }
-console.log("Rendered SEO checks passed: 38-guide archive, 12 homepage cards, free dispute resource, canonical pages, images, sitemap, search and RSS.");
+for(const [slug,seoTitle] of Object.entries({"stamp-duty-on-bank-transfer-in-nigeria-explained":"Stamp Duty on Bank Transfers in Nigeria","bank-charges-in-nigeria-explained":"Bank Charges in Nigeria: Fees Explained","where-to-keep-your-savings-in-nigeria":"Where to Keep Savings in Nigeria","salary-advance-vs-personal-loan-which-one-should-you-take":"Salary Advance vs Personal Loan in Nigeria","5030-20-budget-rule-for-nigerians":"50/30/20 Budget Rule in Nigeria","how-loan-interest-works-in-nigeria":"How Loan Interest Works in Nigeria","how-to-track-small-business-expenses-in-nigeria":"Track Small Business Expenses in Nigeria","emergency-fund-nigeria":"Emergency Fund in Nigeria: How to Start"})){
+ const html=await page("/"+slug+"/");
+ assert(html.includes(`<title>${seoTitle} - EverydayNaira</title>`),`Concise SEO title not rendered: ${slug}`);
+}
+console.log("Rendered SEO checks passed: 38-guide archive, 12 homepage cards, search titles, canonical pages, images, sitemap, search and RSS.");
 

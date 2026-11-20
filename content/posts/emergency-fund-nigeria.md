@@ -1,5 +1,6 @@
 ---
 title: "What Is an Emergency Fund — and How to Build One in Nigeria"
+seoTitle: "Emergency Fund in Nigeria: How to Start"
 slug: "emergency-fund-nigeria"
 date: "2026-04-27T11:58:41+01:00"
 updated: "2026-11-01T12:00:00+01:00"

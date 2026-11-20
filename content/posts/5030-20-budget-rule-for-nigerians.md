@@ -1,5 +1,6 @@
 ---
 title: "50/30/20 Budget Rule in Nigeria: Does It Work for Salary Earners?"
+seoTitle: "50/30/20 Budget Rule in Nigeria"
 slug: "5030-20-budget-rule-for-nigerians"
 date: "2026-04-15T18:40:20+01:00"
 updated: "2026-11-01T12:00:00+01:00"

@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const post = getPost(slug);
   if (post)
     return {
-      title: post.title,
+      title: post.seoTitle || post.title,
       description: post.description,
       alternates: { canonical: `/${slug}/` },
       openGraph: {
@@ -189,7 +189,7 @@ function PostView({ post }: { post: Post }) {
                 ))}
               </ol>
               <p className="mt-6 text-sm text-ink-3">
-                Article reviewed {formatDate(post.reviewed ?? post.updated)}. Found something out of date? <Link href="/contact/" className="link">Tell us</Link> and we will check it against the source. Read our <Link href="/fact-checking-policy/" className="link">fact-checking policy</Link>.
+                {post.reviewed ? `Fact-check date: ${formatDate(post.reviewed)}.` : `Last updated: ${formatDate(post.updated)}.`} Found something out of date? <Link href="/contact/" className="link">Tell us</Link> and we will check it against the source. Read our <Link href="/fact-checking-policy/" className="link">fact-checking policy</Link>.
               </p>
             </section>
           )}
@@ -246,7 +246,7 @@ function PostView({ post }: { post: Post }) {
               dateModified: post.updated,
               mainEntityOfPage: url,
               url,
-              image: absUrl(`/og/${post.slug}/`),
+              image: absUrl(post.image || `/og/${post.slug}/`),
               articleSection: topic.name,
               keywords: post.focusKeyword || undefined,
               wordCount: post.plain.split(" ").length,

@@ -1,5 +1,6 @@
 ---
 title: "How to Track Small Business Expenses in Nigeria"
+seoTitle: "Track Small Business Expenses in Nigeria"
 slug: "how-to-track-small-business-expenses-in-nigeria"
 date: "2026-05-28T16:23:16+01:00"
 updated: "2026-11-01T12:00:00+01:00"
