@@ -8,7 +8,7 @@ import { PostCard, PostCover } from "@/components/PostCard";
 import { NewsletterBand } from "@/components/Newsletter";
 
 export const metadata: Metadata = {
-  title: { absolute: "EverydayNaira - Practical money guidance for everyday Nigerians" },
+  title: { absolute: "EverydayNaira | Money Guides for Nigerians" },
   alternates: { canonical: "/" },
 };
 

@@ -10,7 +10,7 @@ import { absUrl, ogFor } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Start here: a clear path through the basics",
   description:
-    "New to EverydayNaira? Follow six steps through budgeting, emergency funds, bank charges, borrowing and scams, in the order that makes most sense for Nigerians starting from scratch.",
+    "New to managing money in Nigeria? Follow six practical steps covering budgets, emergency savings, bank charges, borrowing and scam prevention.",
   alternates: { canonical: "/start-here/" },
   ...ogFor("start-here", "Start here"),
 };

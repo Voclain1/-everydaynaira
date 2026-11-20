@@ -6,9 +6,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { absUrl, ogFor } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Free money calculators for Nigerians",
+  title: "Free Budget, Savings & Loan Calculators",
   description:
-    "Free naira calculators: budget breakdown, emergency fund target, savings goal plan, and loan repayment with flat-rate vs reducing-balance comparison. No sign-up, nothing leaves your device.",
+    "Calculate budgets, emergency savings, savings goals and loan repayments in naira. Four free Nigerian money tools, no sign-up required.",
   alternates: { canonical: "/tools/" },
   ...ogFor("tools", "Money calculators"),
 };

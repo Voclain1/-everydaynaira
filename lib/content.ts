@@ -23,6 +23,8 @@ export type Faq = { q: string; a: string };
 export type Post = {
   slug: string;
   title: string;
+  /** Concise organic-search title; visible article headline remains unchanged. */
+  seoTitle?: string;
   description: string;
   tagline: string;
   date: string;
@@ -171,6 +173,7 @@ export function getAllPosts(): Post[] {
     return {
       slug: data.slug ?? file.replace(/\.md$/, ""),
       title: data.title,
+      seoTitle: data.seoTitle,
       description: data.description || data.tagline || "",
       tagline: data.tagline || "",
       date: data.date,
