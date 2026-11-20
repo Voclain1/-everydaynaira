@@ -1,5 +1,6 @@
 ---
 title: "Stamp Duty on Bank Transfer in Nigeria Explained"
+seoTitle: "Stamp Duty on Bank Transfers in Nigeria"
 slug: "stamp-duty-on-bank-transfer-in-nigeria-explained"
 date: "2026-04-26T09:06:35+01:00"
 updated: "2026-11-19T15:20:00+01:00"

@@ -1,5 +1,6 @@
 ---
 title: "Salary Advance vs Personal Loan: Which One Should You Take?"
+seoTitle: "Salary Advance vs Personal Loan in Nigeria"
 slug: "salary-advance-vs-personal-loan-which-one-should-you-take"
 date: "2026-04-25T16:29:33+01:00"
 updated: "2026-11-01T12:00:00+01:00"

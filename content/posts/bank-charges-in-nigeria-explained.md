@@ -1,5 +1,6 @@
 ---
 title: "Understanding All the Bank Charges on Your Bank Account in Nigeria"
+seoTitle: "Bank Charges in Nigeria: Fees Explained"
 slug: "bank-charges-in-nigeria-explained"
 date: "2026-04-18T23:17:59+01:00"
 updated: "2026-11-19T15:20:00+01:00"
