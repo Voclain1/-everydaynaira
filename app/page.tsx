@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getAllPosts, getPost, formatDate, type Post } from "@/lib/content";
+import { getAllPosts, getPost, type Post } from "@/lib/content";
 import { TOPICS, topicByCategory } from "@/lib/topics";
 import { Arrow } from "@/components/Arrow";
 import { PostCard, PostCover } from "@/components/PostCard";
@@ -61,22 +61,34 @@ function isUpdated(post: Post): boolean {
   return post.updated > post.date && !isNew(post);
 }
 
+function shortDate(iso: string): string {
+  return new Date(iso).toLocaleDateString("en-NG", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    timeZone: "Africa/Lagos",
+  });
+}
+
 function Meta({ post, showCategory = true }: { post: Post; showCategory?: boolean }) {
   const topic = topicByCategory(post.category);
   return (
-    <p className="text-sm text-ink-2">
+    <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink-2 sm:text-sm">
       <span className="font-semibold uppercase tracking-wide text-ink">{contentType(post)}</span>
       {showCategory ? (
         <>
-          {" "}<span className="text-ink-3">/</span> {topic.name}
+          <span className="text-ink-3">/</span>
+          <span>{topic.name}</span>
         </>
       ) : null}
-      {" "}<span className="text-ink-3">/</span> {formatDate(post.updated)}
-      {" "}<span className="text-ink-3">/</span> {post.readingMinutes} min read
+      <span className="text-ink-3">/</span>
+      <span>{shortDate(post.updated)}</span>
+      <span className="text-ink-3">/</span>
+      <span>{post.readingMinutes} min read</span>
       {isNew(post) ? (
-        <>{" "}<span className="ml-1 inline-block border border-ink bg-lime px-1.5 py-0.5 text-[0.7rem] font-bold uppercase tracking-wide text-ink">New</span></>
+        <span className="inline-block border border-ink bg-lime px-1.5 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-ink">New</span>
       ) : isUpdated(post) ? (
-        <>{" "}<span className="ml-1 inline-block border border-line bg-card px-1.5 py-0.5 text-[0.7rem] font-bold uppercase tracking-wide text-ink-2">Updated</span></>
+        <span className="inline-block border border-line bg-card px-1.5 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-ink-2">Updated</span>
       ) : null}
     </p>
   );
@@ -96,12 +108,12 @@ function HeadlineRow({ post }: { post: Post }) {
 
 function SectionHeading({ kicker, title, href, linkLabel }: { kicker: string; title: string; href: string; linkLabel: string }) {
   return (
-    <div className="flex flex-wrap items-end justify-between gap-4 border-t-2 border-ink pt-5">
-      <div>
+    <div className="flex flex-col items-start gap-4 border-t-2 border-ink pt-5 sm:flex-row sm:items-end sm:justify-between">
+      <div className="min-w-0">
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-ink-2">{kicker}</p>
-        <h2 className="display mt-2 text-[clamp(1.8rem,3.6vw,2.6rem)]">{title}</h2>
+        <h2 className="display mt-2 text-[clamp(1.55rem,6vw,2.6rem)] leading-[1.05]">{title}</h2>
       </div>
-      <Link href={href} className="btn btn-ghost !py-2.5">
+      <Link href={href} className="btn btn-ghost shrink-0 !py-2.5 text-sm">
         {linkLabel} <Arrow />
       </Link>
     </div>
@@ -129,38 +141,40 @@ export default function Home() {
     <>
       {/* ---------- Edition bar ---------- */}
       <section className="border-b border-line">
-        <div className="wrap flex flex-wrap items-center justify-between gap-2 py-3 text-sm text-ink-2">
+        <div className="wrap flex flex-col items-start gap-1 py-3 text-sm text-ink-2 sm:flex-row sm:items-center sm:justify-between sm:gap-2">
           <p>
             <span className="font-semibold text-ink">{today}</span>
             <span className="text-ink-3"> — </span>
             Lagos, Nigeria
           </p>
-          <p className="font-mono text-[0.8rem]">
-            {posts.length} guides <span className="text-ink-3">·</span> {TOPICS.length} sections{" "}
-            <span className="text-ink-3">·</span> {TOOLS.length} calculators <span className="text-ink-3">·</span> Updated{" "}
-            {formatDate(byUpdated[0]?.updated ?? lead.updated)}
+          <p className="font-mono text-xs sm:text-[0.8rem]">
+            {posts.length} guides <span className="text-ink-3">·</span> {TOPICS.length} sections
+            <span className="hidden sm:inline">
+              {" "}<span className="text-ink-3">·</span> {TOOLS.length} calculators <span className="text-ink-3">·</span> Updated{" "}
+              {shortDate(byUpdated[0]?.updated ?? lead.updated)}
+            </span>
           </p>
         </div>
       </section>
 
       {/* ---------- Front page: lead + top stories ---------- */}
       <section className="border-b border-line">
-        <div className="wrap grid gap-10 py-10 md:py-14 lg:grid-cols-[1.6fr_1fr] lg:gap-12">
-          <article>
+        <div className="wrap grid gap-8 py-8 sm:py-10 md:py-14 lg:grid-cols-[1.6fr_1fr] lg:gap-12">
+          <article className="min-w-0">
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-ink-2">Top story — Banking</p>
             <Link href={`/${lead.slug}/`} className="group block">
               <PostCover post={lead} aspect={16 / 9} className="mt-4 aspect-[16/9] border border-ink" priority />
-              <h1 className="display mt-6 text-[clamp(2.2rem,4.8vw,3.6rem)] group-hover:underline decoration-lime-deep decoration-[3px] underline-offset-[6px]">
+              <h1 className="display mt-5 text-[clamp(1.85rem,7.5vw,3.6rem)] leading-[1.05] group-hover:underline decoration-lime-deep decoration-[3px] underline-offset-[6px]">
                 {lead.title}
               </h1>
-              <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink-2">{lead.tagline || lead.description}</p>
+              <p className="mt-4 max-w-prose text-base leading-relaxed text-ink-2 sm:text-lg">{lead.tagline || lead.description}</p>
             </Link>
             <div className="mt-5">
               <Meta post={lead} />
             </div>
           </article>
 
-          <aside aria-label="Top stories">
+          <aside aria-label="Top stories" className="min-w-0">
             <p className="border-t-2 border-ink pt-5 text-xs font-bold uppercase tracking-[0.18em]">Top stories</p>
             <div className="mt-2">
               {topStories.map((p) => (
@@ -178,16 +192,16 @@ export default function Home() {
       <section className="border-b border-line bg-paper-2/60">
         <div className="wrap py-10 md:py-12">
           <SectionHeading kicker="Attention" title="Don't miss" href="/money-safety/" linkLabel="All money safety" />
-          <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 sm:gap-8 lg:grid-cols-4">
             {dontMiss.map((p) => (
-              <article key={p.slug}>
+              <article key={p.slug} className="min-w-0 border-t border-line pt-6 first:border-t-0 first:pt-0 sm:border-t-0 sm:pt-0">
                 <Meta post={p} />
                 <Link href={`/${p.slug}/`} className="group block">
-                  <h3 className="mt-2 text-lg font-semibold leading-snug tracking-[-0.02em] group-hover:underline decoration-lime-deep decoration-2 underline-offset-4">
+                  <h3 className="mt-2.5 text-[1.05rem] font-semibold leading-[1.35] tracking-[-0.02em] group-hover:underline decoration-lime-deep decoration-2 underline-offset-4 sm:text-lg sm:leading-snug">
                     {p.title}
                   </h3>
                 </Link>
-                <p className="mt-2 line-clamp-3 text-[0.95rem] leading-relaxed text-ink-2">{p.tagline || p.description}</p>
+                <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-ink-2 sm:text-[0.95rem]">{p.tagline || p.description}</p>
               </article>
             ))}
           </div>
@@ -196,7 +210,7 @@ export default function Home() {
 
       {/* ---------- Latest: freshness first ---------- */}
       <section className="border-b border-line">
-        <div className="wrap py-14 md:py-20">
+        <div className="wrap py-10 md:py-20">
           <SectionHeading kicker="Freshness" title="Latest" href="/guides/" linkLabel={`Browse all ${posts.length} guides`} />
           <div className="mt-8 grid gap-x-12 lg:grid-cols-2">
             {latest.map((p) => (
@@ -218,7 +232,7 @@ export default function Home() {
         if (!featured) return null;
         return (
           <section key={category} className="border-b border-line">
-            <div className="wrap py-14 md:py-20">
+            <div className="wrap py-10 md:py-20">
               <SectionHeading
                 kicker={`Section — ${counts[category]} guides`}
                 title={topic.name}
@@ -226,15 +240,15 @@ export default function Home() {
                 linkLabel={`All ${topic.name.toLowerCase()}`}
               />
               <p className="mt-4 max-w-2xl text-lg leading-relaxed text-ink-2">{topic.summary}</p>
-              <div className="mt-10 grid gap-10 lg:grid-cols-[1.15fr_1fr]">
+              <div className="mt-8 grid gap-8 sm:mt-10 lg:grid-cols-[1.15fr_1fr] lg:gap-10">
                 <Link href={`/${featured.slug}/`} className="group block border border-ink bg-card">
                   <PostCover post={featured} aspect={16 / 9} className="aspect-[16/9] border-b border-ink" />
-                  <div className="p-6 sm:p-8">
+                  <div className="p-5 sm:p-8">
                     <Meta post={featured} showCategory={false} />
-                    <h3 className="mt-2 text-[clamp(1.6rem,3vw,2.2rem)] font-bold leading-[1.1] tracking-[-0.035em] group-hover:underline decoration-lime-deep decoration-[3px] underline-offset-[6px]">
+                    <h3 className="mt-2 text-[clamp(1.45rem,5.5vw,2.2rem)] font-bold leading-[1.15] tracking-[-0.035em] group-hover:underline decoration-lime-deep decoration-[3px] underline-offset-[6px]">
                       {featured.title}
                     </h3>
-                    <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink-2">{featured.tagline || featured.description}</p>
+                    <p className="mt-3 max-w-prose text-base leading-relaxed text-ink-2 sm:mt-4 sm:text-lg">{featured.tagline || featured.description}</p>
                   </div>
                 </Link>
                 <div>
@@ -259,14 +273,14 @@ export default function Home() {
 
       {/* ---------- Tools: compact utility strip ---------- */}
       <section className="border-b border-line">
-        <div className="wrap py-14 md:py-16">
+        <div className="wrap py-10 md:py-16">
           <SectionHeading kicker="Tools" title="Calculators that help you plan" href="/tools/" linkLabel="All calculators" />
           <ul className="mt-8 grid border-l border-t border-ink sm:grid-cols-2 lg:grid-cols-4">
             {TOOLS.map((t) => (
               <li key={t.id} className="border-b border-r border-ink">
                 <Link href={`/tools/#${t.id}`} className="group flex h-full flex-col p-6 transition-colors hover:bg-lime">
                   <span className="flex h-11 w-11 items-center justify-center border border-ink bg-card font-mono text-lg font-semibold">₦</span>
-                  <h3 className="mt-6 text-xl font-bold tracking-[-0.03em]">{t.name}</h3>
+                  <h3 className="mt-5 text-lg font-bold tracking-[-0.03em] sm:mt-6 sm:text-xl">{t.name}</h3>
                   <p className="mt-2 leading-relaxed text-ink-2 group-hover:text-ink">{t.body}</p>
                   <span className="mt-auto flex items-center gap-2 pt-6 text-sm font-semibold">
                     Open calculator <Arrow />
@@ -281,7 +295,7 @@ export default function Home() {
 
       {/* ---------- Start here: relevance for new readers ---------- */}
       <section className="border-b border-line bg-paper-2/60">
-        <div className="wrap py-14 md:py-20">
+        <div className="wrap py-10 md:py-20">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-ink-2">New here?</p>
@@ -301,7 +315,7 @@ export default function Home() {
 
       {/* ---------- Trust ---------- */}
       <section className="border-b border-line">
-        <div className="wrap grid gap-10 py-14 md:grid-cols-[1fr_2fr] md:py-20">
+        <div className="wrap grid gap-8 py-10 md:grid-cols-[1fr_2fr] md:gap-10 md:py-20">
           <h2 className="display text-[clamp(2rem,3.6vw,2.8rem)]">Written to be simple, honest, and useful.</h2>
           <div className="grid gap-8 sm:grid-cols-3">
             {[
