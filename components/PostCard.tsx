@@ -18,21 +18,21 @@ export function PostCard({ post, variant = "default" }: { post: Post; variant?: 
   const topic = topicByCategory(post.category);
   if (variant === "row")
     return (
-      <Link href={`/${post.slug}/`} className="group grid grid-cols-[6.5rem_1fr] gap-4 border-t border-line py-5 sm:grid-cols-[9rem_1fr] sm:gap-6">
+      <Link href={`/${post.slug}/`} className="group grid min-w-0 grid-cols-[4.5rem_1fr] gap-3 border-t border-line py-4 sm:grid-cols-[9rem_1fr] sm:gap-6 sm:py-5">
         <PostCover post={post} className="aspect-[16/10] border border-line" />
-        <div>
-          <p className="text-sm text-ink-2">{topic.name} <span className="text-ink-3">/</span> {post.readingMinutes} min read</p>
-          <h3 className="mt-1.5 text-lg font-semibold leading-snug tracking-[-0.02em] group-hover:underline decoration-lime-deep decoration-2 underline-offset-4">{post.title}</h3>
+        <div className="min-w-0">
+          <p className="text-xs text-ink-2 sm:text-sm">{topic.name} <span className="text-ink-3">/</span> {post.readingMinutes} min read</p>
+          <h3 className="mt-1 text-base font-semibold leading-[1.35] tracking-[-0.02em] group-hover:underline decoration-lime-deep decoration-2 underline-offset-4 sm:mt-1.5 sm:text-lg sm:leading-snug">{post.title}</h3>
         </div>
       </Link>
     );
   return (
-    <Link href={`/${post.slug}/`} className="group flex h-full flex-col border border-line bg-card transition-colors hover:border-ink">
+    <Link href={`/${post.slug}/`} className="group flex h-full min-w-0 flex-col border border-line bg-card transition-colors hover:border-ink">
       <PostCover post={post} className="aspect-[16/10] border-b border-line" />
       <div className="flex flex-1 flex-col p-5 sm:p-6">
         <p className="text-sm text-ink-2">{topic.name}</p>
-        <h3 className="mt-2 text-xl font-semibold leading-[1.2] tracking-[-0.025em]">{post.title}</h3>
-        <p className="mt-3 line-clamp-3 text-[0.95rem] leading-relaxed text-ink-2">{post.tagline || post.description}</p>
+        <h3 className="mt-2 text-lg font-semibold leading-[1.25] tracking-[-0.025em] sm:text-xl sm:leading-[1.2]">{post.title}</h3>
+        <p className="mt-3 line-clamp-3 text-sm leading-relaxed text-ink-2 sm:text-[0.95rem]">{post.tagline || post.description}</p>
         <p className="mt-auto pt-5 text-sm text-ink-3">{post.readingMinutes} min read</p>
       </div>
     </Link>
