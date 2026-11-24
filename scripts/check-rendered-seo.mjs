@@ -21,7 +21,7 @@ assert(archive.includes(`rel="canonical" href="${canonical}/guides/"`)||archive.
 assert(home.includes('href="/guides/"'),"Homepage does not link to complete article archive");
 const indexedPosts=JSON.parse(search).filter(item=>item.k==="guide");
 assert.equal(indexedPosts.length,new Set(indexedPosts.map(item=>item.u)).size,"Duplicate article URLs in search index");
-assert.equal(indexedPosts.length,38,"Unexpected total public article count in archive coverage test");
+assert.equal(indexedPosts.length,42,"Unexpected total public article count in archive coverage test");
 for(const item of indexedPosts)assert(archive.includes(`href="${item.u}"`),`Published guide missing from complete archive: ${item.u}`);
 assert(sitemap.includes(`${canonical}/images/posts/bank-charges-in-nigeria-explained.webp`),"Sitemap uses incorrect cover image URL");
 for(const [label,html,path] of [["home",home,"/"],["bank charges",article,"/bank-charges-in-nigeria-explained/"]]){
@@ -72,5 +72,5 @@ for(const [slug,seoTitle] of Object.entries({"stamp-duty-on-bank-transfer-in-nig
  const html=await page("/"+slug+"/");
  assert(html.includes(`<title>${seoTitle} - EverydayNaira</title>`),`Concise SEO title not rendered: ${slug}`);
 }
-console.log("Rendered SEO checks passed: 38-guide archive, 12 homepage cards, search titles, canonical pages, images, sitemap, search and RSS.");
+console.log("Rendered SEO checks passed: 42-guide archive, 12 homepage cards, search titles, canonical pages, images, sitemap, search and RSS.");
 
