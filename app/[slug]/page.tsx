@@ -7,6 +7,7 @@ import { AUTHORS, absUrl, ogFor } from "@/lib/site";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { IsoArt } from "@/components/IsoArt";
 import { PostCard, PostCover } from "@/components/PostCard";
+import { ReadingProgress } from "@/components/ReadingProgress";
 import { Toc } from "@/components/Toc";
 import { JsonLd } from "@/components/JsonLd";
 import { Arrow } from "@/components/Arrow";
@@ -81,6 +82,7 @@ function PostView({ post }: { post: Post }) {
 
   return (
     <article>
+      <ReadingProgress />
       <header className="border-b border-line">
         <div className="wrap pb-10 pt-8 md:pt-12">
           <Breadcrumbs items={[{ name: topic.name, href: topic.hub }, { name: post.title, href: `/${post.slug}/` }]} />
@@ -198,6 +200,7 @@ function PostView({ post }: { post: Post }) {
             <span className="flex h-14 w-14 items-center justify-center bg-ink font-semibold text-lime">{author.initials}</span>
             <div>
               <p className="font-semibold">Written by {author.name}</p>
+              <p className="text-sm text-ink-2">{author.role}</p>
               <p className="mt-1.5 leading-relaxed text-ink-2">{author.bio}</p>
               <Link href="/authors/" className="link mt-2 inline-block text-sm font-medium">About the author</Link>
             </div>
@@ -416,4 +419,5 @@ function DocView({ page }: { page: DocPage }) {
     </article>
   );
 }
+
 
