@@ -146,8 +146,8 @@ export function SearchDialog({ open, onClose }: { open: boolean; onClose: () => 
                     className={`flex gap-3 border-b border-line px-5 py-4 ${i === active ? "bg-lime-wash" : ""}`}
                   >
                     {r.i ? (
-                      <span className="relative mt-0.5 hidden w-20 shrink-0 overflow-hidden border border-line bg-paper-2 sm:block">
-                        <Image src={r.i} alt="" width={80} height={50} className="aspect-[16/10] w-full object-cover" />
+                      <span className="relative mt-0.5 hidden w-24 shrink-0 overflow-hidden border border-line bg-paper-2 sm:block">
+                        <Image src={r.i} alt="" width={96} height={60} className="aspect-[16/10] w-full object-cover" />
                       </span>
                     ) : null}
                     <span className="min-w-0">

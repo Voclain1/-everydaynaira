@@ -96,7 +96,7 @@ function Meta({ post, showCategory = true }: { post: Post; showCategory?: boolea
 
 function HeadlineRow({ post }: { post: Post }) {
   return (
-    <Link href={`/${post.slug}/`} className="group grid grid-cols-[4.5rem_1fr] gap-3 border-t border-line py-4 first:border-t-0 first:pt-0 sm:grid-cols-[7rem_1fr] sm:gap-4 sm:py-5">
+    <Link href={`/${post.slug}/`} className="group grid grid-cols-[6rem_1fr] gap-3 border-t border-line py-4 first:border-t-0 first:pt-0 sm:grid-cols-[9rem_1fr] sm:gap-4 sm:py-5">
       <PostCover post={post} className="aspect-[16/10] border border-line" />
       <div className="min-w-0">
         <Meta post={post} />

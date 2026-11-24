@@ -18,7 +18,7 @@ export function PostCard({ post, variant = "default" }: { post: Post; variant?: 
   const topic = topicByCategory(post.category);
   if (variant === "row")
     return (
-      <Link href={`/${post.slug}/`} className="group grid min-w-0 grid-cols-[4.5rem_1fr] gap-3 border-t border-line py-4 sm:grid-cols-[9rem_1fr] sm:gap-6 sm:py-5">
+      <Link href={`/${post.slug}/`} className="group grid min-w-0 grid-cols-[6rem_1fr] gap-3 border-t border-line py-4 sm:grid-cols-[9rem_1fr] sm:gap-6 sm:py-5">
         <PostCover post={post} className="aspect-[16/10] border border-line" />
         <div className="min-w-0">
           <p className="text-xs text-ink-2 sm:text-sm">{topic.name} <span className="text-ink-3">/</span> {post.readingMinutes} min read</p>
