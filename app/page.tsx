@@ -96,12 +96,15 @@ function Meta({ post, showCategory = true }: { post: Post; showCategory?: boolea
 
 function HeadlineRow({ post }: { post: Post }) {
   return (
-    <Link href={`/${post.slug}/`} className="group block border-t border-line py-5 first:border-t-0 first:pt-0">
-      <Meta post={post} />
-      <h3 className="mt-2 text-lg font-semibold leading-snug tracking-[-0.02em] group-hover:underline decoration-lime-deep decoration-2 underline-offset-4">
-        {post.title}
-      </h3>
-      <p className="mt-2 line-clamp-2 text-[0.95rem] leading-relaxed text-ink-2">{post.tagline || post.description}</p>
+    <Link href={`/${post.slug}/`} className="group grid grid-cols-[6rem_1fr] gap-3 border-t border-line py-4 first:border-t-0 first:pt-0 sm:grid-cols-[9rem_1fr] sm:gap-4 sm:py-5">
+      <PostCover post={post} className="aspect-[16/10] border border-line" />
+      <div className="min-w-0">
+        <Meta post={post} />
+        <h3 className="mt-2 text-lg font-semibold leading-snug tracking-[-0.02em] group-hover:underline decoration-lime-deep decoration-2 underline-offset-4">
+          {post.title}
+        </h3>
+        <p className="mt-2 line-clamp-2 text-[0.95rem] leading-relaxed text-ink-2">{post.tagline || post.description}</p>
+      </div>
     </Link>
   );
 }
@@ -195,7 +198,12 @@ export default function Home() {
           <div className="mt-8 grid gap-6 sm:grid-cols-2 sm:gap-8 lg:grid-cols-4">
             {dontMiss.map((p) => (
               <article key={p.slug} className="min-w-0 border-t border-line pt-6 first:border-t-0 first:pt-0 sm:border-t-0 sm:pt-0">
-                <Meta post={p} />
+                <Link href={`/${p.slug}/`} className="group block" aria-label={p.title}>
+                  <PostCover post={p} className="aspect-[16/10] border border-line" />
+                </Link>
+                <div className="mt-4">
+                  <Meta post={p} />
+                </div>
                 <Link href={`/${p.slug}/`} className="group block">
                   <h3 className="mt-2.5 text-[1.05rem] font-semibold leading-[1.35] tracking-[-0.02em] group-hover:underline decoration-lime-deep decoration-2 underline-offset-4 sm:text-lg sm:leading-snug">
                     {p.title}
@@ -339,3 +347,4 @@ export default function Home() {
     </>
   );
 }
+

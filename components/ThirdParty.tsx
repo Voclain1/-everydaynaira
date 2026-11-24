@@ -1,7 +1,26 @@
-import Script from "next/script";
+"use client";
 
-/** Loads Google Analytics and AdSense only when their IDs are set in the environment. */
+import Script from "next/script";
+import { useEffect, useState } from "react";
+import { CONSENT_EVENT, getConsent, type ConsentChoice } from "./CookieConsent";
+
+/**
+ * Loads Google Analytics and AdSense only after the reader has chosen
+ * "Accept all" in the cookie consent banner. With no consent — or with
+ * "Essential only" / "Reject" — no tracking or advertising script loads.
+ */
 export function ThirdParty() {
+  const [consent, setConsent] = useState<ConsentChoice | null>(null);
+
+  useEffect(() => {
+    const read = () => setConsent(getConsent());
+    read();
+    window.addEventListener(CONSENT_EVENT, read);
+    return () => window.removeEventListener(CONSENT_EVENT, read);
+  }, []);
+
+  if (consent !== "all") return null;
+
   const ga = process.env.NEXT_PUBLIC_GA_ID;
   const ads = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
   return (

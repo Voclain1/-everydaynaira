@@ -3,7 +3,7 @@ title: "Privacy Policy"
 slug: "privacy-policy"
 description: "EverydayNaira's privacy policy explains what personal information we collect, how we use it, and what rights you have over your data."
 intro: "This policy explains what personal information we collect when you use EverydayNaira, how we use it, and what rights you have over your data."
-updated: "2026-04-30"
+updated: "2026-11-24"
 ---
 
 ## 1. Who we are
@@ -23,7 +23,7 @@ We collect information in two ways: information you give us directly, and inform
 
 - **Usage data:** pages visited, time spent on pages, referring website, browser type, and device type — collected through analytics software.
 - **IP address:** your approximate geographic location can be inferred from your IP address. We do not store IP addresses beyond what our hosting and analytics providers retain.
-- **Cookies:** small data files stored on your device. See the Cookies section below for full details.
+- **Your cookie choice:** when you answer the cookie banner, we store your choice on your device so we do not ask you again. This is stored in your browser, not on our servers. See our [Cookie Policy](/cookie-policy/).
 
 ## 3. How we use your information
 
@@ -35,11 +35,13 @@ We collect information in two ways: information you give us directly, and inform
 
 Cookies are small files stored on your device by your browser. We use cookies for the following purposes:
 
-- **Essential cookies:** required for the site to function correctly. These cannot be disabled.
-- **Analytics cookies:** used to understand traffic and usage patterns. We use Google Analytics for this purpose. Analytics cookies can be disabled through your browser settings or by using a browser extension that blocks tracking.
-- **Advertising cookies:** if ads are displayed on this site, our advertising partners (including Google AdSense) may set cookies to serve relevant advertisements. See the Advertising section below.
+- **Essential cookies:** required for the site to function correctly. These cannot be disabled. Your cookie banner choice is also stored on your device so we remember it.
+- **Analytics cookies:** used to understand traffic and usage patterns. We use Google Analytics for this purpose. Analytics cookies **only load after you choose "Accept all"** in the cookie banner. If you choose "Essential only" or "Reject", Google Analytics does not load and no analytics cookie is set.
+- **Advertising cookies:** if ads are displayed on this site, our advertising partners (including Google AdSense) may set cookies to serve relevant advertisements. Advertising cookies also **only load after you choose "Accept all"** in the cookie banner.
 
-You can control cookies through your browser settings. Disabling certain cookies may affect your experience of the site.
+This follows the Nigeria Data Protection Act 2023: analytics and advertising cookies are not essential, so we ask for your consent first and load nothing until you say yes.
+
+You can change your choice at any time by clicking **Cookie settings** in the footer of any page, or through your browser settings. Disabling certain cookies may affect your experience of the site. For full details, read our [Cookie Policy](/cookie-policy/).
 
 ## 5. Advertising and third parties
 
@@ -69,6 +71,7 @@ You have the right to:
 - Request correction of inaccurate personal data.
 - Request deletion of your personal data, subject to legal obligations we may have to retain certain information.
 - Withdraw consent for newsletter communications at any time by unsubscribing.
+- Change or withdraw your cookie consent at any time by clicking **Cookie settings** in the footer of any page.
 - Object to or restrict certain processing of your data.
 
 To exercise any of these rights, contact us using the form on our [Contact page](/contact/). We will respond within 30 days.
@@ -84,3 +87,4 @@ We may update this policy from time to time. When we do, we will revise the "las
 ## 11. Contact
 
 If you have questions about this Privacy Policy or how we handle your data, please use the form on our [Contact page](/contact/). Select "Other" as the reason and note that your query relates to privacy.
+

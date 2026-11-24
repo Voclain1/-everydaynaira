@@ -13,6 +13,7 @@ export function GET() {
       h: [p.focusKeyword, ...p.toc.map((t) => t.text)].join(" "),
       b: p.plain.slice(0, 6000),
       k: "guide",
+      i: p.image || null,
     })),
     ...TOPICS.map((t) => ({ t: `${t.name} guides`, u: t.hub, c: "Topic", d: t.summary, h: t.starters.map((s) => s.label).join(" "), b: t.description, k: "topic" })),
     ...[

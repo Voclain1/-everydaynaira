@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Logo } from "./Logo";
+import { CookieSettingsButton } from "./CookieConsent";
 import { TOPICS } from "@/lib/topics";
 
 const TRUST = [
@@ -12,6 +13,7 @@ const TRUST = [
 const LEGAL = [
   { href: "/disclaimer/", label: "Disclaimer" },
   { href: "/privacy-policy/", label: "Privacy policy" },
+  { href: "/cookie-policy/", label: "Cookie policy" },
   { href: "/terms/", label: "Terms of use" },
 ];
 
@@ -46,6 +48,9 @@ export function Footer() {
                 <Link href={l.href} className="hover:text-ink hover:underline underline-offset-4">{l.label}</Link>
               </li>
             ))}
+            <li>
+              <CookieSettingsButton />
+            </li>
           </ul>
         </div>
       </div>
@@ -67,3 +72,4 @@ function FooterCol({ title, links }: { title: string; links: { href: string; lab
     </div>
   );
 }
+

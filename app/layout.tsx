@@ -19,6 +19,7 @@ const barlow = Barlow({
 });
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { CookieConsent } from "@/components/CookieConsent";
 import { JsonLd } from "@/components/JsonLd";
 import { ThirdParty } from "@/components/ThirdParty";
 import { SITE, absUrl } from "@/lib/site";
@@ -71,7 +72,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
         <ThirdParty />
+        <CookieConsent />
       </body>
     </html>
   );
 }
+

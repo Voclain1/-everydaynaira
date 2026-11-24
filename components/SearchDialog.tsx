@@ -1,10 +1,11 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 
-type Doc = { t: string; u: string; c: string; d: string; h: string; b: string; k: "guide" | "page" | "tool" | "topic" };
+type Doc = { t: string; u: string; c: string; d: string; h: string; b: string; k: "guide" | "page" | "tool" | "topic"; i?: string | null };
 
 let cache: Doc[] | null = null;
 
@@ -142,11 +143,18 @@ export function SearchDialog({ open, onClose }: { open: boolean; onClose: () => 
                     href={r.u}
                     onClick={(e) => { e.preventDefault(); go(r.u); }}
                     onMouseEnter={() => setActive(i)}
-                    className={`block border-b border-line px-5 py-4 ${i === active ? "bg-lime-wash" : ""}`}
+                    className={`flex gap-3 border-b border-line px-5 py-4 ${i === active ? "bg-lime-wash" : ""}`}
                   >
-                    <span className="text-xs text-ink-3">{r.c}</span>
-                    <span className="mt-0.5 block font-semibold leading-snug">{r.t}</span>
-                    <span className="mt-1 line-clamp-2 block text-sm text-ink-2">{snippet(r, terms)}</span>
+                    {r.i ? (
+                      <span className="relative mt-0.5 hidden w-24 shrink-0 overflow-hidden border border-line bg-paper-2 sm:block">
+                        <Image src={r.i} alt="" width={96} height={60} className="aspect-[16/10] w-full object-cover" />
+                      </span>
+                    ) : null}
+                    <span className="min-w-0">
+                      <span className="text-xs text-ink-3">{r.c}</span>
+                      <span className="mt-0.5 block font-semibold leading-snug">{r.t}</span>
+                      <span className="mt-1 line-clamp-2 block text-sm text-ink-2">{snippet(r, terms)}</span>
+                    </span>
                   </Link>
                 </li>
               ))}
