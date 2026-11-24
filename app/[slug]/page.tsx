@@ -9,6 +9,7 @@ import { IsoArt } from "@/components/IsoArt";
 import { PostCard, PostCover } from "@/components/PostCard";
 import { ReadingProgress } from "@/components/ReadingProgress";
 import { SaveGuideButton } from "@/components/SaveGuideButton";
+import { ShareButtons } from "@/components/ShareButtons";
 import { Toc } from "@/components/Toc";
 import { JsonLd } from "@/components/JsonLd";
 import { Arrow } from "@/components/Arrow";
@@ -109,6 +110,7 @@ function PostView({ post }: { post: Post }) {
                 </span>
                 <span>{post.readingMinutes} min read</span>
                 <SaveGuideButton slug={post.slug} />
+                <ShareButtons compact title={post.title} url={url} description={post.tagline || post.description} />
                 {post.reviewed && (
                   <Link href="/fact-checking-policy/" className="flex items-center gap-2 text-ink hover:underline underline-offset-4">
                     <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 8.5l3 3 7-7" /></svg>
@@ -211,6 +213,16 @@ function PostView({ post }: { post: Post }) {
           <p className="mt-6 max-w-[68ch] text-sm leading-relaxed text-ink-3">
             This guide is educational and is not personalised financial advice. Fees, rates and rules change; confirm current details with your bank or the relevant regulator. <Link href="/disclaimer/" className="link">Disclaimer</Link>.
           </p>
+
+          <div className="mt-10 max-w-[68ch] border border-line bg-card p-6">
+            <p className="font-semibold">Share this guide</p>
+            <p className="mt-1.5 text-sm leading-relaxed text-ink-2">
+              Know someone this would help? Send it their way.
+            </p>
+            <div className="mt-4">
+              <ShareButtons title={post.title} url={url} description={post.tagline || post.description} />
+            </div>
+          </div>
         </div>
 
         <aside className="hidden xl:block">
@@ -295,6 +307,9 @@ function HubView({ topic }: { topic: Topic }) {
             <h1 className="display mt-10 text-[clamp(3rem,7vw,5.4rem)]">{topic.name}</h1>
             <p className="mt-6 max-w-xl text-[1.2rem] leading-relaxed text-ink-2">{topic.intro}</p>
             <p className="mt-6 text-sm text-ink-3">{posts.length} guides in this topic</p>
+            <div className="mt-6">
+              <ShareButtons compact title={`${topic.name} guides for Nigerians`} url={absUrl(topic.hub)} description={topic.metaDescription} />
+            </div>
           </div>
           <IsoArt motif={topic.category} seed={topic.hub} background={null} grid={false} aspect={1.3} padding={0.08} className="hero-art aspect-[1.3] w-full" />
         </div>

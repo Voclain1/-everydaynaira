@@ -2,21 +2,31 @@
 
 import { useState } from "react";
 import { deleteAccount, updateDisplayName, updatePreferences } from "./actions";
+import { TOPICS } from "@/lib/topics";
 
 export function PreferencesForm({
   initial,
 }: {
-  initial: { newsletter: boolean; notify_new_posts: boolean };
+  initial: { newsletter: boolean; notify_new_posts: boolean; interests: string[] };
 }) {
   const [prefs, setPrefs] = useState(initial);
   const [saved, setSaved] = useState(false);
 
-  const toggle = async (key: "newsletter" | "notify_new_posts") => {
-    const next = { ...prefs, [key]: !prefs[key] };
+  const save = async (next: typeof prefs) => {
     setPrefs(next);
     await updatePreferences(next);
     setSaved(true);
     window.setTimeout(() => setSaved(false), 2000);
+  };
+
+  const toggle = (key: "newsletter" | "notify_new_posts") =>
+    void save({ ...prefs, [key]: !prefs[key] });
+
+  const toggleInterest = (category: string) => {
+    const interests = prefs.interests.includes(category)
+      ? prefs.interests.filter((c) => c !== category)
+      : [...prefs.interests, category];
+    void save({ ...prefs, interests });
   };
 
   return (
@@ -49,6 +59,33 @@ export function PreferencesForm({
           </span>
         </span>
       </label>
+      <div>
+        <p className="font-semibold">Topics you care about</p>
+        <p className="mt-0.5 text-sm leading-relaxed text-ink-2">
+          Pick the topics you want recommendations from. Your dashboard and homepage will suggest
+          guides from these topics and from what you have read recently.
+        </p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {TOPICS.map((topic) => {
+            const selected = prefs.interests.includes(topic.category);
+            return (
+              <button
+                key={topic.category}
+                type="button"
+                onClick={() => toggleInterest(topic.category)}
+                aria-pressed={selected}
+                className={
+                  selected
+                    ? "btn btn-primary !py-2 !px-3 text-sm"
+                    : "btn btn-ghost !py-2 !px-3 text-sm"
+                }
+              >
+                {topic.name}
+              </button>
+            );
+          })}
+        </div>
+      </div>
       {saved && <p className="text-sm font-medium">Preferences saved.</p>}
     </div>
   );

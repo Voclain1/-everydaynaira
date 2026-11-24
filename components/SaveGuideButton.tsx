@@ -6,11 +6,12 @@ import { getSupabaseBrowser } from "@/lib/supabase/client";
 import { useAuth } from "@/lib/supabase/use-auth";
 
 /**
- * Save / unsave a guide. Signed-out readers get a sign-in prompt instead;
- * when Supabase is not configured yet the button renders nothing.
+ * Save / unsave a guide. Signed-out readers get a sign-in prompt instead.
+ * The button always renders, even before Supabase is configured — it just
+ * cannot save anything until the sign-in service is connected.
  */
 export function SaveGuideButton({ slug }: { slug: string }) {
-  const { configured, loading, user } = useAuth();
+  const { loading, user } = useAuth();
   const [saved, setSaved] = useState(false);
   const [busy, setBusy] = useState(false);
 
@@ -33,7 +34,7 @@ export function SaveGuideButton({ slug }: { slug: string }) {
     };
   }, [user, slug]);
 
-  if (!configured || loading) return null;
+  if (loading) return null;
   if (!user) {
     return (
       <Link href={`/sign-in/?next=/${slug}/`} className="btn btn-ghost !py-2.5 text-sm">

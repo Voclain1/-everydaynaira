@@ -9,7 +9,8 @@ export type CalculatorId = "budget" | "emergency-fund" | "savings-goal" | "loan"
 
 /**
  * "Save this result" for the calculators. Signed-in readers store a
- * snapshot in their account; everyone else is pointed at sign-in.
+ * snapshot in their account; everyone else is pointed at sign-in. It
+ * always renders, even before Supabase is configured.
  * `summary` is one human-readable line shown on the dashboard.
  */
 export function SaveCalculatorResult({
@@ -23,10 +24,10 @@ export function SaveCalculatorResult({
   results: Record<string, unknown>;
   summary: string;
 }) {
-  const { configured, loading, user } = useAuth();
+  const { loading, user } = useAuth();
   const [state, setState] = useState<"idle" | "saving" | "saved" | "error">("idle");
 
-  if (!configured || loading) return null;
+  if (loading) return null;
   if (!user) {
     return (
       <p className="text-sm text-ink-2">

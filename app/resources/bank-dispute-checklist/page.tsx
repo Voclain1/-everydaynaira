@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { BankDisputeChecklist } from "@/components/BankDisputeChecklist";
 import { JsonLd } from "@/components/JsonLd";
 import { NewsletterBand } from "@/components/Newsletter";
+import { ShareButtons } from "@/components/ShareButtons";
 import { absUrl, ogFor } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -25,6 +26,13 @@ export default function BankDisputeChecklistPage() {
             Whether a transfer failed, an ATM dispensed no cash or a payment went to the wrong account, start with evidence and a formal complaint number. This free checklist helps you organise the facts.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-ink-3">No sign-up. No account number, PIN, OTP or financial document upload requested.</p>
+          <div className="mt-6">
+            <ShareButtons
+              title="Free bank dispute evidence checklist and complaint letter (Nigeria)"
+              url={absUrl("/resources/bank-dispute-checklist/")}
+              description="Free Nigerian bank complaint checklist: save transaction evidence, find a reference, request a reversal trace and copy a private complaint letter."
+            />
+          </div>
         </div>
       </section>
       <div className="wrap grid gap-12 py-12 lg:grid-cols-[minmax(0,1fr)_16rem] lg:gap-16 md:py-20">

@@ -5,12 +5,14 @@ import { useAuth } from "@/lib/supabase/use-auth";
 
 /**
  * Header auth slot: "Sign in" when logged out, "Dashboard" when logged in.
- * Renders nothing while the session is being checked, and nothing at all
- * when Supabase is not configured yet.
+ * It always renders — when Supabase is not configured yet there is no
+ * session, so it shows "Sign in", which leads to a page that explains
+ * accounts are not set up yet. It renders nothing only while the session
+ * is still being checked.
  */
 export function AuthNav() {
-  const { configured, loading, user } = useAuth();
-  if (!configured || loading) return null;
+  const { loading, user } = useAuth();
+  if (loading) return null;
   if (user) {
     return (
       <Link href="/dashboard/" className="btn btn-ghost hidden !py-2.5 sm:inline-flex">
@@ -27,8 +29,8 @@ export function AuthNav() {
 
 /** Same link for the mobile menu, where the desktop slot is hidden. */
 export function AuthNavMobile() {
-  const { configured, loading, user } = useAuth();
-  if (!configured || loading) return null;
+  const { loading, user } = useAuth();
+  if (loading) return null;
   return (
     <li>
       <Link href={user ? "/dashboard/" : "/sign-in/"} className="block py-2.5 text-lg font-semibold">

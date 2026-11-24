@@ -3,8 +3,9 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getCurrentUser } from "@/lib/supabase/server";
 import { isSupabaseConfigured } from "@/lib/supabase/config";
-import { formatDate, getPost } from "@/lib/content";
+import { formatDate, getAllPosts, getPost } from "@/lib/content";
 import { PostCard } from "@/components/PostCard";
+import { describeRecommendationBasis, pickRecommendations } from "@/lib/recommendations";
 import { SignOutButton } from "@/components/SignOutButton";
 import * as DashboardClient from "./DashboardClient";
 
@@ -31,7 +32,7 @@ type SnapshotRow = {
   results: Record<string, unknown>;
   created_at: string;
 };
-type PreferencesRow = { newsletter: boolean; notify_new_posts: boolean };
+type PreferencesRow = { newsletter: boolean; notify_new_posts: boolean; interests: string[] };
 type ProfileRow = { display_name: string | null };
 
 export default async function DashboardPage() {
@@ -69,7 +70,7 @@ export default async function DashboardPage() {
       .limit(10),
     supabase
       .from("preferences")
-      .select("newsletter, notify_new_posts")
+      .select("newsletter, notify_new_posts, interests")
       .eq("user_id", user.id)
       .maybeSingle(),
     supabase.from("profiles").select("display_name").eq("id", user.id).maybeSingle(),
@@ -92,6 +93,18 @@ export default async function DashboardPage() {
       Boolean(x.post),
     );
 
+  const interests = (prefs?.interests ?? []) as string[];
+  const historyCategories = [...new Set(historyPosts.map((h) => h.post.category))];
+  const excludeSlugs = [
+    ...new Set([...historyRows.map((r) => r.slug), ...savedRows.map((r) => r.slug)]),
+  ];
+  const recommended = pickRecommendations(getAllPosts(), {
+    interests,
+    historyCategories,
+    excludeSlugs,
+  });
+  const recommendationBasis = describeRecommendationBasis(interests, historyCategories);
+
   const displayName =
     profile?.display_name ?? (typeof user.user_metadata?.display_name === "string"
       ? user.user_metadata.display_name
@@ -109,6 +122,38 @@ export default async function DashboardPage() {
         </div>
         <SignOutButton className="btn btn-ghost !py-2.5 text-sm" />
       </header>
+
+      <section aria-labelledby="recommended" className="mt-12">
+        <h2 id="recommended" className="display text-[1.7rem]">
+          Recommended for you
+        </h2>
+        {recommended.length === 0 ? (
+          <p className="mt-4 max-w-prose leading-relaxed text-ink-2">
+            {interests.length === 0 && historyRows.length === 0 ? (
+              <>
+                Nothing here yet. Pick the topics you care about in{" "}
+                <a href="#preferences" className="link font-medium text-ink">
+                  Preferences
+                </a>{" "}
+                below, and recommendations will appear here as you read.
+              </>
+            ) : (
+              "You have caught up with your chosen topics for now — new guides will appear here as they are published."
+            )}
+          </p>
+        ) : (
+          <>
+            {recommendationBasis && (
+              <p className="mt-4 max-w-prose leading-relaxed text-ink-2">{recommendationBasis}</p>
+            )}
+            <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {recommended.map((post) => (
+                <PostCard key={post.slug} post={post} />
+              ))}
+            </div>
+          </>
+        )}
+      </section>
 
       <section aria-labelledby="saved" className="mt-12">
         <h2 id="saved" className="display text-[1.7rem]">
@@ -201,6 +246,7 @@ export default async function DashboardPage() {
             initial={{
               newsletter: prefs?.newsletter ?? false,
               notify_new_posts: prefs?.notify_new_posts ?? false,
+              interests: prefs?.interests ?? [],
             }}
           />
           <p className="mt-4 text-sm leading-relaxed text-ink-3">

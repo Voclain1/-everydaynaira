@@ -45,8 +45,14 @@ create table if not exists public.preferences (
   user_id uuid primary key references auth.users (id) on delete cascade,
   newsletter boolean not null default false,
   notify_new_posts boolean not null default false,
+  interests text[] not null default '{}'::text[],
   updated_at timestamptz not null default now()
 );
+
+-- Topics the reader wants recommendations from (category keys, e.g.
+-- 'budgeting'). The alter keeps the file safe to run twice even if an
+-- older version of it was applied first.
+alter table public.preferences add column if not exists interests text[] not null default '{}'::text[];
 
 -- ---------- new-user profile ----------
 -- Runs when a reader signs up: creates their profile row from the name

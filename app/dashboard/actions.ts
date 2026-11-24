@@ -3,16 +3,29 @@
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { getSupabaseServer } from "@/lib/supabase/server";
+import { TOPICS } from "@/lib/topics";
 
-export async function updatePreferences(prefs: { newsletter: boolean; notify_new_posts: boolean }) {
+const TOPIC_CATEGORIES = new Set<string>(TOPICS.map((t) => t.category));
+
+export async function updatePreferences(prefs: {
+  newsletter: boolean;
+  notify_new_posts: boolean;
+  interests: string[];
+}) {
   const supabase = await getSupabaseServer();
   if (!supabase) return;
   const {
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) return;
+  const interests = (prefs.interests ?? []).filter((c) => TOPIC_CATEGORIES.has(c));
   await supabase.from("preferences").upsert(
-    { user_id: user.id, newsletter: prefs.newsletter, notify_new_posts: prefs.notify_new_posts },
+    {
+      user_id: user.id,
+      newsletter: prefs.newsletter,
+      notify_new_posts: prefs.notify_new_posts,
+      interests,
+    },
     { onConflict: "user_id" },
   );
   revalidatePath("/dashboard/");

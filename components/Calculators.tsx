@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useId, useMemo, useState } from "react";
 import { SaveCalculatorResult } from "./SaveCalculatorResult";
+import { ShareButtons } from "./ShareButtons";
+import { absUrl } from "@/lib/site";
 
 const naira = (n: number) =>
   Number.isFinite(n) ? "₦" + Math.round(n).toLocaleString("en-NG") : "—";
@@ -72,6 +74,12 @@ function Shell({ id, title, intro, children, result, related, n, saveAction }: {
         <div className="flex flex-col border-t border-ink bg-lime-wash p-6 sm:p-8 @3xl:border-l @3xl:border-t-0" aria-live="polite">
           {result}
           {saveAction && <div className="mt-6 border-t border-ink/15 pt-5">{saveAction}</div>}
+          <div className="mt-6 border-t border-ink/15 pt-5">
+            <p className="text-sm font-semibold">Share this calculator</p>
+            <div className="mt-3">
+              <ShareButtons compact title={`${title} — EverydayNaira`} url={absUrl(`/tools/#${id}`)} description={intro} />
+            </div>
+          </div>
           <div className="mt-auto pt-8">
             <p className="text-sm font-semibold">Read next</p>
             <ul className="mt-2 space-y-1.5">
