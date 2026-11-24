@@ -9,15 +9,15 @@ export type RecommendablePost = { slug: string; category: string; updated: strin
  * topic scores 1; ties break by most recently updated. Guides with no
  * score are never picked, so recommendations stay personal, not generic.
  */
-export function pickRecommendations(
-  posts: RecommendablePost[],
+export function pickRecommendations<T extends RecommendablePost>(
+  posts: T[],
   opts: {
     interests: string[];
     historyCategories: string[];
     excludeSlugs: string[];
     limit?: number;
   },
-): RecommendablePost[] {
+): T[] {
   const { interests, historyCategories, excludeSlugs, limit = 6 } = opts;
   const excluded = new Set(excludeSlugs);
   const interestSet = new Set(interests);
