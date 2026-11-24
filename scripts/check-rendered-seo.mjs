@@ -21,7 +21,7 @@ assert(archive.includes(`rel="canonical" href="${canonical}/guides/"`)||archive.
 assert(home.includes('href="/guides/"'),"Homepage does not link to complete article archive");
 const indexedPosts=JSON.parse(search).filter(item=>item.k==="guide");
 assert.equal(indexedPosts.length,new Set(indexedPosts.map(item=>item.u)).size,"Duplicate article URLs in search index");
-assert.equal(indexedPosts.length,46,"Unexpected total public article count in archive coverage test");
+assert.equal(indexedPosts.length,50,"Unexpected total public article count in archive coverage test");
 for(const item of indexedPosts)assert(archive.includes(`href="${item.u}"`),`Published guide missing from complete archive: ${item.u}`);
 assert(sitemap.includes(`${canonical}/images/posts/bank-charges-in-nigeria-explained.webp`),"Sitemap uses incorrect cover image URL");
 for(const [label,html,path] of [["home",home,"/"],["bank charges",article,"/bank-charges-in-nigeria-explained/"]]){
