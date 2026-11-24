@@ -23,10 +23,19 @@ export function CookieConsent() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    if (!getConsent()) setVisible(true);
+    // Check consent after mount: reading localStorage during render would
+    // differ between server and client, and setting state synchronously
+    // inside an effect is not allowed. A zero-delay timer keeps the
+    // check out of the synchronous effect body.
+    const timer = setTimeout(() => {
+      if (!getConsent()) setVisible(true);
+    }, 0);
     const reopen = () => setVisible(true);
     window.addEventListener(SETTINGS_EVENT, reopen);
-    return () => window.removeEventListener(SETTINGS_EVENT, reopen);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener(SETTINGS_EVENT, reopen);
+    };
   }, []);
 
   const choose = (c: ConsentChoice) => {
