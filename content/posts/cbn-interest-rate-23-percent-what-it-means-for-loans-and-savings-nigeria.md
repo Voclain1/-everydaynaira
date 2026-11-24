@@ -13,6 +13,8 @@ focusKeyword: "CBN interest rate 23% Nigeria"
 keyTakeaways: ["The CBN held its benchmark rate, the MPR, at 23% on 24 November 2026 after its 308th Monetary Policy Committee meeting.", "Ordinary savings accounts must pay at least 30% of the MPR, so the savings floor stays at 6.9% a year — ₦34,500 on ₦500,000 left untouched for a year, before deductions.", "Your loan rate is not the MPR. Banks add their own spread, so lending rates sit well above 23% and did not fall immediately after the September cut.", "A rate hold changes nothing by itself. The useful move is to check the actual rate your own bank pays you and the actual total cost of any loan you are considering."]
 sources: [{ publisher: "Premium Times", title: "CBN retains interest rate at 23%", url: "https://www.premiumtimesng.com/news/top-news/927668-cbn-retains-interest-rate-at-23.html" }, { publisher: "Central Bank of Nigeria", title: "Consumer protection and complaints", url: "https://www.cbn.gov.ng/supervision/cpdcomgt.html" }, { publisher: "National Bureau of Statistics", title: "Consumer Price Index — headline inflation, October 2026" }, { publisher: "Nairametrics", title: "Bank lending rates survey and MPR explainer" }]
 reviewed: "2026-11-24"
+image: /images/posts/cbn-interest-rate-23-percent-what-it-means-for-loans-and-savings-nigeria.webp
+imageAlt: "The Central Bank of Nigeria headquarters building in Abuja, with the Nigerian flag flying outside"
 ---
 
 You open your banking app and check your savings balance. The interest for the month is there, a small line at the bottom of the statement. Then you see a headline: the Central Bank has decided on interest rates again. And you wonder what that actually means for your money.

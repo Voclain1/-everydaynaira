@@ -12,6 +12,8 @@ updated: "2026-11-24T12:00:00+01:00"
 category: "budgeting"
 author: "benedict"
 tags: ["Budgeting", "Explainer"]
+image: "/images/posts/what-a-nigerian-salary-actually-buys-in-2026.webp"
+imageAlt: "A Nigerian salary earner reviewing household costs at a market stall"
 ---
 
 It is payday. Your salary lands, and for about ten minutes you feel rich. Then you pay for transport, buy data, restock the kitchen, send something home, and the money starts to look much smaller than it did on the alert. That feeling is not a failure of discipline. It is arithmetic.

@@ -11,6 +11,8 @@ updated: "2026-11-24T12:00:00+01:00"
 category: "debt"
 author: "benedict"
 tags: ["Debt", "How-to guide"]
+image: "/images/posts/how-to-break-a-loan-app-rollover-cycle-in-nigeria.webp"
+imageAlt: "A Nigerian borrower reviewing loan repayment dates on a phone"
 ---
 
 You borrowed ₦50,000 to cover a gap until payday. Payday came, but the rent, the food money and the transport fare got there first. So you borrowed again — this time to repay the first loan. Now there are two loans. Then three. Each one feels small on its own, but together they eat your whole month before it starts. If that sounds familiar, you are not careless. You are caught in a rollover cycle, and it is designed to be hard to escape by borrowing your way out. The way out is slower than a new loan — and it is the only way that actually works.

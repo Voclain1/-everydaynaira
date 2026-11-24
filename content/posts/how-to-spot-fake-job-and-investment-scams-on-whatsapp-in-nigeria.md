@@ -11,6 +11,8 @@ updated: "2026-11-24T12:00:00+01:00"
 category: "money-safety"
 tags: ["Money Safety", "How-to guide"]
 author: "benedict"
+image: "/images/posts/how-to-spot-fake-job-and-investment-scams-on-whatsapp-in-nigeria.webp"
+imageAlt: "A Nigerian phone user looking carefully at a suspicious WhatsApp message"
 ---
 
 Your phone buzzes — a WhatsApp message from a number you do not know.
