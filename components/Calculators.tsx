@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useId, useMemo, useState } from "react";
+import { SaveCalculatorResult } from "./SaveCalculatorResult";
 
 const naira = (n: number) =>
   Number.isFinite(n) ? "₦" + Math.round(n).toLocaleString("en-NG") : "—";
@@ -58,7 +59,7 @@ function Stat({ label, value, strong = false }: { label: string; value: string; 
   );
 }
 
-function Shell({ id, title, intro, children, result, related, n }: { id: string; title: string; intro: string; children: React.ReactNode; result: React.ReactNode; related: { href: string; label: string }[]; n: number }) {
+function Shell({ id, title, intro, children, result, related, n, saveAction }: { id: string; title: string; intro: string; children: React.ReactNode; result: React.ReactNode; related: { href: string; label: string }[]; n: number; saveAction?: React.ReactNode }) {
   return (
     <section id={id} className="@container scroll-mt-24 border border-ink bg-card">
       <div className="grid @3xl:grid-cols-[1.15fr_1fr]">
@@ -70,6 +71,7 @@ function Shell({ id, title, intro, children, result, related, n }: { id: string;
         </div>
         <div className="flex flex-col border-t border-ink bg-lime-wash p-6 sm:p-8 @3xl:border-l @3xl:border-t-0" aria-live="polite">
           {result}
+          {saveAction && <div className="mt-6 border-t border-ink/15 pt-5">{saveAction}</div>}
           <div className="mt-auto pt-8">
             <p className="text-sm font-semibold">Read next</p>
             <ul className="mt-2 space-y-1.5">
@@ -107,6 +109,14 @@ export function BudgetCalculator({ n = 1 }: { n?: number }) {
     <Shell
       n={n}
       id="budget-calculator"
+      saveAction={
+        <SaveCalculatorResult
+          calculator="budget"
+          inputs={{ income: inc, shares: pcts }}
+          results={{ total, unallocated: Math.abs((inc * (100 - total)) / 100) }}
+          summary={`Monthly plan for ${naira(inc)} — ${total}% allocated`}
+        />
+      }
       title="Budget calculator"
       intro="Enter your monthly take-home pay and adjust each share to match your real life. The bar shows where every naira goes."
       related={[
@@ -180,6 +190,14 @@ export function EmergencyFundCalculator({ n = 2 }: { n?: number }) {
     <Shell
       n={n}
       id="emergency-fund-calculator"
+      saveAction={
+        <SaveCalculatorResult
+          calculator="emergency-fund"
+          inputs={{ monthlyExpenses: parseMoney(exp), saved: parseMoney(saved), months: Number(months), monthlySaving: parseMoney(contrib) }}
+          results={{ target: r.target, remaining: r.remaining, monthsToTarget: Number.isNaN(r.time) ? 0 : r.time }}
+          summary={`Target ${naira(r.target)} — ${naira(r.remaining)} to go`}
+        />
+      }
       title="Emergency fund calculator"
       intro="Find out how much you need as a safety net, based on what you must spend each month to keep life running."
       related={[
@@ -235,6 +253,14 @@ export function SavingsGoalCalculator({ n = 3 }: { n?: number }) {
     <Shell
       n={n}
       id="savings-goal-calculator"
+      saveAction={
+        <SaveCalculatorResult
+          calculator="savings-goal"
+          inputs={{ goal: parseMoney(goal), saved: parseMoney(saved), months: Number(months), rate: Number(rate) }}
+          results={{ monthly: r.monthly, remaining: r.remaining, interest: r.interest }}
+          summary={`Save ${naira(r.monthly)} a month for ${r.nm} months`}
+        />
+      }
       title="Savings goal calculator"
       intro="Set a target and a deadline. See exactly how much to put aside each month to get there."
       related={[
@@ -296,6 +322,14 @@ export function LoanCalculator({ n = 4 }: { n?: number }) {
     <Shell
       n={n}
       id="loan-calculator"
+      saveAction={
+        <SaveCalculatorResult
+          calculator="loan"
+          inputs={{ amount: parseMoney(amount), rate: Number(rate), months: Number(months), method }}
+          results={{ monthly: r.monthly, total: r.total, interest: r.interest }}
+          summary={`${naira(r.monthly)} a month — ${naira(r.interest)} interest over ${months} months`}
+        />
+      }
       title="Loan calculator"
       intro="See your monthly repayment and the total interest before you borrow. Compare flat-rate and reducing-balance loans side by side."
       related={[

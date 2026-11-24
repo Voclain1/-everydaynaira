@@ -8,6 +8,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { IsoArt } from "@/components/IsoArt";
 import { PostCard, PostCover } from "@/components/PostCard";
 import { ReadingProgress } from "@/components/ReadingProgress";
+import { SaveGuideButton } from "@/components/SaveGuideButton";
 import { Toc } from "@/components/Toc";
 import { JsonLd } from "@/components/JsonLd";
 import { Arrow } from "@/components/Arrow";
@@ -82,7 +83,7 @@ function PostView({ post }: { post: Post }) {
 
   return (
     <article>
-      <ReadingProgress />
+      <ReadingProgress slug={post.slug} />
       <header className="border-b border-line">
         <div className="wrap pb-10 pt-8 md:pt-12">
           <Breadcrumbs items={[{ name: topic.name, href: topic.hub }, { name: post.title, href: `/${post.slug}/` }]} />
@@ -107,6 +108,7 @@ function PostView({ post }: { post: Post }) {
                   <time dateTime={updated ? post.updated : post.date}>{formatDate(updated ? post.updated : post.date)}</time>
                 </span>
                 <span>{post.readingMinutes} min read</span>
+                <SaveGuideButton slug={post.slug} />
                 {post.reviewed && (
                   <Link href="/fact-checking-policy/" className="flex items-center gap-2 text-ink hover:underline underline-offset-4">
                     <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 8.5l3 3 7-7" /></svg>
