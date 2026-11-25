@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { BudgetCalculator, EmergencyFundCalculator, LoanCalculator, SavingsGoalCalculator } from "@/components/Calculators";
 import { JsonLd } from "@/components/JsonLd";
+import { ShareButtons } from "@/components/ShareButtons";
 import { absUrl, ogFor } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -30,6 +31,13 @@ export default function Tools() {
           <p className="mt-6 max-w-2xl text-[1.2rem] leading-relaxed text-ink-2">
             Four simple tools to help you budget, save, and borrow more clearly. No sign-up needed. All figures stay on your device.
           </p>
+          <div className="mt-8">
+            <ShareButtons
+              title="Free Budget, Savings & Loan Calculators"
+              url={absUrl("/tools/")}
+              description="Calculate budgets, emergency savings, savings goals and loan repayments in naira."
+            />
+          </div>
           <nav aria-label="Calculators" className="mt-10 flex flex-wrap gap-2">
             {LIST.map(([id, l], i) => (
               <a key={id} href={`#${id}`} className="flex items-center gap-3 border border-ink bg-card px-4 py-2.5 font-medium hover:bg-lime">

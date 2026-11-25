@@ -9,6 +9,7 @@ import dynamic from "next/dynamic";
 
 // Search is rarely used on initial load: split its dialog and search logic out.
 const SearchDialog = dynamic(() => import("./SearchDialog").then((m) => m.SearchDialog), { ssr: false });
+import { AuthNav, AuthNavMobile } from "./AuthNav";
 import { TOPICS } from "@/lib/topics";
 
 const NAV = [
@@ -114,6 +115,7 @@ export function Header() {
             <span className="hidden sm:inline">Search</span>
             <kbd className="hidden border border-line px-1.5 py-0.5 font-mono text-[0.7rem] text-ink-3 md:inline">/</kbd>
           </button>
+          <AuthNav />
           <Link href="/#newsletter" className="btn btn-primary hidden !py-2.5 xl:inline-flex">
             Weekly money tips <Arrow up />
           </Link>
@@ -152,6 +154,7 @@ export function Header() {
               <li>
                 <Link href="/contact/" className="block py-2.5 text-lg font-semibold">Contact</Link>
               </li>
+              <AuthNavMobile />
             </ul>
             <Link href="/#newsletter" className="btn btn-primary mt-6 w-full justify-center">Get weekly money tips</Link>
           </nav>

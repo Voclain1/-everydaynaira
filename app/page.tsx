@@ -5,6 +5,7 @@ import { TOPICS, topicByCategory } from "@/lib/topics";
 import { Arrow } from "@/components/Arrow";
 import { PostCard, PostCover } from "@/components/PostCard";
 import { NewsletterBand } from "@/components/Newsletter";
+import { RecommendedForYou } from "@/components/RecommendedForYou";
 
 export const metadata: Metadata = {
   title: { absolute: "EverydayNaira | Money Guides for Nigerians" },
@@ -231,6 +232,8 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      <RecommendedForYou />
 
       {/* ---------- Sections by category ---------- */}
       {SECTION_ORDER.map((category) => {
