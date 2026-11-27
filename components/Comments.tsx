@@ -68,7 +68,7 @@ function CommentBody({ body, signedIn }: { body: string; signedIn: boolean }) {
 export function Comments({ slug }: { slug: string }) {
   const { user } = useAuth();
   const sectionRef = useRef<HTMLElement | null>(null);
-  const startedAtRef = useRef<number>(Date.now());
+  const startedAtRef = useRef<number | null>(null);
   const [started, setStarted] = useState(false);
   const [comments, setComments] = useState<CommentRow[] | null>(null);
   const [profileName, setProfileName] = useState<string>("");
@@ -78,6 +78,12 @@ export function Comments({ slug }: { slug: string }) {
   const [busy, setBusy] = useState(false);
   const [notice, setNotice] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+
+  // Remember when the form appeared (for the minimum fill-time check)
+  // without calling Date.now() during render.
+  useEffect(() => {
+    startedAtRef.current = Date.now();
+  }, []);
 
   // Start loading when the section approaches the viewport.
   useEffect(() => {
@@ -150,7 +156,7 @@ export function Comments({ slug }: { slug: string }) {
     setNotice(null);
     // Honeypot + minimum fill time: real readers take a few seconds.
     if (honeypot) return;
-    if (Date.now() - startedAtRef.current < 3000) {
+    if (Date.now() - (startedAtRef.current ?? 0) < 3000) {
       setError("Please take a moment to write your comment, then try again.");
       return;
     }
