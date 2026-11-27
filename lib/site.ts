@@ -16,6 +16,7 @@ export const AUTHORS = {
     initials: "BA",
     role: "Founder and Lead Researcher, EverydayNaira",
     url: "/authors/",
+    image: "/images/benedict-belolisah.jpg",
     bio: "Benedict Arinze Belolisah is the founder and lead researcher of EverydayNaira, an independent personal finance publication focused on helping Nigerians understand money in simple, practical terms.",
   },
 } as const;

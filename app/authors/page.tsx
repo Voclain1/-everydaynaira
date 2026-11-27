@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -41,7 +42,7 @@ export default function Authors() {
           <div className="flex flex-col justify-between gap-10 bg-ink p-8 text-paper">
             <p className="text-sm text-paper/60">Founder and editor</p>
             <div>
-              <span className="flex h-24 w-24 items-center justify-center border-2 border-lime text-3xl font-bold text-lime">{a.initials}</span>
+              <Image src={a.image} alt={a.name} width={352} height={440} className="aspect-[4/5] w-44 max-w-full border-2 border-lime object-cover object-top" />
               <h2 className="mt-6 text-[2rem] font-bold leading-tight tracking-[-0.035em]">{a.name}</h2>
               <p className="mt-1 text-paper/70">{a.role}</p>
             </div>

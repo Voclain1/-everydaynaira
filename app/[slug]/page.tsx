@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
@@ -101,7 +102,7 @@ function PostView({ post }: { post: Post }) {
               {post.tagline && <p className="mt-6 max-w-[42rem] text-[1.2rem] leading-relaxed text-ink-2">{post.tagline}</p>}
               <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-ink-2">
                 <Link href="/authors/" className="flex items-center gap-3 text-ink">
-                  <span className="flex h-10 w-10 items-center justify-center bg-ink text-xs font-semibold text-lime">{author.initials}</span>
+                  <Image src={author.image} alt={author.name} width={80} height={80} className="h-10 w-10 shrink-0 object-cover object-top" />
                   <span>
                     <span className="block font-semibold">{author.name}</span>
                     <span className="block text-ink-2">Founder and lead researcher</span>
@@ -204,8 +205,8 @@ function PostView({ post }: { post: Post }) {
             </section>
           )}
 
-          <section className="mt-12 grid max-w-[68ch] gap-5 border border-line bg-card p-6 sm:grid-cols-[3.5rem_1fr]">
-            <span className="flex h-14 w-14 items-center justify-center bg-ink font-semibold text-lime">{author.initials}</span>
+          <section className="mt-12 grid max-w-[68ch] gap-5 border border-line bg-card p-6 sm:grid-cols-[8rem_1fr]">
+            <Image src={author.image} alt={author.name} width={256} height={320} className="aspect-[4/5] w-32 object-cover object-top sm:w-full" />
             <div>
               <p className="font-semibold">Written by {author.name}</p>
               <p className="text-sm text-ink-2">{author.role}</p>
@@ -275,7 +276,7 @@ function PostView({ post }: { post: Post }) {
               wordCount: post.plain.split(" ").length,
               citation: post.sources.filter((src) => src.url).map((src) => ({ "@type": "CreativeWork", name: src.title, url: src.url, publisher: src.publisher || undefined })),
               inLanguage: "en-NG",
-              author: { "@type": "Person", name: author.name, url: absUrl(author.url), jobTitle: author.role },
+              author: { "@type": "Person", name: author.name, url: absUrl(author.url), jobTitle: author.role, image: absUrl(author.image) },
               publisher: { "@id": absUrl("/#organization") },
               isPartOf: { "@id": absUrl("/#website") },
             },
