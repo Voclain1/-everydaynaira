@@ -1,4 +1,5 @@
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { formatDate, getAllDocPages, getAllPosts, getDocPage, getPost, postsInCategory, relatedPosts, type DocPage, type Post } from "@/lib/content";
@@ -15,6 +16,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { Arrow } from "@/components/Arrow";
 import { NewsletterBand, NewsletterForm } from "@/components/Newsletter";
 import { CalculatorEmbed } from "@/components/CalculatorEmbed";
+
+/** Comments load lazily so article pages keep their fast first paint. */
+const Comments = dynamic(() => import("@/components/Comments").then((m) => m.Comments));
 
 /** Pages with their own dedicated route folder are excluded here. */
 const DEDICATED = new Set(["authors"]);
@@ -223,6 +227,8 @@ function PostView({ post }: { post: Post }) {
               <ShareButtons title={post.title} url={url} description={post.tagline || post.description} />
             </div>
           </div>
+
+          <Comments slug={post.slug} />
         </div>
 
         <aside className="hidden xl:block">
