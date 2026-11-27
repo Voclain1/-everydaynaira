@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getAllPosts, getPost, type Post } from "@/lib/content";
 import { TOPICS, topicByCategory } from "@/lib/topics";
 import { Arrow } from "@/components/Arrow";
+import { EditionDate } from "@/components/EditionDate";
 import { PostCard, PostCover } from "@/components/PostCard";
 import { NewsletterBand } from "@/components/Newsletter";
 import { RecommendedForYou } from "@/components/RecommendedForYou";
@@ -147,7 +148,7 @@ export default function Home() {
       <section className="border-b border-line">
         <div className="wrap flex flex-col items-start gap-1 py-3 text-sm text-ink-2 sm:flex-row sm:items-center sm:justify-between sm:gap-2">
           <p>
-            <span className="font-semibold text-ink">{today}</span>
+            <EditionDate fallback={today} />
             <span className="text-ink-3"> — </span>
             Lagos, Nigeria
           </p>

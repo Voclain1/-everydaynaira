@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Logo } from "./Logo";
 import { CookieSettingsButton } from "./CookieConsent";
+import { PushToggle } from "./PushToggle";
 import { TOPICS } from "@/lib/topics";
 
 const TRUST = [
@@ -26,6 +27,9 @@ export function Footer() {
           <p className="mt-5 max-w-xs leading-relaxed text-ink-2">
             Practical, sourced money guidance for everyday Nigerians. Educational content only, not personalised financial advice.
           </p>
+          <div className="mt-6">
+            <PushToggle compact />
+          </div>
         </div>
         <FooterCol title="Topics" links={TOPICS.map((t) => ({ href: t.hub, label: t.name }))} />
         <FooterCol

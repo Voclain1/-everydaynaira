@@ -7,6 +7,8 @@ import { formatDate, getAllPosts, getPost } from "@/lib/content";
 import { PostCard } from "@/components/PostCard";
 import { describeRecommendationBasis, pickRecommendations } from "@/lib/recommendations";
 import { SignOutButton } from "@/components/SignOutButton";
+import { ModerationQueue } from "@/components/ModerationQueue";
+import { PushToggle } from "@/components/PushToggle";
 import * as DashboardClient from "./DashboardClient";
 
 export const dynamic = "force-dynamic";
@@ -33,7 +35,7 @@ type SnapshotRow = {
   created_at: string;
 };
 type PreferencesRow = { newsletter: boolean; notify_new_posts: boolean; interests: string[] };
-type ProfileRow = { display_name: string | null };
+type ProfileRow = { display_name: string | null; is_admin: boolean | null };
 
 export default async function DashboardPage() {
   if (!isSupabaseConfigured()) {
@@ -73,7 +75,7 @@ export default async function DashboardPage() {
       .select("newsletter, notify_new_posts, interests")
       .eq("user_id", user.id)
       .maybeSingle(),
-    supabase.from("profiles").select("display_name").eq("id", user.id).maybeSingle(),
+    supabase.from("profiles").select("display_name, is_admin").eq("id", user.id).maybeSingle(),
   ]);
 
   const savedRows = (savedRes.data ?? []) as SavedRow[];
@@ -253,8 +255,27 @@ export default async function DashboardPage() {
             These choices are stored on your account. Newsletter emails also carry their own
             unsubscribe link.
           </p>
+          <div className="mt-6 border-t border-line pt-6">
+            <p className="font-semibold">New guide notifications</p>
+            <p className="mt-0.5 text-sm leading-relaxed text-ink-2">
+              Get a notification in this browser when a new guide is published. This is separate
+              from the email choices above, and you can switch it off here at any time.
+            </p>
+            <div className="mt-3">
+              <PushToggle />
+            </div>
+          </div>
         </div>
       </section>
+
+      {profile?.is_admin && (
+        <section aria-labelledby="moderation" className="mt-14">
+          <h2 id="moderation" className="display text-[1.7rem]">
+            Comment moderation
+          </h2>
+          <ModerationQueue />
+        </section>
+      )}
 
       <section aria-labelledby="account" className="mt-14">
         <h2 id="account" className="display text-[1.7rem]">

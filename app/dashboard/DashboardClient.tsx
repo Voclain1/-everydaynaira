@@ -140,8 +140,8 @@ export function DeleteAccountForm() {
   return (
     <div className="border border-ink bg-card p-4">
       <p className="text-sm leading-relaxed">
-        This permanently deletes your saved guides, reading history, calculator results,
-        preferences and profile, and signs you out.
+        This permanently deletes your whole account — saved guides, reading history, calculator
+        results, preferences, profile and your sign-in record — and signs you out.
       </p>
       <form action={deleteAccount} className="mt-4 flex flex-wrap gap-2">
         <button type="submit" className="btn btn-primary !py-2.5 text-sm">
@@ -155,10 +155,6 @@ export function DeleteAccountForm() {
           Cancel
         </button>
       </form>
-      <p className="mt-3 text-xs leading-relaxed text-ink-3">
-        Deleting the sign-in account itself needs a server-side step that is not part of this
-        release — ask us through the contact page and we will confirm once it is done.
-      </p>
     </div>
   );
 }
