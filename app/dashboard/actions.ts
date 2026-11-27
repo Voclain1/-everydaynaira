@@ -49,11 +49,11 @@ export async function updateDisplayName(formData: FormData) {
 }
 
 /**
- * Deletes all of the reader's stored rows — saved guides, reading
- * history, calculator snapshots, preferences and profile — then signs
- * them out. Deleting the auth.users row itself needs a server-side
- * service-role step and is NOT part of this sprint; the reader can ask
- * for it via the contact page (see the privacy policy).
+ * Deletes the reader's whole account: the Sprint 7 migration's
+ * delete_current_user() function removes every stored row AND the
+ * auth.users sign-in record in one step. If that function is missing
+ * (the migration has not been run yet), fall back to removing the data
+ * rows directly, as Sprint 6 did.
  */
 export async function deleteAccount() {
   const supabase = await getSupabaseServer();
@@ -62,15 +62,19 @@ export async function deleteAccount() {
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) redirect("/sign-in/");
-  const tables: { name: string; key: string }[] = [
-    { name: "calculator_snapshots", key: "user_id" },
-    { name: "reading_history", key: "user_id" },
-    { name: "saved_guides", key: "user_id" },
-    { name: "preferences", key: "user_id" },
-    { name: "profiles", key: "id" },
-  ];
-  for (const table of tables) {
-    await supabase.from(table.name).delete().eq(table.key, user.id);
+  const { error } = await supabase.rpc("delete_current_user");
+  if (error) {
+    const tables: { name: string; key: string }[] = [
+      { name: "push_subscriptions", key: "user_id" },
+      { name: "calculator_snapshots", key: "user_id" },
+      { name: "reading_history", key: "user_id" },
+      { name: "saved_guides", key: "user_id" },
+      { name: "preferences", key: "user_id" },
+      { name: "profiles", key: "id" },
+    ];
+    for (const table of tables) {
+      await supabase.from(table.name).delete().eq(table.key, user.id);
+    }
   }
   await supabase.auth.signOut();
   redirect("/sign-in/?deleted=1");

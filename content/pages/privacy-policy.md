@@ -3,7 +3,7 @@ title: "Privacy Policy"
 slug: "privacy-policy"
 description: "EverydayNaira's privacy policy explains what personal information we collect, how we use it, and what rights you have over your data."
 intro: "This policy explains what personal information we collect when you use EverydayNaira, how we use it, and what rights you have over your data."
-updated: "2026-11-24"
+updated: "2026-11-27"
 ---
 
 ## 1. Who we are
@@ -49,16 +49,33 @@ Your account data is stored by Supabase, our database provider, in its EU Centra
 
 ### Deleting your account
 
-You can delete your account data at any time from your dashboard. Deleting removes your saved guides, reading history, calculator results, preferences and profile. Your sign-in record itself is removed separately by us on request — contact us through the contact page and we will confirm once it is done. This follows your right to erasure under the Nigeria Data Protection Act 2023.
+You can delete your account at any time from your dashboard. Deleting removes your saved guides, reading history, calculator results, preferences and profile, and your sign-in record itself. This follows your right to erasure under the Nigeria Data Protection Act 2023.
 
-## 4. How we use your information
+## 4. Comments
+
+Most guides have a comments section. You can comment as a guest with just your name, or while signed in.
+
+- **What we store:** the name you give (or your account display name), the comment itself, the guide it belongs to, and the time you posted it. If you comment while signed in, the comment is linked to your account.
+- **Moderation:** every comment is checked by a moderator before it appears on the site. Comments that are spam, abusive or unlawful are rejected and are not published. We keep rejected comments for a short period so we can spot repeat spam, then delete them.
+- **Links:** links in comments from signed-in readers may be clickable. Links in guest comments are shown as plain text.
+- **Retention:** published comments stay with the guide while it is published. If you delete your account, your comments are kept but detached from your account, so they no longer identify your account. You can ask us through the contact page to remove a comment you wrote.
+
+## 5. Push notifications
+
+If you switch on browser notifications, we send you a short notification when a new guide is published.
+
+- **What we store:** a push subscription for your browser — the endpoint address issued by your browser's push service, the public keys needed to encrypt messages to it, and the kind of browser you used. If you are signed in, the subscription is linked to your account; if not, it is anonymous.
+- **Why:** only to deliver the notifications you asked for. We do not use push subscriptions for advertising, and we do not sell them.
+- **How to stop:** switch notifications off in the footer or in your dashboard preferences at any time, or block notifications in your browser settings. Switching off deletes your subscription from our database. Subscriptions that stop working (for example, after a browser is reset) are deleted automatically.
+
+## 6. How we use your information
 
 - **Email address (newsletter):** to send you our newsletter. You can unsubscribe at any time using the link in any email we send. We do not sell, rent, or share your email address with third parties for marketing purposes.
 - **Contact form data:** to read and respond to your message. We do not add you to any mailing list as a result of a contact form submission without your explicit consent.
 - **Account data:** to run your account and dashboard — saved guides, reading history, calculator results and preferences. Only you can see your account data.
 - **Usage data:** to understand how the site is used, which content is helpful, and how to improve the reader experience. We use this in aggregate — we do not use it to identify individual users.
 
-## 5. Cookies and tracking
+## 7. Cookies and tracking
 
 Cookies are small files stored on your device by your browser. We use cookies for the following purposes:
 
@@ -70,13 +87,13 @@ This follows the Nigeria Data Protection Act 2023: analytics and advertising coo
 
 You can change your choice at any time by clicking **Cookie settings** in the footer of any page, or through your browser settings. Disabling certain cookies may affect your experience of the site. For full details, read our [Cookie Policy](/cookie-policy/).
 
-## 6. Advertising and third parties
+## 8. Advertising and third parties
 
 EverydayNaira may display advertisements served by Google AdSense. Google and its advertising partners may use cookies to show you advertisements based on your prior visits to this and other websites. Google's use of advertising cookies is governed by Google's Privacy Policy. You can opt out of personalised advertising by visiting [Google's Ads Settings](https://www.google.com/settings/ads).
 
 We do not allow advertisers to collect personally identifiable information through this site beyond what is enabled by the advertising platform's standard cookie operation.
 
-## 7. How we share your data
+## 9. How we share your data
 
 We do not sell your personal data. We share data only in the following limited circumstances:
 
@@ -84,14 +101,16 @@ We do not sell your personal data. We share data only in the following limited c
 - **Legal requirements:** we may disclose information if required to do so by law or in response to a valid legal request from a public authority.
 - **Business transfer:** if EverydayNaira is acquired or merged with another entity, your information may be transferred as part of that transaction. We will notify you by prominent notice on the site if this occurs.
 
-## 8. How long we keep data
+## 10. How long we keep data
 
 - **Newsletter email addresses:** retained until you unsubscribe, after which they are removed from our active list within 30 days.
 - **Contact form messages:** retained for up to 12 months to allow for follow-up, then deleted.
-- **Account data:** retained while your account exists, and deleted when you delete your account data from your dashboard.
+- **Account data:** retained while your account exists, and deleted when you delete your account from your dashboard.
+- **Comments:** published comments are kept with the guide while it is published; rejected comments are deleted after a short moderation period.
+- **Push subscriptions:** kept until you switch notifications off, block them in your browser, or the subscription stops working.
 - **Analytics data:** retained in aggregate, anonymised form for up to 26 months as configured in Google Analytics.
 
-## 9. Your rights
+## 11. Your rights
 
 You have the right to:
 
@@ -105,14 +124,14 @@ You have the right to:
 
 To exercise any of these rights, contact us using the form on our [Contact page](/contact/). We will respond within 30 days.
 
-## 10. Security
+## 12. Security
 
 We take reasonable technical and organisational measures to protect your personal data from unauthorised access, loss, or disclosure. The site uses HTTPS encryption for all data in transit. However, no method of transmission over the internet is completely secure, and we cannot guarantee absolute security.
 
-## 11. Changes to this policy
+## 13. Changes to this policy
 
 We may update this policy from time to time. When we do, we will revise the "last updated" date at the top of this page. Material changes will be communicated through a notice on the site. Your continued use of the site after changes are posted constitutes your acceptance of the revised policy.
 
-## 12. Contact
+## 14. Contact
 
 If you have questions about this Privacy Policy or how we handle your data, please use the form on our [Contact page](/contact/). Select "Other" as the reason and note that your query relates to privacy.
