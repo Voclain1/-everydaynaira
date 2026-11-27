@@ -6,7 +6,7 @@ import { useAuth } from "@/lib/supabase/use-auth";
 
 const VAPID_PUBLIC_KEY = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY ?? "";
 
-function urlBase64ToUint8Array(base64: string): Uint8Array {
+function urlBase64ToUint8Array(base64: string): Uint8Array<ArrayBuffer> {
   const padding = "=".repeat((4 - (base64.length % 4)) % 4);
   const normalized = (base64 + padding).replace(/-/g, "+").replace(/_/g, "/");
   const raw = window.atob(normalized);
@@ -54,9 +54,14 @@ export function PushToggle({ compact = false }: { compact?: boolean }) {
       const subscription = registration ? await registration.pushManager.getSubscription() : null;
       if (mounted) setState(subscription ? "on" : "off");
     };
-    void check();
+    // Deferred like the cookie banner: state updates stay out of the
+    // synchronous effect body.
+    const timer = setTimeout(() => {
+      void check();
+    }, 0);
     return () => {
       mounted = false;
+      clearTimeout(timer);
     };
   }, []);
 

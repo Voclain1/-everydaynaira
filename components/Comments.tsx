@@ -103,10 +103,7 @@ export function Comments({ slug }: { slug: string }) {
   useEffect(() => {
     if (!started) return;
     const client = getSupabaseBrowser();
-    if (!client) {
-      setComments([]);
-      return;
-    }
+    if (!client) return;
     let mounted = true;
     client
       .from("comments")
